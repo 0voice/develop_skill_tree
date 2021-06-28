@@ -1,19 +1,19 @@
 # develop_skill_tree
 2021年最新整理，名企校招各大岗位的技能树，含技术细节，Java，C/C++，前端，运维，测试，运营岗位。持续更新中
 
-* [Python学习路线图](http://github.com)
-* [GoLong学习路线图](http://github.com)
-* [Java学习路线图](http://github.com)
-* [C++学习路线图](http://github.com)
-* [iOS学习路线图](http://github.com)
-* [Android学习路线图](http://github.com)
-* [前端学习路线图](http://github.com)
-* [测试学习路线图](http://github.com)
-* [运维学习路线图](http://github.com)
-* [C#学习路线图](http://github.com)
-* [PHP学习路线图](http://github.com)
-* [AIOT智能物联网学习路线图](http://github.com)
-* [网络安全学习路线图](http://github.com)
+* [Python学习技能树](http://github.com)
+* [GoLong学习技能树](http://github.com)
+* [Java学习技能树](http://github.com)
+* [C++学习技能树](http://github.com)
+* [iOS学习技能树](http://github.com)
+* [Android学习技能树](http://github.com)
+* [前端学习技能树](http://github.com)
+* [测试学习技能树](http://github.com)
+* [运维学习技能树](http://github.com)
+* [C#学习技能树](http://github.com)
+* [PHP学习技能树](http://github.com)
+* [AIOT智能物联网学习技能树](http://github.com)
+* [网络安全学习技能树](http://github.com)
 <br/>
 <br/>
 
