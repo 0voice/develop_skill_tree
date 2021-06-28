@@ -8,7 +8,7 @@
 * [iOS学习技能树](http://github.com)
 * [Android学习技能树](http://github.com)
 * [前端学习技能树](http://github.com)
-* [测试学习技能树](http://github.com)
+* [Python全栈自动化测试学习技能树](http://github.com)
 * [运维学习技能树](http://github.com)
 * [C#学习技能树](http://github.com)
 * [PHP学习技能树](http://github.com)
