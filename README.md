@@ -64,16 +64,17 @@
 <h3 id="8">Python全栈自动化测试技能树</h3> 
 
 ---
-##### <font color="#102b6a">Python全栈自动化测试技能树</font>
+<font color="#102b6a">Python全栈自动化测试技能树</font>
 ##### 1.结合分布式与多线程，为自动化测试框架提速，让你的自动化测试更有效率，在最短时间内实现全方位自动化测试覆盖
 ##### 2.实现完全基于企业级所需的自动化测试框架，能够无缝对接企业自动化测试岗位需求
-
+<br>
+<br>
 ##### Python全栈自动化测试技能树思维导图
 ![image](https://www.0voice.com/uiwebsite/still_tree/python_auto_test_still_tree.png)
-
+<br>
 ##### Python全栈自动化测试技能掌握
 
-### <font color="#494e8f">Python编程阶段技能点</font>
+<font size="24" color="#494e8f">Python编程阶段技能点</font>
 ##### 1. 掌握完整的Python编程基础，了解编程思维，了解面向对象实现思维
 ##### 2. 掌握Mysql数据库的常用操作，掌握Python操作Mysql读写测试数据
 
