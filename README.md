@@ -23,11 +23,13 @@
 ##### 2.整数的划分
 ##### 3.DP+四边形不等式优化（hdu 3506 Monkey Party）
 ##### 4.快餐（hoj 1005 fast food）
+---
 <br>
 
-<h3 id="1">GoLong技能树</h3> 
----
+<h3 id="1">GoLong技能树</h3>
 
+---
+---
 <br>
 
 
