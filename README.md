@@ -17,6 +17,20 @@
 <br/>
 <br/>
 
+<h3 id="1">Android技能树</h3> 
+
+---
+##### 2.整数的划分
+##### 3.DP+四边形不等式优化（hdu 3506 Monkey Party）
+##### 4.快餐（hoj 1005 fast food）
+##### 5.hoj 1031完全背包Piggy-Bank
+##### 6.数字金字塔（hoj 1058Number Triangles）
+##### 7.肥猫的表亲（hoj 1061Fat Cat's cousin II）
+##### 8.加建楼梯（hoj 1090The Staircases）
+##### 9.公共子序列（hoj 1227 Common Subsequence）
+##### 10.桥接的信号（hoj 1288 Bridging Signals）
+<br>
+
 <h3 >联系我们</h3> 
 
 ---
