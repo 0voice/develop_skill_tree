@@ -72,6 +72,12 @@
 #####         语法规则,编码规范
 #####         基础语法规则讲解，第一个Python程序编写
 
+### 框架
+##### [Apache C++ Standard Library](http://stdcxx.apache.org/) : 是一系列算法，容器，迭代器和其他基本组件的集合
+##### [ASL](http://stlab.adobe.com/) : Adobe源代码库提供了同行的评审和可移植的C++源代码库。
+##### [Boost](https://github.com/boostorg) : 大量通用C++库的集合。
+##### [BDE](https://github.com/bloomberg/bde) : 来自于彭博资讯实验室的开发环境。
+##### [Cinder](https://libcinder.org/) : 提供专业品质创造性编码的开源开发社区。
 
 基本数据类型
 整型、浮点型、布尔型、字符串等常用数据类型讲解，变量的定义、声明和使用
