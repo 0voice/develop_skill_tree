@@ -57,7 +57,16 @@
 ##### Android技能树思维导图
 ![image](https://www.0voice.com/uiwebsite/still_tree/Android_still_tree.png)
 
+<br>
 
+<h3 id="6">鸿蒙技能树</h3> 
+
+---
+##### 鸿蒙技能树思维导图
+![image](https://www.0voice.com/uiwebsite/still_tree/HarmonyOS_still_tree.png)
+
+
+HarmonyOS_still_tree
 <br>
 
 <h3 id="7">前端技能树</h3> 
