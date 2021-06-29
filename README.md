@@ -64,15 +64,11 @@
 <h3 id="8">Python全栈自动化测试技能树</h3> 
 
 ---
-##### <span style="color: green"> Some green text </span> <font color="#102b6a">Python全栈自动化测试技能树</font>
+##### <font color="#102b6a">Python全栈自动化测试技能树</font>
 ##### 1.结合分布式与多线程，为自动化测试框架提速，让你的自动化测试更有效率，在最短时间内实现全方位自动化测试覆盖
 ##### 2.实现完全基于企业级所需的自动化测试框架，能够无缝对接企业自动化测试岗位需求
-
-<br>
-<br>
 ##### Python全栈自动化测试技能树思维导图
 ![image](https://www.0voice.com/uiwebsite/still_tree/python_auto_test_still_tree.png)
-<br>
 
 ##### Python全栈自动化测试技能掌握
 
