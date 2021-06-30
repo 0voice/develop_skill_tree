@@ -188,6 +188,37 @@
 ## HTTP协议
 * 
 
+# 设计模式
+
+## 创建型模式
+* [《单例模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+* [《原型模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+* [《工厂模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+* [《抽象工厂模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+* [《建造者模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+* [《结构型模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+* [《代理模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+* [《适配器模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+* [《桥接模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+* [《装饰模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+* [《外观模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+* [《享元模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+* [《组合模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+
+## 行为型模式
+* [《模板方法模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+* [《策略模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+* [《命令模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+* [《职责链模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+
+## 状态模式
+* [《观察者模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+* [《中介者模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+* [《迭代器模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+* [《访问者模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+* [《备忘录模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+* [《解释器模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+
 
 # 数据结构
 
