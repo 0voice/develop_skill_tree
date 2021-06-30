@@ -3,8 +3,10 @@
 
 -----------
 
-<b style="color:red">推荐:</b> [《Java技术书籍大全》 - awesome-java-books](https://github.com/sorenduan/awesome-java-books)
-<p>校招各开发岗位技能树，看篇就足够了</p>
+<b style="color:red">推荐:</b> 
+<br/>
+[《DNS协议》](https://study.0voice.com/document/dns/)
+[《Openssl教程》](https://study.0voice.com/document/openssl/)
 <hr/>
 
 * [数据结构](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#数据结构)
