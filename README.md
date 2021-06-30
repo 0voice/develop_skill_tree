@@ -244,18 +244,39 @@
 
 # 基础组件
 
-## 网络层次划分
+## 池式组件
+
+### 请求池
 * [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
-## OSI七层网络模型
+### 对象池
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+### 连接池
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+### 线程池
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+### 内存池
 * [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
 
 
 # 中间件
 
-## 网络层次划分
+## Mysql
 * [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
-## OSI七层网络模型
+## Redis
 * [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+## MongoDB
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+## Nginx
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+
+
+# 版本管理工具
+
+## Git
+* [《git版本控制》](https://blog.csdn.net/weixin_39723352/article/details/81606082)
+## SVN
+* [《SVN 使用》](https://www.jianshu.com/p/fc8443a9aafe)
+
 
 ---
 # 联系我们
