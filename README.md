@@ -5,8 +5,8 @@
 
 <b style="color:red">推荐:</b> 
 <br/>
-[《DNS协议》](https://study.0voice.com/document/dns/)
-[《Openssl教程》](https://study.0voice.com/document/openssl/)
+<p> <a href="https://study.0voice.com/document/dns/">《DNS协议》</a> </p>
+<p> <a href="https://study.0voice.com/document/openssl/">《Openssl教程》</a> </p>
 <hr/>
 
 * [数据结构](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#数据结构)
