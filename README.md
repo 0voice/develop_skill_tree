@@ -49,7 +49,7 @@
 	* [朴素贝叶斯](https://github.com/0voice/develop_skill_tree/tree-save/main/README.md#朴素贝叶斯)
 	* [推荐算法](https://github.com/0voice/develop_skill_tree/tree-save/main/README.md#推荐算法)
 	* [最小生成树算法](https://github.com/0voice/develop_skill_tree/tree-save/main/README.md#最小生成树算法)
-	* [最短路径算法](https://github.com/0voice/develop_skill_tree/tree-save/main/README.md#最短路径算法
+	* [最短路径算法](https://github.com/0voice/develop_skill_tree/tree-save/main/README.md#最短路径算法)
 * [设计模式](https://github.com/0voice/develop_skill_tree/tree-save/main/README.md#设计模式)
 	* [创建型模式](https://github.com/0voice/develop_skill_tree/tree-save/main/README.md#队列)
 		* [单例模式](https://github.com/0voice/develop_skill_tree/tree-save/main/README.md#单例模式)
