@@ -10,11 +10,14 @@
 <hr/>
 
 * [计算机组成](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机组成)
-	* [控制器](https://github.com/0voice/develop_skill_tree/blob/main/README.md#控制器)
-	* [运算器](https://github.com/0voice/develop_skill_tree/blob/main/README.md#运算器)
-	* [存储器](https://github.com/0voice/develop_skill_tree/blob/main/README.md#存储器)
-	* [输入设备](https://github.com/0voice/develop_skill_tree/blob/main/README.md#输入设备)
-	* [输出设备](https://github.com/0voice/develop_skill_tree/blob/main/README.md#输出设备)
+	* [冯·诺依曼计算机结构](https://github.com/0voice/develop_skill_tree/blob/main/README.md#冯·诺依曼计算机结构)
+	* [计算机执行指令的工作过程](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机执行指令的工作过程)
+	* [指令系统分析](https://github.com/0voice/develop_skill_tree/blob/main/README.md#指令系统分析)
+	* [高级语言、汇编语言和机器语言之间的关系](https://github.com/0voice/develop_skill_tree/blob/main/README.md#高级语言、汇编语言和机器语言之间的关系)
+	* [计算机算术和逻辑运算方法及其实现](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机算术和逻辑运算方法及其实现)
+	* [微处理器](https://github.com/0voice/develop_skill_tree/blob/main/README.md#微处理器)
+	* [存储系统](https://github.com/0voice/develop_skill_tree/blob/main/README.md#存储系统)
+	* [输入输出系统的基本原理和关键技术](https://github.com/0voice/develop_skill_tree/blob/main/README.md#输入输出系统的基本原理和关键技术)
 * [计算机网络](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机网络)
 	* [网络层次划分](https://github.com/0voice/develop_skill_tree/blob/main/README.md#网络层次划分)
 	* [OSI七层网络模型](https://github.com/0voice/develop_skill_tree/blob/main/README.md#OSI七层网络模型)
@@ -137,17 +140,23 @@
 
 # 计算机组成
 
-## 控制器
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
-## 运算器
-* [《Java Set集合的详解》](https://blog.csdn.net/qq_33642117/article/details/52040345)
-## 存储器
+## 冯·诺依曼计算机结构
+* 控制器（英文名称：controller）是指按照预定顺序改变主电路或控制电路的接线和改变电路中电阻值来控制电动机的启动、调速、制动和反向的主令装置。由程序计数器、指令寄存器、指令译码器、时序产生器和操作控制器组成，它是发布命令的“决策机构”，即完成协调和指挥整个计算机系统的操作。
+## 计算机执行指令的工作过程
+* [《运算器》](https://blog.csdn.net/szlg510027010/article/details/82846696)
+## 指令系统分析
+* 存储器单元实际上是时序逻辑电路的一种。按存储器的使用类型可分为只读存储器(ROM)和随机存取存储器(RAM)，两者的功能有较大的区别，因此在描述上也有所不同 。
+存储器是许多存储单元的集合，按单元号顺序排列。每个单元由若干二进制位构成，以表示存储单元中存放的数值，这种结构和数组的结构非常相似，故在VHDL语言中，通常由数组描述存储器 。
+## 高级语言、汇编语言和机器语言之间的关系
+* [《Java集合详解--什么是List》](https://blog.csdn.net/szlg510027010/article/details/82846696)
+## 计算机算术和逻辑运算方法及其实现
 * [《Java集合详解--什么是List》](https://blog.csdn.net/wz249863091/article/details/52853360)
-## 输入设备
+## 微处理器
 * [《Java集合详解--什么是List》](https://blog.csdn.net/wz249863091/article/details/52853360)
-## 输出设备
+## 存储系统
 * [《Java集合详解--什么是List》](https://blog.csdn.net/wz249863091/article/details/52853360)
-
+## 输入输出系统的基本原理和关键技术
+* [《Java集合详解--什么是List》](https://blog.csdn.net/wz249863091/article/details/52853360)
 
 # 计算机网络
 
