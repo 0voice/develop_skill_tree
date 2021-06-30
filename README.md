@@ -16,7 +16,7 @@
 	* [指令系统分析](https://github.com/0voice/develop_skill_tree/blob/main/README.md#指令系统分析)
 	* [高级语言、汇编语言和机器语言之间的关系](https://github.com/0voice/develop_skill_tree/blob/main/README.md#高级语言、汇编语言和机器语言之间的关系)
 	* [计算机算术和逻辑运算方法及其实现](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机算术和逻辑运算方法及其实现)
-	* [微处理器](https://github.com/0voice/develop_skill_tree/blob/main/README.md#微处理器)
+	* [微处理器和CPU](https://github.com/0voice/develop_skill_tree/blob/main/README.md#微处理器和CPU)
 	* [存储系统](https://github.com/0voice/develop_skill_tree/blob/main/README.md#存储系统)
 	* [输入输出系统的基本原理和关键技术](https://github.com/0voice/develop_skill_tree/blob/main/README.md#输入输出系统的基本原理和关键技术)
 * [计算机网络](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机网络)
@@ -156,13 +156,16 @@
 另外，关于跨平台，也是针对源代码而言的。一段源代码转移到另一个平台上要经过重新编译、重新获得目标程序才能运行，前提是源代码没有依赖于平台的特性。不过即使源代码对平台有依赖性，重新编译后也可以进行一定改动再使用。
 
 ## 计算机算术和逻辑运算方法及其实现
-* [《Java集合详解--什么是List》](https://blog.csdn.net/wz249863091/article/details/52853360)
-## 微处理器
-* [《Java集合详解--什么是List》](https://blog.csdn.net/wz249863091/article/details/52853360)
+* [《计算机逻辑运算实现》](https://blog.csdn.net/timeyy44/article/details/78586600)
+* [《算术逻辑单元》](https://blog.csdn.net/vlllllv/article/details/84726588)
+## 微处理器和CPU
+* 1. 功能不同：微处理器由一片或少数几片大规模集成电路组成的中央处理器。CPU全称是中央处理器，是电子计算机的主要设备之一，电脑中的核心配件。其功能主要是解释计算机指令以及处理计算机软件中的数据。电脑中所有操作都由CPU负责读取指令，对指令译码并执行指令的核心部件。
+* 2. 所属范围不同：微处理器是微型处理器的统称，比如显卡的GPU、手机的处理器，以及一些智能家电的处理器，是一个执行所有计算功能的部件。而CPU是电脑的一个组成部件。
+* 3. 名称不同：微处理器显然是微型的、功耗低、主频低、功能较弱的，现多指小型电子设备如手机、家用电器使用的处理单元。大型计算机的cpu显然不能叫微处理器，甚至pc的cpu一般也没有叫微处理器的。
 ## 存储系统
-* [《Java集合详解--什么是List》](https://blog.csdn.net/wz249863091/article/details/52853360)
+* [《存储系统和结构》](https://blog.csdn.net/lrwwll/article/details/80645784)
 ## 输入输出系统的基本原理和关键技术
-* [《Java集合详解--什么是List》](https://blog.csdn.net/wz249863091/article/details/52853360)
+* [《输入输出（I/O）》](https://blog.csdn.net/bay_Tong/article/details/113530428)
 
 # 计算机网络
 
