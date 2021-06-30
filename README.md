@@ -119,6 +119,21 @@
 	* [设备管理](https://github.com/0voice/develop_skill_tree/blob/main/README.md#设备管理)
 	* [文件管理](https://github.com/0voice/develop_skill_tree/blob/main/README.md#文件管理)
 	* [作业管理](https://github.com/0voice/develop_skill_tree/blob/main/README.md#作业管理)
+* [基础组件](https://github.com/0voice/develop_skill_tree/blob/main/README.md#基础组件)
+	* [池式组件](https://github.com/0voice/develop_skill_tree/blob/main/README.md#池式组件)
+		* [请求池](https://github.com/0voice/develop_skill_tree/blob/main/README.md#请求池)
+		* [对象池](https://github.com/0voice/develop_skill_tree/blob/main/README.md#对象池)
+		* [连接池](https://github.com/0voice/develop_skill_tree/blob/main/README.md#连接池)
+		* [线程池](https://github.com/0voice/develop_skill_tree/blob/main/README.md#线程池)
+		* [内存池](https://github.com/0voice/develop_skill_tree/blob/main/README.md#内存池)
+* [中间件](https://github.com/0voice/develop_skill_tree/blob/main/README.md#中间件)
+	* [Mysql](https://github.com/0voice/develop_skill_tree/blob/main/README.md#Mysql)
+	* [Redis](https://github.com/0voice/develop_skill_tree/blob/main/README.md#Redis)
+	* [MongoDB](https://github.com/0voice/develop_skill_tree/blob/main/README.md#MongoDB)
+	* [Nginx](https://github.com/0voice/develop_skill_tree/blob/main/README.md#Nginx)
+* [版本管理工具](https://github.com/0voice/develop_skill_tree/blob/main/README.md#版本管理工具)
+	* [Git](https://github.com/0voice/develop_skill_tree/blob/main/README.md#Git)
+	* [SVN](https://github.com/0voice/develop_skill_tree/blob/main/README.md#SVN)
 
 # 计算机组成
 
