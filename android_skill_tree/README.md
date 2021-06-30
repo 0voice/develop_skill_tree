@@ -31,6 +31,21 @@
 			* [OOP面向切面之AspectJ](https://github.com/0voice/develop_skill_tree/blob/main/README.md#OOP面向切面之AspectJ)
 			* [字节码JavaSSit](https://github.com/0voice/develop_skill_tree/blob/main/README.md#字节码JavaSSit)
 			* [字节码插桩技术(ASM)](https://github.com/0voice/develop_skill_tree/blob/main/README.md#字节码插桩技术(ASM))
+	* [JDK高级动态代理](https://github.com/0voice/develop_skill_tree/blob/main/README.md#编译时技术掌握与实战)
+		* [动态代理实现原理解析](https://github.com/0voice/develop_skill_tree/blob/main/README.md#动态代理实现原理解析)
+		* [动态代理再虚拟机中运行时动态拼接Class字节码分析](https://github.com/0voice/develop_skill_tree/blob/main/README.md#动态代理再虚拟机中运行时动态拼接Class字节码分析)
+		* [ProxyGenerator生成字节码流程](https://github.com/0voice/develop_skill_tree/blob/main/README.md#ProxyGenerator生成字节码流程)
+	* [数据结构和算法](https://github.com/0voice/develop_skill_tree/blob/main/README.md#数据结构和算法)
+		* [HashMap解读](https://github.com/0voice/develop_skill_tree/blob/main/README.md#HashMap解读)
+			* [HashMap的扩容机制](https://github.com/0voice/develop_skill_tree/blob/main/README.md#HashMap的扩容机制)
+			* [Hash函数, hash值](https://github.com/0voice/develop_skill_tree/blob/main/README.md#Hash函数, hash值)
+			* [数组+链表实现原理](https://github.com/0voice/develop_skill_tree/blob/main/README.md#数组+链表实现原理)
+			* [红黑树算法](https://github.com/0voice/develop_skill_tree/blob/main/README.md#红黑树算法)
+		* [排序算法](https://github.com/0voice/develop_skill_tree/blob/main/README.md#排序算法)
+			* [比较类排序算法](https://github.com/0voice/develop_skill_tree/blob/main/README.md#比较类排序算法)
+			* [非比较类排序算法](https://github.com/0voice/develop_skill_tree/blob/main/README.md#非比较类排序算法)
+
+
 
 * [Java系列化，泛型与反射](https://github.com/0voice/develop_skill_tree/blob/main/README.md#Java系列化，泛型与反射)
 	
