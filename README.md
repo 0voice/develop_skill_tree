@@ -113,6 +113,12 @@
 	* [加密&VPN技术](https://github.com/0voice/develop_skill_tree/blob/main/README.md#加密&VPN技术)
 	* [产品安全](https://github.com/0voice/develop_skill_tree/blob/main/README.md#产品安全)
 	* [安全管理](https://github.com/0voice/develop_skill_tree/blob/main/README.md#安全管理)
+* [操作系统](https://github.com/0voice/develop_skill_tree/blob/main/README.md#操作系统)
+	* [进程管理](https://github.com/0voice/develop_skill_tree/blob/main/README.md#进程管理)
+	* [存储管理](https://github.com/0voice/develop_skill_tree/blob/main/README.md#存储管理)
+	* [设备管理](https://github.com/0voice/develop_skill_tree/blob/main/README.md#设备管理)
+	* [文件管理](https://github.com/0voice/develop_skill_tree/blob/main/README.md#文件管理)
+	* [作业管理](https://github.com/0voice/develop_skill_tree/blob/main/README.md#作业管理)
 
 # 计算机组成
 
@@ -210,11 +216,16 @@
 
 # 操作系统
 
-## 网络层次划分
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
-## OSI七层网络模型
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
-
+## 进程管理
+* 进程管理，其工作主要是进程调度，在单用户单任务的情况下，处理器仅为一个用户的一个任务所独占， 进程管理的工作十分简单。但在多道程序或多用户的情况 下，组织多个作业或任务时，就要解决处理器的调度、 分配和回收等问题 。
+## 存储管理
+* 存储管理分为几种功能：存储分配、存储共享、存储保护 、存储扩张。
+## 设备管理
+* 设备管理分有以下功能：设备分配、设备传输控制 、设备独立性。
+## 文件管理
+* 文件存储空间的管理、目录管理 、文件操作管理、文件保护。
+## 作业管理
+* 作业管理是负责处理用户提交的任何要求。
 
 # 基础组件
 
