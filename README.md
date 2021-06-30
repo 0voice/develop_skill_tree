@@ -20,7 +20,8 @@
 <h3 id="1">Python技能树</h3> 
 
 ---
-
+##### Python技能树思维导图
+![image](https://www.0voice.com/uiwebsite/still_tree/python_still_tree.png)
 <br>
 
 <h3 id="2">GoLong技能树</h3>
