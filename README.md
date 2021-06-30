@@ -3,6 +3,56 @@
 
 -----------
 
+<b style="color:red">推荐:</b> [《Java技术书籍大全》 - awesome-java-books](https://github.com/sorenduan/awesome-java-books)
+<p>校招各开发岗位技能树，看篇就足够了</p>
+<hr/>
+
+* [数据结构](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#数据结构)
+	* [队列](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#队列)
+	* [集合](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#集合)
+	* [链表、数组](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#链表数组)
+	* [字典、关联数组](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#字典关联数组)
+	* [栈](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#栈)
+	* [树](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#树)
+		* [二叉树](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#二叉树)
+		* [完全二叉树](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#完全二叉树)
+		* [平衡二叉树](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#平衡二叉树)
+		* [二叉查找树（BST）](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#二叉查找树bst)
+		* [红黑树](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#红黑树)
+		* [B，B+，B*树](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#b-bb树)
+		* [LSM 树](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#lsm-树)
+	* [BitSet](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#bitset)
+* [常用算法](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#常用算法)
+	* [排序、查找算法](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#排序查找算法)
+		* [选择排序](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#选择排序)
+		* [冒泡排序](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#冒泡排序)
+		* [插入排序](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#插入排序)
+		* [快速排序](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#快速排序)
+		* [归并排序](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#归并排序)
+		* [希尔排序](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#希尔排序)
+		* [堆排序](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#堆排序)
+		* [计数排序](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#计数排序)
+		* [桶排序](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#桶排序)
+		* [基数排序](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#基数排序)
+		* [二分查找](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#二分查找)
+		* [Java 中的排序工具](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#java-中的排序工具)
+	* [布隆过滤器](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#布隆过滤器)
+	* [字符串比较](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#字符串比较)
+		* [KMP 算法](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#kmp-算法)
+	* [深度优先、广度优先](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#深度优先广度优先)
+	* [贪心算法](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#贪心算法)
+	* [回溯算法](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#回溯算法)
+	* [剪枝算法](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#剪枝算法)
+	* [动态规划](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#动态规划)
+	* [朴素贝叶斯](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#朴素贝叶斯)
+	* [推荐算法](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#推荐算法)
+	* [最小生成树算法](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#最小生成树算法)
+	* [最短路径算法](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#最短路径算法
+
+
+
+
+
 
 * [Python学习技能树](http://github.com)
 * [GoLong学习技能树](http://github.com)
