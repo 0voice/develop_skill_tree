@@ -10,7 +10,7 @@
 <hr/>
 
 * [计算机组成](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机组成)
-	* [冯·诺依曼计算机结构](https://github.com/0voice/develop_skill_tree/blob/main/README.md#冯·诺依曼计算机结构)
+	* [冯·诺依曼计算机结构](https://github.com/0voice/develop_skill_tree/blob/main/README.md#冯&middot;诺依曼计算机结构)
 	* [计算机执行指令的工作过程](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机执行指令的工作过程)
 	* [指令系统分析](https://github.com/0voice/develop_skill_tree/blob/main/README.md#指令系统分析)
 	* [高级语言、汇编语言和机器语言之间的关系](https://github.com/0voice/develop_skill_tree/blob/main/README.md#高级语言、汇编语言和机器语言之间的关系)
