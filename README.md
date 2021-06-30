@@ -3,11 +3,6 @@
 
 -----------
 
-<b style="color:red">推荐书籍:</b> 
-<br/>
-<p> <a href="https://study.0voice.com/document/dns/">《DNS协议》</a> </p>
-<p> <a href="https://study.0voice.com/document/openssl/">《Openssl教程》</a> </p>
-<hr/>
 
 * [计算机组成](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机组成)
 	* [计算机组成剖析](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机组成剖析)
@@ -101,7 +96,6 @@
 		* [解释器模式](https://github.com/0voice/develop_skill_tree/blob/main/README.md#解释器模式)
 * [虚拟化](https://github.com/0voice/develop_skill_tree/blob/main/README.md#虚拟化)
 	* [I/O虚拟化](https://github.com/0voice/develop_skill_tree/blob/main/README.md#I/O虚拟化)
-	* [Memory虚拟化](https://github.com/0voice/develop_skill_tree/blob/main/README.md#Memory虚拟化)
 	* [网卡虚拟化](https://github.com/0voice/develop_skill_tree/blob/main/README.md#网卡虚拟化)
 	* [CPU虚拟化](https://github.com/0voice/develop_skill_tree/blob/main/README.md#CPU虚拟化)
 	* [内存虚拟化](https://github.com/0voice/develop_skill_tree/blob/main/README.md#内存虚拟化)
@@ -172,27 +166,27 @@
 # 计算机网络
 
 ## 网络层次划分
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+*
 ## OSI七层网络模型
-* [《Java Set集合的详解》](https://blog.csdn.net/qq_33642117/article/details/52040345)
+* 
 ## 子网掩码及网络划分
-* [《Java集合详解--什么是List》](https://blog.csdn.net/wz249863091/article/details/52853360)
+*
 ## ARP/RARP协议
-* [《Java集合详解--什么是List》](https://blog.csdn.net/wz249863091/article/details/52853360)
+* 
 ## 路由选择协议
-* [《Java集合详解--什么是List》](https://blog.csdn.net/wz249863091/article/details/52853360)
+* 
 ## TCP/IP协议
-* [《Java集合详解--什么是List》](https://blog.csdn.net/wz249863091/article/details/52853360)
+* 
 ## UDP协议
-* [《Java集合详解--什么是List》](https://blog.csdn.net/wz249863091/article/details/52853360)
+* 
 ## DNS协议
-* [《Java集合详解--什么是List》](https://blog.csdn.net/wz249863091/article/details/52853360)
+* 
 ## NAT协议
-* [《Java集合详解--什么是List》](https://blog.csdn.net/wz249863091/article/details/52853360)
+* 
 ## DHCP协议
-* [《Java集合详解--什么是List》](https://blog.csdn.net/wz249863091/article/details/52853360)
+* 
 ## HTTP协议
-* [《Java集合详解--什么是List》](https://blog.csdn.net/wz249863091/article/details/52853360)
+* 
 
 
 # 数据结构
@@ -212,41 +206,39 @@
 # 虚拟化
 
 ## I/O虚拟化
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
-## Memory虚拟化
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+* [《IO虚拟化及虚拟化模型》](https://blog.csdn.net/lkn910907/article/details/41866109)
 ## 网卡虚拟化
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+* [《网卡虚拟化技术》](https://cloud.tencent.com/developer/article/1432608)
 ## CPU虚拟化
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+* [《CPU的三种虚拟化机制》](https://blog.csdn.net/sdulibh/article/details/83653983)
 ## 内存虚拟化
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+* [《内存虚拟化》](https://blog.csdn.net/yongliang_w/article/details/78367644)
 
 
 # 网络安全
 
 ## 安全基础
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+* 
 ## 系统安全(Windows&Linux)
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+* 
 ## 黑客攻防/恶意代码
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+*
 ## 通讯安全
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+* 
 ## 常见应用协议威胁
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+* 
 ## WEB&脚本攻击技术
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+* 
 ## 防火墙技术(FireWal)
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+* 
 ## 入侵检测系统技术(IDS)
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+*
 ## 加密&VPN技术
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+* 
 ## 产品安全
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+* 
 ## 安全管理
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+* 
 
 
 # 操作系统
@@ -267,27 +259,27 @@
 ## 池式组件
 
 ### 请求池
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+* 
 ### 对象池
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+*
 ### 连接池
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+* 
 ### 线程池
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+* 
 ### 内存池
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+*
 
 
 # 中间件
 
 ## Mysql
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+* 
 ## Redis
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+* 
 ## MongoDB
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+* 
 ## Nginx
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+* 
 
 
 # 版本管理工具
