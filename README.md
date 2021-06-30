@@ -95,6 +95,24 @@
 		* [访问者模式](https://github.com/0voice/develop_skill_tree/blob/main/README.md#访问者模式)
 		* [备忘录模式](https://github.com/0voice/develop_skill_tree/blob/main/README.md#备忘录模式)
 		* [解释器模式](https://github.com/0voice/develop_skill_tree/blob/main/README.md#解释器模式)
+* [虚拟化](https://github.com/0voice/develop_skill_tree/blob/main/README.md#虚拟化)
+	* [I/O虚拟化](https://github.com/0voice/develop_skill_tree/blob/main/README.md#I/O虚拟化)
+	* [Memory虚拟化](https://github.com/0voice/develop_skill_tree/blob/main/README.md#Memory虚拟化)
+	* [网卡虚拟化](https://github.com/0voice/develop_skill_tree/blob/main/README.md#网卡虚拟化)
+	* [CPU虚拟化](https://github.com/0voice/develop_skill_tree/blob/main/README.md#CPU虚拟化)
+	* [内存虚拟化](https://github.com/0voice/develop_skill_tree/blob/main/README.md#内存虚拟化)
+* [网络安全](https://github.com/0voice/develop_skill_tree/blob/main/README.md#网络安全)
+	* [安全基础](https://github.com/0voice/develop_skill_tree/blob/main/README.md#安全基础)
+	* [系统安全(Windows&Linux)](https://github.com/0voice/develop_skill_tree/blob/main/README.md#系统安全(Windows&Linux))
+	* [黑客攻防/恶意代码](https://github.com/0voice/develop_skill_tree/blob/main/README.md#黑客攻防/恶意代码)
+	* [通讯安全](https://github.com/0voice/develop_skill_tree/blob/main/README.md#通讯安全)
+	* [常见应用协议威胁](https://github.com/0voice/develop_skill_tree/blob/main/README.md#常见应用协议威胁)
+	* [WEB&脚本攻击技术](https://github.com/0voice/develop_skill_tree/blob/main/README.md#WEB&脚本攻击技术)
+	* [防火墙技术(FireWal)](https://github.com/0voice/develop_skill_tree/blob/main/README.md#防火墙技术(FireWal))
+	* [入侵检测系统技术(IDS)](https://github.com/0voice/develop_skill_tree/blob/main/README.md#入侵检测系统技术(IDS))
+	* [加密&VPN技术](https://github.com/0voice/develop_skill_tree/blob/main/README.md#加密&VPN技术)
+	* [产品安全](https://github.com/0voice/develop_skill_tree/blob/main/README.md#产品安全)
+	* [安全管理](https://github.com/0voice/develop_skill_tree/blob/main/README.md#安全管理)
 
 # 计算机组成
 
@@ -150,9 +168,71 @@
 * [《Java集合详解--什么是List》](https://blog.csdn.net/wz249863091/article/details/52853360)
 
 
+# 虚拟化
+
+## I/O虚拟化
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+## Memory虚拟化
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+## 网卡虚拟化
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+## CPU虚拟化
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+## 内存虚拟化
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
 
 
+# 网络安全
 
+## 安全基础
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+## 系统安全(Windows&Linux)
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+## 黑客攻防/恶意代码
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+## 通讯安全
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+## 常见应用协议威胁
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+## WEB&脚本攻击技术
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+## 防火墙技术(FireWal)
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+## 入侵检测系统技术(IDS)
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+## 加密&VPN技术
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+## 产品安全
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+## 安全管理
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+
+
+# 操作系统
+
+## 网络层次划分
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+## OSI七层网络模型
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+
+
+# 基础组件
+
+## 网络层次划分
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+## OSI七层网络模型
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+
+
+# 中间件
+
+## 网络层次划分
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+## OSI七层网络模型
+* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
+
+---
+# 联系我们
 **每天晚上8点免费技术分享直播，扫码即可加入【wx:cz1625358265】，小姐姐给你发每天的直播链接，备注"<span>github技能树</span>"**<br/>
 **直播内容：C/C++，Linux，Nginx，ZeroMQ，MySQL，Redis，fastdfs，MongoDB，ZK，流媒体，CDN，P2P，K8S，Docker，TCP/IP，协程，DPDK等等多个知识点技术分享**
 
