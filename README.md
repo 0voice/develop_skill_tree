@@ -10,7 +10,8 @@
 <hr/>
 
 * [计算机组成](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机组成)
-	* [冯·诺依曼计算机结构](https://github.com/0voice/develop_skill_tree/blob/main/README.md#冯&middot;诺依曼计算机结构)
+	* [计算机组成剖析](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机组成剖析)
+	* [冯·诺依曼计算机结构](https://github.com/0voice/develop_skill_tree/blob/main/README.md#冯·诺依曼计算机结构)
 	* [计算机执行指令的工作过程](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机执行指令的工作过程)
 	* [指令系统分析](https://github.com/0voice/develop_skill_tree/blob/main/README.md#指令系统分析)
 	* [高级语言、汇编语言和机器语言之间的关系](https://github.com/0voice/develop_skill_tree/blob/main/README.md#高级语言、汇编语言和机器语言之间的关系)
@@ -140,6 +141,8 @@
 
 # 计算机组成
 
+## 计算机组成剖析
+* [《计算机组成》](https://blog.csdn.net/cudaer/article/details/86535409)
 ## 冯·诺依曼计算机结构
 * 控制器（英文名称：controller）是指按照预定顺序改变主电路或控制电路的接线和改变电路中电阻值来控制电动机的启动、调速、制动和反向的主令装置。由程序计数器、指令寄存器、指令译码器、时序产生器和操作控制器组成，它是发布命令的“决策机构”，即完成协调和指挥整个计算机系统的操作。
 ## 计算机执行指令的工作过程
