@@ -166,6 +166,8 @@
 * [《存储系统和结构》](https://blog.csdn.net/lrwwll/article/details/80645784)
 ## 输入输出系统的基本原理和关键技术
 * [《输入输出（I/O）》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+* [《计算机系统的硬件结构输入输出》](https://blog.csdn.net/qq_44721831/article/details/107979974)
+
 
 # 计算机网络
 
