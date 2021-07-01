@@ -288,18 +288,15 @@
 
 ## 池式组件
 
-### 请求池
-* 
 ### 对象池
-*
+* [《对象池实现》](https://blog.csdn.net/gx864102252/article/details/81174993)
 ### 连接池
-* 
+* [《MySQL连接池实现》](https://blog.csdn.net/qq_36359022/article/details/78771282)
 ### 线程池
-* 
+* [《线程池原理及实现》](https://blog.csdn.net/qq_36359022/article/details/78796784)
 ### 内存池
-*
-
-
+* [《内存池设计与实现》](https://blog.csdn.net/shawngucas/article/details/6574863)
+* [《线程池和内存池》](https://blog.csdn.net/daaikuaichuan/article/details/84493152)
 # 中间件
 
 ## Mysql
