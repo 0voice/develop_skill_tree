@@ -106,6 +106,8 @@
 		* [访问者模式](https://github.com/0voice/develop_skill_tree/blob/main/README.md#行为型模式)
 		* [备忘录模式](https://github.com/0voice/develop_skill_tree/blob/main/README.md#行为型模式)
 		* [解释器模式](https://github.com/0voice/develop_skill_tree/blob/main/README.md#行为型模式)
+	* [实际应用案例](https://github.com/0voice/develop_skill_tree/blob/main/README.md#实际应用案例)
+		* [23种设计模式实际应用案例](https://github.com/0voice/develop_skill_tree/blob/main/README.md#23种设计模式实际应用案例)
 * [虚拟化](https://github.com/0voice/develop_skill_tree/blob/main/README.md#虚拟化)
 	* [I/O虚拟化](https://github.com/0voice/develop_skill_tree/blob/main/README.md#I/O虚拟化)
 	* [网卡虚拟化](https://github.com/0voice/develop_skill_tree/blob/main/README.md#网卡虚拟化)
@@ -403,33 +405,36 @@ KMP：Knuth-Morris-Pratt算法（简称KMP）
 # 设计模式
 
 ## 创建型模式
-* [《单例模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
-* [《原型模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
-* [《工厂模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
-* [《抽象工厂模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
-* [《建造者模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
-* [《结构型模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
-* [《代理模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
-* [《适配器模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
-* [《桥接模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
-* [《装饰模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
-* [《外观模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
-* [《享元模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
-* [《组合模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+* [《单例模式》](https://www.w3cschool.cn/javadesignpattern/t69o1hav.html)
+* [《原型模式》](https://www.w3cschool.cn/javadesignpattern/chtq1hax.html)
+* [《工厂模式》](https://www.w3cschool.cn/javadesignpattern/myzu1ihp.html)
+* [《抽象工厂模式》](https://www.w3cschool.cn/javadesignpattern/wpmu1ihq.html)
+* [《建造者模式》](https://www.w3cschool.cn/javadesignpattern/hnv21ihs.html)
+
+## 结构型模式
+* [《代理模式》](https://www.cnblogs.com/steffen/p/11546001.html)
+* [《适配器模式》](https://www.cnblogs.com/steffen/p/11546001.html)
+* [《桥接模式》](https://www.cnblogs.com/steffen/p/11546001.html)
+* [《装饰模式》](https://www.cnblogs.com/steffen/p/11546001.html)
+* [《外观模式》](https://www.cnblogs.com/steffen/p/11546001.html)
+* [《享元模式》](https://www.cnblogs.com/steffen/p/11546001.html)
+* [《组合模式》](https://www.cnblogs.com/steffen/p/11546001.html)
 
 ## 行为型模式
 * [《模板方法模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
 * [《策略模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
 * [《命令模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
 * [《职责链模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
-
-## 状态模式
+* [《状态模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
 * [《观察者模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
 * [《中介者模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
 * [《迭代器模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
 * [《访问者模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
 * [《备忘录模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
 * [《解释器模式》](https://blog.csdn.net/bay_Tong/article/details/113530428)
+
+## 实际应用案例
+* [《23种设计模式实际应用案例》](https://blog.csdn.net/u013829202/article/details/52513029)
 
 
 # 虚拟化
