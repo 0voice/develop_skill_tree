@@ -116,7 +116,6 @@
 	* [作业管理](https://github.com/0voice/develop_skill_tree/blob/main/README.md#作业管理)
 * [基础组件](https://github.com/0voice/develop_skill_tree/blob/main/README.md#基础组件)
 	* [池式组件](https://github.com/0voice/develop_skill_tree/blob/main/README.md#池式组件)
-		* [请求池](https://github.com/0voice/develop_skill_tree/blob/main/README.md#请求池)
 		* [对象池](https://github.com/0voice/develop_skill_tree/blob/main/README.md#对象池)
 		* [连接池](https://github.com/0voice/develop_skill_tree/blob/main/README.md#连接池)
 		* [线程池](https://github.com/0voice/develop_skill_tree/blob/main/README.md#线程池)
@@ -496,13 +495,13 @@ KMP：Knuth-Morris-Pratt算法（简称KMP）
 # 中间件
 
 ## Mysql
-* 
+* [《Mysql》](https://blog.csdn.net/u014209205/article/details/83051001)
 ## Redis
-* 
+* [《Redis》](https://blog.csdn.net/itcats_cn/article/details/82391719)
 ## MongoDB
-* 
+* [《MongoDB4》](https://caochenlei.blog.csdn.net/article/details/108190767)
 ## Nginx
-* 
+* [《Nginx》](https://blog.csdn.net/tjiyu/article/details/53027619)
 
 
 # 版本管理工具
