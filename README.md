@@ -2,7 +2,20 @@
 
 -----------
 
-
+* [各软件岗位技能要求](https://github.com/0voice/develop_skill_tree/blob/main/README.md#)
+	* [Java技能树](https://github.com/0voice/develop_skill_tree/tree/main/java_skill_tree)
+	* [大数据技能树](https://github.com/0voice/develop_skill_tree/tree/main/bigdata_skill_tree)
+	* [Python技能树](https://github.com/0voice/develop_skill_tree/tree/main/python_skill_tree)
+	* [iOS技能树](https://github.com/0voice/develop_skill_tree/tree/main/ios_skill_tree)
+	* [Android技能树](https://github.com/0voice/develop_skill_tree/tree/main/android_skill_tree)
+	* [GoLong技能树](https://github.com/0voice/develop_skill_tree/tree/main/golang_skill_tree)
+	* [C++技能树](https://github.com/0voice/develop_skill_tree/tree/main/c++_skill_tree)
+	* [前端技能树](https://github.com/0voice/develop_skill_tree/tree/main/javascript_skill_tree)
+	* [PHP技能树](https://github.com/0voice/develop_skill_tree/tree/main/php_skill_tree)
+	* [Python全栈自动化测试技能树](https://github.com/0voice/develop_skill_tree/tree/main/python_automatic_test_skill_tree)
+	* [运维岗技能树](https://github.com/0voice/develop_skill_tree/tree/main/android_skill_tree)
+	* [C#技能树](https://github.com/0voice/develop_skill_tree/tree/main/c#_skill_tree)
+	* [鸿蒙技能树](https://github.com/0voice/develop_skill_tree/tree/main/android_skill_tree)
 * [计算机组成](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机组成)
 	* [计算机组成剖析](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机组成剖析)
 	* [冯·诺依曼计算机结构](https://github.com/0voice/develop_skill_tree/blob/main/README.md#冯·诺依曼计算机结构)
@@ -128,20 +141,6 @@
 * [版本管理工具](https://github.com/0voice/develop_skill_tree/blob/main/README.md#版本管理工具)
 	* [Git](https://github.com/0voice/develop_skill_tree/blob/main/README.md#Git)
 	* [SVN](https://github.com/0voice/develop_skill_tree/blob/main/README.md#SVN)
-* [各软件岗位技能要求](https://github.com/0voice/develop_skill_tree/blob/main/README.md#版本管理工具)
-	* [Java技能树](https://github.com/0voice/develop_skill_tree/tree/main/java_skill_tree)
-	* [大数据技能树](https://github.com/0voice/develop_skill_tree/tree/main/bigdata_skill_tree)
-	* [Python技能树](https://github.com/0voice/develop_skill_tree/tree/main/python_skill_tree)
-	* [iOS技能树](https://github.com/0voice/develop_skill_tree/tree/main/ios_skill_tree)
-	* [Android技能树](https://github.com/0voice/develop_skill_tree/tree/main/android_skill_tree)
-	* [GoLong技能树](https://github.com/0voice/develop_skill_tree/tree/main/golang_skill_tree)
-	* [C++技能树](https://github.com/0voice/develop_skill_tree/tree/main/c++_skill_tree)
-	* [前端技能树](https://github.com/0voice/develop_skill_tree/tree/main/javascript_skill_tree)
-	* [PHP技能树](https://github.com/0voice/develop_skill_tree/tree/main/php_skill_tree)
-	* [Python全栈自动化测试技能树](https://github.com/0voice/develop_skill_tree/tree/main/python_automatic_test_skill_tree)
-	* [运维岗技能树](https://github.com/0voice/develop_skill_tree/tree/main/android_skill_tree)
-	* [C#技能树](https://github.com/0voice/develop_skill_tree/tree/main/c#_skill_tree)
-	* [鸿蒙技能树](https://github.com/0voice/develop_skill_tree/tree/main/android_skill_tree)
 
 
 # 计算机组成
