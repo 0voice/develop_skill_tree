@@ -38,46 +38,9 @@
 	* [数据结构和算法](https://github.com/0voice/develop_skill_tree/blob/main/README.md#数据结构和算法)
 		* [HashMap解读](https://github.com/0voice/develop_skill_tree/blob/main/README.md#HashMap解读)
 			* [HashMap的扩容机制](https://github.com/0voice/develop_skill_tree/blob/main/README.md#HashMap的扩容机制)
-			* [Hash函数, hash值](https://github.com/0voice/develop_skill_tree/blob/main/README.md#Hash函数, hash值)
+			* [Hash函数, hash值](https://github.com/0voice/develop_skill_tree/blob/main/README.md#Hash函数和hash值)
 			* [数组+链表实现原理](https://github.com/0voice/develop_skill_tree/blob/main/README.md#数组+链表实现原理)
 			* [红黑树算法](https://github.com/0voice/develop_skill_tree/blob/main/README.md#红黑树算法)
 		* [排序算法](https://github.com/0voice/develop_skill_tree/blob/main/README.md#排序算法)
 			* [比较类排序算法](https://github.com/0voice/develop_skill_tree/blob/main/README.md#比较类排序算法)
 			* [非比较类排序算法](https://github.com/0voice/develop_skill_tree/blob/main/README.md#非比较类排序算法)
-
-
-
-* [Java系列化，泛型与反射](https://github.com/0voice/develop_skill_tree/blob/main/README.md#Java系列化，泛型与反射)
-	
-    * [网络层次划分](https://github.com/0voice/develop_skill_tree/blob/main/README.md#网络层次划分)
-	* [OSI七层网络模型](https://github.com/0voice/develop_skill_tree/blob/main/README.md#OSI七层网络模型)
-	* [子网掩码及网络划分](https://github.com/0voice/develop_skill_tree/blob/main/README.md#子网掩码及网络划分)
-	* [ARP/RARP协议](https://github.com/0voice/develop_skill_tree/blob/main/README.md#ARP/RARP协议)
-	* [路由选择协议](https://github.com/0voice/develop_skill_tree/blob/main/README.md#路由选择协议)
-
-
-
-
-# 数据结构
-
-## 队列
-* [《java队列——queue详细分析》](https://www.cnblogs.com/lemon-flm/p/7877898.html)
-	* 非阻塞队列：ConcurrentLinkedQueue(无界线程安全)，采用CAS机制（compareAndSwapObject原子操作）。
-	* 阻塞队列：ArrayBlockingQueue(有界)、LinkedBlockingQueue（无界）、DelayQueue、PriorityBlockingQueue，采用锁机制；使用 ReentrantLock 锁。
-
-* [《LinkedList、ConcurrentLinkedQueue、LinkedBlockingQueue对比分析》](https://www.cnblogs.com/mantu/p/5802393.html)
-
-## 集合
-* [《Java Set集合的详解》](https://blog.csdn.net/qq_33642117/article/details/52040345)
-
-## 链表、数组
-* [《Java集合详解--什么是List》](https://blog.csdn.net/wz249863091/article/details/52853360)
-
-
-
-
-
-**每天晚上8点免费技术分享直播，扫码即可加入【wx:cz1625358265】，小姐姐给你发每天的直播链接，备注"<span>github技能树</span>"**<br/>
-**直播内容：C/C++，Linux，Nginx，ZeroMQ，MySQL，Redis，fastdfs，MongoDB，ZK，流媒体，CDN，P2P，K8S，Docker，TCP/IP，协程，DPDK等等多个知识点技术分享**
-
-![image](https://www.0voice.com/uiwebsite/img/barcode/cz.jpg)
