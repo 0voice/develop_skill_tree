@@ -29,6 +29,8 @@
 	* [分布式消息中间件](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#分布式消息中间件)
 	* [分布式储存中间件](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#分布式储存中间件)
 	* [分布式框架](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#分布式框架)
+	* [分布式锁](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#分布式锁)
+	* [分布式事务](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#分布式事务)
 * [微服务](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#微服务)
 	* [Spring Boot详解](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#SpringBoot详解)
 	* [Spring Cloud Alibaba详解](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#SpringCloudAlibaba详解)
