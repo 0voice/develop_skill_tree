@@ -515,6 +515,15 @@ KMP：Knuth-Morris-Pratt算法（简称KMP）
 ## SVN
 * [《SVN 使用》](https://www.jianshu.com/p/fc8443a9aafe)
 
+# 其他
+
+## 正则表示式
+* [《正则表示式》](https://blog.csdn.net/weixin_39723352/article/details/81606082)
+## XML
+* [《XML》](https://www.jianshu.com/p/fc8443a9aafe)
+## JSON
+* [《JOSN》](https://www.jianshu.com/p/fc8443a9aafe)
+
 
 ---
 # 联系我们
