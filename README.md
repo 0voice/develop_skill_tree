@@ -518,11 +518,11 @@ KMP：Knuth-Morris-Pratt算法（简称KMP）
 # 其他
 
 ## 正则表示式
-* [《正则表示式》](https://blog.csdn.net/weixin_39723352/article/details/81606082)
+* [《正则表示式》](https://blog.csdn.net/cherrydreamsover/article/details/80941220)
 ## XML
-* [《XML》](https://www.jianshu.com/p/fc8443a9aafe)
+* [《XML》](https://blog.csdn.net/gavin_john/article/details/51511180)
 ## JSON
-* [《JOSN》](https://www.jianshu.com/p/fc8443a9aafe)
+* [《JOSN》](https://blog.csdn.net/wjgwrr/article/details/80797785)
 
 
 ---
