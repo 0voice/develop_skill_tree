@@ -382,45 +382,252 @@ String s = input.readLine();
 ```
 
 ## java容器
-#### 通过 BufferedReader
-BufferedReader input = new BufferedReader(new InputStreamReader(System.in)); 
-String s = input.readLine();
+Java容器包位置是java.util.*
+Java容器主要可以划分为5个部分：List列表、Set集合、Map映射、queue队列、工具类(Iterator迭代器、Enumeration枚举类、Arrays和Collections)。
 
 
-### 重载和重写的区别
-### 重载和重写的区别
-### 重载和重写的区别
-### 重载和重写的区别
-### 重载和重写的区别
-### 重载和重写的区别
-### 重载和重写的区别
-### 重载和重写的区别
-### 重载和重写的区别
-### 重载和重写的区别
-### 重载和重写的区别
-### 重载和重写的区别
-### 重载和重写的区别
-### 重载和重写的区别
-### 重载和重写的区别
-### 重载和重写的区别
-### 重载和重写的区别
-
-### Java访问修饰符
-
-### Java访问修饰符
-
-## 容器
-* 
 ## 多线程
 * 
-## 反射
-* 
-## 对象拷贝
-* 
+
+
 ## Java Web模块
 * 
-## 异常模块
-* 
-## 网络模块
-* 
+### InetAddress
+* 此类表示互联网协议 (IP) 地址。
+#### 常用方法
+* 此类表示互联网协议 (IP) 地址。
+```java
+byte[] getAddress()				返回此 InetAddress 对象的原始 IP 地址。
+static InetAddress getByName(String host)	在给定主机名的情况下确定主机的 IP 地址。
+String getHostAddress()				返回 IP 地址字符串（以文本表现形式）。
+String getHostName()				获取此 IP 地址的主机名。
+static InetAddress getLocalHost()		返回本地主机。
+```
+#### 案例
+##### 案例1
+```java
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+
+public class TestIP {
+    public static void main(String[] args) throws UnknownHostException {
+        //InetAdress类表示IP地址
+
+        //获取本机IP
+        InetAddress ip = InetAddress.getLocalHost();// ADMINISTRATOR/192.xxx.xxx.xxx
+        System.out.println(ip);
+        //获得主机名
+        System.out.println(ip.getHostName());// ADMINISTRATOR
+        //获得IP地址
+        System.out.println(ip.getHostAddress());// 192.xxx.xxx.xxx
+        //getLocalHost=getHostName+getHostAddress
+        System.out.println(InetAddress.getByName("localhost"));
+    }
+}
+```
+##### 案例2
+```java
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+
+public class TestIP2 {
+    public static void main(String[] args) throws UnknownHostException {
+        InetAddress inetAddress = InetAddress.getByName("www.baidu.com");
+        // 获取此 IP 地址的主机名。
+        System.out.println(inetAddress.getHostName());
+        //返回 IP 地址字符串（以文本表现形式）。
+        System.out.println(inetAddress.getHostAddress());
+    }
+}
+```
+
+### InetSocketAddress
+#### 构造方法
+```java
+InetSocketAddress(InetAddress addr, int port)			根据 IP 地址和端口号创建套接字地址。
+InetSocketAddress(int port)					创建套接字地址，其中 IP 地址为通配符地址，端口号为指定值。
+InetSocketAddress(String hostname, int port)			根据主机名和端口号创建套接字地址。
+```
+#### 常用方法
+```java
+InetAddress getAddress()					获取 InetAddress。
+String getHostName()						获取 hostname。
+int getPort()							获取端口号。
+```
+##### 案例
+```java
+import java.net.InetAddress;
+import java.net.InetSocketAddress;
+
+public class TestPort {
+    public static void main(String[] args) {
+        InetSocketAddress inetSocketAddress = new InetSocketAddress("127.0.0.1",8082);
+        System.out.println(inetSocketAddress);
+        //返回主机名
+        System.out.println(inetSocketAddress.getHostName());
+        //获得InetSocketAddress的端口
+        System.out.println(inetSocketAddress.getPort());
+        //返回一个InetAddress对象（IP对象）
+        InetAddress address = inetSocketAddress.getAddress();
+        System.out.println(address);
+    }
+}
+```
+
+### URL
+* 类 URL 代表一个统一资源定位符，它是指向互联网“资源”的指针。
+
+### Socket和 ServerSocket
+#### Socket
+* 此类实现客户端套接字，套接字指的是两台设备之间通讯的端点。
+（1）构造方法摘要
+```java
+public Socket(String host, int port) :创建套接字对象并将其连接到指定主机上的指定端口号。如果指定的host是null ，则相当于指定地址为回送地址。
+回送地址(127.x.x.x) 是本机回送地址（Loopback Address），主要用于网络软件测试以及本地机进程间通信，无论什么程序，一旦使用回送地址发送数据，立即返回，不进行任何网络传输。
+```
+（2）常用方法摘要
+```java
+public InputStream getInputStream() ： 返回此套接字的输入流。
+	如果此Scoket具有相关联的通道，则生成的InputStream 的所有操作也关联该通道。
+	关闭生成的InputStream也将关闭相关的Socket。
+public OutputStream getOutputStream() ： 返回此套接字的输出流。
+	如果此Scoket具有相关联的通道，则生成的OutputStream 的所有操作也关联该通道。
+	关闭生成的OutputStream也将关闭相关的Socket。
+public void close() ：关闭此套接字。
+	一旦一个socket被关闭，它不可再使用。
+	关闭此socket也将关闭相关的InputStream和OutputStream 。
+public void shutdownOutput() ： 禁用此套接字的输出流。
+	任何先前写出的数据将被发送，随后终止输出流。
+```
+
+#### ServerSocket
+* 此类实现了服务器套接字，该对象等待通过网络的请求。
+（1）构造方法摘要
+```java
+public ServerSocket(int port) ：使用该构造方法在创建ServerSocket对象时，就可以将其绑定到一个指定的端口号上，参数port就是端口号。
+```
+（2）常用方法摘要
+```java
+public Socket accept() ：侦听并接受连接，返回一个新的Socket对象，用于和客户端实现通信。该方法会一直阻塞直到建立连接。
+```
+#### Socket和ServerSocket案例
+Socket
+```java
+import java.io.IOException;
+import java.io.OutputStream;
+import java.net.InetAddress;
+import java.net.Socket;
+
+public class TCPClient {
+    public static void main(String[] args){
+        Socket socket = null;
+        OutputStream os = null;
+        try {
+            //1、创建Socket对象，它的第一个参数需要的是服务端的IP，第二个参数是服务端的端口
+            InetAddress inet = InetAddress.getByName("127.0.0.1");
+            socket = new Socket(inet,8090);
+            //2、获取一个输出流，用于写出要发送的数据
+            os = socket.getOutputStream();
+            //3、写出数据
+            os.write("你好，我是客户端！".getBytes());
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {//4、释放资源
+            if(socket!=null){
+                try {
+                    socket.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+            if(os!=null){
+                try {
+                    os.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+}
+```
+ServerSocket 
+```java
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class TCPServer {
+    public static void main(String[] args) {
+        ServerSocket serverSocket = null;
+        Socket socket = null;
+        InputStream is = null;
+        ByteArrayOutputStream baos = null;
+        try {
+            //1、创建服务端的ServerSocket，指明自己的端口号
+            serverSocket = new ServerSocket(8090);
+            //2、调用accept接收到来自于客户端的socket
+            socket = serverSocket.accept();//阻塞式监听，会一直等待客户端的接入
+            //3、获取socket的输入流
+            is = socket.getInputStream();
+
+//        不建议这样写：因为如果我们发送的数据有汉字，用String的方式输出可能会截取汉字，产生乱码
+//        int len=0;
+//        byte[] buffer = new byte[1024];
+//        while ((len=is.read(buffer))!=-1){
+//            String str = new String(buffer, 0, len);
+//            System.out.println(str);
+//        }
+            
+            //4、读取输入流中的数据
+            //ByteArrayOutputStream的好处是它可以根据数据的大小自动扩充
+            baos = new ByteArrayOutputStream();
+            int len=0;
+            byte[] buffer = new byte[1024];
+            while ((len=is.read(buffer))!=-1){
+                baos.write(buffer,0,len);
+            }
+            System.out.println("收到了来自于客户端"+socket.getInetAddress().getHostName()
+                    +"的消息："+baos.toString());
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {//5、关闭资源
+            if(serverSocket!=null){
+                try {
+                    serverSocket.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+            if(socket!=null){
+                try {
+                    socket.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+            if(is!=null){
+                try {
+                    is.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+            if(baos!=null){
+                try {
+                    baos.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+}
+```
+
+
+
+
 
