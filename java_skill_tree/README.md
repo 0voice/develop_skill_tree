@@ -335,8 +335,8 @@ transient关键字的作用是：阻止实例中那些用此关键字修饰的�
 2. 深拷贝: 深拷贝：对象，对象内部的引用均复制
 #### 拷贝的几种方法
 1. System.arraycopy（浅拷贝）
-public static native void arraycopy(Object src, int srcPos,Object dest, int destPos,int length);   
-通过源代码我们可以看到，关键字native说明它不是用java语言写的，而是调用其他语言的代码。 
+* public static native void arraycopy(Object src, int srcPos,Object dest, int destPos,int length); 
+* 通过源代码我们可以看到，关键字native说明它不是用java语言写的，而是调用其他语言的代码。 
 2. Arrays.copyOf（浅拷贝）
 实际上它调用的就是System.arraycopy.
 3. Object.clone
