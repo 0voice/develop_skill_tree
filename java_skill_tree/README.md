@@ -360,12 +360,16 @@ ObjectInputStream ObjectOutputStream
 
 ### 获取键盘输入
 #### 通过 Scanner
+```java
 Scanner input = new Scanner(System.in);
 String s  = input.nextLine();
 input.close();
+```
 #### 通过 Scanner
+```java
 BufferedReader input = new BufferedReader(new InputStreamReader(System.in)); 
 String s = input.readLine(); 
+```
 
 ## java容器
 #### 通过 BufferedReader
