@@ -119,16 +119,15 @@
 * Java 有自动内存管理机制，不需要程序员手动释放无用内存
 
 ### Java数据类型
-* 基本数据类型
+#### 基本数据类型
 * 	整型、浮点型、字符型、布尔型
-* 引用类型
+#### 引用类型
 * 	类、接口类型、数组类型、枚举类型、注解类型
-* 区别
+#### 区别
 * 	基本数据类型 在被创建时，在栈上给其划分一块内存，将数值直接存储在栈上。
 *	引用数据类型 在被创建时，首先要在栈上给其引用（句柄）分配一块内存，而对象的具体信息都存储在堆内存上，然后由栈上面的引用指向堆中对象的地址
 
 ### Java访问修饰符
-
 
 ### 字符型常量和字符串常量的区别
 
@@ -265,6 +264,7 @@
 #### finalize
 * finalize是Object的方法，所有类都继承了该方法。 当一个对象满足垃圾回收的条件，并且被回收的时候，其finalize()方法就会被调用
 
+## Java异常
 ### Java异常处理
 * java.lang包中的 Throwable类。Throwable： 有两个重要的子类：Exception（异常） 和 Error（错误） ，二者都是 Java 异常处理的重要子类，各自都包含大量子类。
 #### Error（错误）
@@ -285,7 +285,7 @@
 * 程序所在的线程死亡。
 * 关闭CPU。
 
-#### 最常见到的runtime exception与Error
+### 最常见到的runtime exception与Error
 ##### runtime exception
 * NullPointerException （空指针异常）
 * ArrayIndexOutOfBoundsException（数组下标越界）
@@ -296,8 +296,8 @@
 * OutOfMemoryError (堆内存溢出)
 * StackOverflowError(栈内存溢出)
 
-### Java反射
-#### java反射是什么
+## Java反射
+#### java反射介绍
 编译期和运行期，编译期就是编译器帮你把源代码翻译成机器能识别的代码，比如编译器把java代码编译成jvm识别的字节码文件，而运行期指的是将可执行文件交给操作系统去执行，JAVA反射机制是在运行状态中，对于任意一个类，都能够知道这个类的所有属性和方法；对于任意一个对象，都能够调用它的任意方法和属性；这种动态获取信息以及动态调用对象方法的功能称为java语言的反射机制
 #### java反射(Reflection)的底层实现原理
 Object 类，是所有Java 类的继承根源，其内声明了数个应该在所有Java 类中被改写的方法：其中getClass()返回一个Class 对象
@@ -329,7 +329,7 @@ a) 当一个父类实现序列化，子类自动实现序列化，不需要显�
 对于不想进行序列化的变量，使用transient关键字修饰。
 transient关键字的作用是：阻止实例中那些用此关键字修饰的的变量序列化；当对象被反序列化时，被transient修饰的变量值不会被持久化和恢复。transient只能修饰变量，不能修饰类和方法。
 
-### java拷贝
+## java拷贝
 #### 浅拷贝与深拷贝
 1. 浅拷贝: 只复制一个对象，对象内部存在的指向其他对象数组或者引用则不复制
 2. 深拷贝: 深拷贝：对象，对象内部的引用均复制
@@ -341,6 +341,37 @@ transient关键字的作用是：阻止实例中那些用此关键字修饰的�
 实际上它调用的就是System.arraycopy.
 3. Object.clone
 clone()比较特殊，对于对象而言，它是深拷贝，但是对于数组而言，它是浅拷贝。
+
+## java流
+### 字节流
+Java中所有的流都是基于字节流，所以最基本的流是 字节流
+#### 输入输出字节流
+InputStream OutputStream
+#### 字符流
+在字节流的基础上，封装了字符流
+Reader Writer
+#### 缓存流
+进一步，又封装了缓存流
+BufferedReader PrintWriter
+#### 数据流
+DataInputStream DataOutputStream
+#### 对象流
+ObjectInputStream ObjectOutputStream
+
+### 获取键盘输入
+#### 通过 Scanner
+Scanner input = new Scanner(System.in);
+String s  = input.nextLine();
+input.close();
+#### 通过 Scanner
+BufferedReader input = new BufferedReader(new InputStreamReader(System.in)); 
+String s = input.readLine(); 
+
+## java容器
+#### 通过 BufferedReader
+BufferedReader input = new BufferedReader(new InputStreamReader(System.in)); 
+String s = input.readLine();
+
 
 ### 重载和重写的区别
 ### 重载和重写的区别
