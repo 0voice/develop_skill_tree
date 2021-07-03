@@ -199,19 +199,21 @@
 ### java引用
 #### java中四种引用
 * 强引用，软引用，弱引用，虚引用。不同的引用类型主要体现在GC上:
-* 强引用：如果一个对象具有强引用，它就不会被垃圾回收器回收。即使当前内存空间不足，JVM也不会回收它，而是抛出 OutOfMemoryError 错误，使程序异常终止。如果想中断强引用和某个对象之间的关联，可以显式地将引用赋值为null，这样一来的话，JVM在合适的时间就会回收该对象。
-如obj.equels(new Object());
-而这样 obj对象对后面new Object的一个强引用，只有当obj这个引用被释放之后，对象才会被释放
-* 软引用（SoftReference）：在使用软引用时，如果内存的空间足够，软引用就能继续被使用，而不会被垃圾回收器回收，只有在内存不足时，软引用才会被垃圾回收器回收。
-* 弱引用（WeakReference）：具有弱引用的对象拥有的生命周期更短暂。因为当 JVM 进行垃圾回收，一旦发现弱引用对象，无论当前内存空间是否充足，都会将弱引用回收。不过由于垃圾回收器是一个优先级较低的线程，所以并不一定能迅速发现弱引用对象。
-* 虚引用（PhantomReference）：顾名思义，就是形同虚设，如果一个对象仅持有虚引用，那么它相当于没有引用，在任何时候都可能被垃圾回收器回收。
+#### 强引用：
+* 如果一个对象具有强引用，它就不会被垃圾回收器回收。即使当前内存空间不足，JVM也不会回收它，而是抛出 OutOfMemoryError 错误，使程序异常终止。如果想中断强引用和某个对象之间的关联，可以显式地将引用赋值为null，这样一来的话，JVM在合适的时间就会回收该对象。
+* 如obj.equels(new Object());
+* 而这样 obj对象对后面new Object的一个强引用，只有当obj这个引用被释放之后，对象才会被释放
+#### 软引用（SoftReference）
+* 在使用软引用时，如果内存的空间足够，软引用就能继续被使用，而不会被垃圾回收器回收，只有在内存不足时，软引用才会被垃圾回收器回收。
+#### 弱引用（WeakReference）
+* 具有弱引用的对象拥有的生命周期更短暂。因为当 JVM 进行垃圾回收，一旦发现弱引用对象，无论当前内存空间是否充足，都会将弱引用回收。不过由于垃圾回收器是一个优先级较低的线程，所以并不一定能迅速发现弱引用对象。
+#### 虚引用（PhantomReference）
+* 顾名思义，就是形同虚设，如果一个对象仅持有虚引用，那么它相当于没有引用，在任何时候都可能被垃圾回收器回收。
 #### WeakReference与SoftReference的区别
 * WeakReference 与 SoftReference 都有利于提高 GC 和 内存的效率，但是 WeakReference ，一旦失去最后一个强引用，就会被 GC 回收，而软引用虽然不能阻止被回收，但是可以延迟到 JVM 内存不足的时候。
 #### 为什么要有不同的引用类型
 * java不像C语言，我们可以控制内存的申请和释放，在Java中有时候我们需要适当的控制对象被回收的时机，因此就诞生了不同的引用类型，可以说不同的引用类型实则是对GC回收时机不可控的妥协。有以下几个使用场景可以充分的说明：
-
 * 利用软引用和弱引用解决OOM问题：用一个HashMap来保存图片的路径和相应图片对象关联的软引用之间的映射关系，在内存不足时，JVM会自动回收这些缓存图片对象所占用的空间，从而有效地避免了OOM的问题.
-
 * 通过软引用实现Java对象的高速缓存:比如我们创建了一Person的类，如果每次需要查询一个人的信息,哪怕是几秒中之前刚刚查询过的，都要重新构建一个实例，这将引起大量Person对象的消耗，并且由于这些对象的生命周期相对较短，会引起多次GC影响性能。此时，通过软引用和 HashMap 的结合可以构建高速缓存，提供性能。
 
 ### String 和 StringBuffer、StringBuilder
@@ -223,14 +225,15 @@
 ##### 性能
 * 每次对 String 类型进行改变的时候，都会生成一个新的 String 对象，然后将指针指向新的 String 对象。StringBuffer 每次都会对 StringBuffer 对象本身进行操作，而不是生成新的对象并改变对象引用。相* 同情况下使用 StirngBuilder 相比使用 StringBuffer 仅能获得 10%~15% 左右的性能提升，但却要冒多线程不安全的风险。
 * 对于三者使用的总结：
-
 * 操作少量的数据 = String
 * 单线程操作字符串缓冲区下操作大量数据 = StringBuilder
 * 多线程操作字符串缓冲区下操作大量数据 = StringBuffer
 
 ### == 与 equals
-* == : 它的作用是判断两个对象的地址是不是相等。即，判断两个对象是不是同一个对象。(基本数据类型“= =”比较的是值，引用数据类型 = = 比较的是内存地址).
-* equals() : 它的作用也是判断两个对象是否相等。但它一般有两种使用情况：
+#### == 
+* 它的作用是判断两个对象的地址是不是相等。即，判断两个对象是不是同一个对象。(基本数据类型“= =”比较的是值，引用数据类型 = = 比较的是内存地址).
+#### equals()
+* 它的作用也是判断两个对象是否相等。但它一般有两种使用情况：
 * 情况1：类没有覆盖 equals() 方法。则通过 equals() 比较该类的两个对象时，等价于通过“==”比较这两个对象。
 * 情况2：类覆盖了 equals() 方法。一般，我们都覆盖 equals() 方法来两个对象的内容相等；若它们的内容相等，则返回 true (即，认为这两个对象相等)。
 * 说明：
@@ -238,24 +241,107 @@
 * 当创建 String 类型的对象时，虚拟机会在常量池中查找有没有已经存在的值和要创建的值相同的对象，如果有就把它赋给当前引用。如果没有就在常量池中重新创建一个 String 对象。
 
 ### hashCode 与 equals
-* hashCode（）介绍
+#### hashCode()介绍
 * hashCode() 的作用是获取哈希码，也称为散列码；它实际上是返回一个int整数。这个哈希码的作用是确定该对象在哈希表中的索引位置。hashCode() 定义在JDK的Object.java中，这就意味着Java中的任何类都包含有hashCode() 函数。
 * 散列表存储的是键值对(key-value)，它的特点是：能根据“键”快速的检索出对应的“值”。这其中就利用到了散列码！（可以快速找到所需要的对象）。
-* 为什么要有 hashCode
+#### 为什么要有 hashCode
 * 我们以“HashSet 如何检查重复”为例子来说明为什么要有 hashCode：
 * 当你把对象加入 HashSet 时，HashSet 会先计算对象的 hashcode 值来判断对象加入的位置，同时也会与其他已经加入的对象的 hashcode 值作比较，如果没有相符的hashcode，HashSet会假设对象没有重复出现。但是如果发现有相同 hashcode 值的对象，这时会调用 equals（）方法来检查 hashcode 相等的对象是否真的相同。如果两者相同，HashSet 就不会让其加入操作成功。如果不同的话，就会重新散列到其他位置。（摘自我的Java启蒙书《Head fist java》第二版）。这样我们就大大减少了 equals 的次数，相应就大大提高了执行速度。
-* hashCode（）与equals（）的相关规定
+#### hashCode（）与equals（）的相关规定
 * 如果两个对象相等，则hashcode一定也是相同的。
 * 两个对象相等,对两个对象分别调用equals方法都返回true。
 * 两个对象有相同的hashcode值，它们也不一定是相等的。
 * 因此，equals 方法被覆盖过，则 hashCode 方法也必须被覆盖，hashCode() 的默认行为是对堆上的对象产生独特值。如果没有重写 hashCode()，则该 class 的两个对象无论如何都不会相等。
 
+### final, finally, finalize的区别
+#### final
+* 修饰类 表示该类不能被继承
+* 修饰方法 表示该方法不能被重写
+* 修饰基本类型变量 表示该变量只能被赋值一次,如果修饰引用，那么表示引用不可变，引用指向的内容可变。
+* 被final修饰的方法，JVM会尝试将其内联，以提高运行效率
+* 被final修饰的常量，在编译阶段会存入常量池中。
+#### finally
+* finally 是用于异常处理的场面，无论是否有异常抛出，都会执行
+#### finalize
+* finalize是Object的方法，所有类都继承了该方法。 当一个对象满足垃圾回收的条件，并且被回收的时候，其finalize()方法就会被调用
 
-### 重载和重写的区别
-### 重载和重写的区别
-### 重载和重写的区别
-### 重载和重写的区别
-### 重载和重写的区别
+### Java异常处理
+* java.lang包中的 Throwable类。Throwable： 有两个重要的子类：Exception（异常） 和 Error（错误） ，二者都是 Java 异常处理的重要子类，各自都包含大量子类。
+#### Error（错误）
+* 程序无法处理的错误，表示运行应用程序中较严重问题。大多数错误与代码编写者执行的操作无关，而表示代码运行时 JVM（Java 虚拟机）出现的问题。例如，Java虚拟机运行错误（Virtual MachineError），当 JVM 不再有继续执行操作所需的内存资源时，将出现 OutOfMemoryError。这些异常发生时，Java虚拟机（JVM）一般会选择线程终止。
+#### Exception（异常）
+* 程序本身可以处理的异常。 Exception 类有一个重要的子类 RuntimeException。RuntimeException 异常由Java虚拟机抛出。NullPointerException（要访问的变量没有引用任何对象* 时，抛出该异常）、ArithmeticException（算术运算异常，一个整数除以0时，抛出该异常）和 ArrayIndexOutOfBoundsException （下标越界异常）。
+#### Throwable类常用方法
+* 1. public string getMessage():返回异常发生时的详细信息
+* 2. public string toString():返回异常发生时的简要描述
+* 3. public void printStackTrace():在控制台上打印Throwable对象封装的异常信息
+#### 异常处理总结
+* try 块： 用于捕获异常。其后可接零个或多个catch块，如果没有catch块，则必须跟一个finally块。
+* catch 块：用于处理try捕获到的异常。
+* finally 块： 无论是否捕获或处理异常，finally块里的语句都会被执行。当在try块或catch块中遇到return语句时，finally语句块将在方法返回之前被执行
+#### finally块不会被执行的情况：
+* 在finally语句块中发生了异常。
+* 在前面的代码中用了System.exit()退出程序。
+* 程序所在的线程死亡。
+* 关闭CPU。
+
+#### 最常见到的runtime exception与Error
+##### runtime exception
+* NullPointerException （空指针异常）
+* ArrayIndexOutOfBoundsException（数组下标越界）
+* IllegalArgumentException （参数错误）
+* ArithmeticException 算术异常，比如除数为零
+* ClassCastException 类型转换异常
+##### Error
+* OutOfMemoryError (堆内存溢出)
+* StackOverflowError(栈内存溢出)
+
+### Java反射
+#### java反射是什么
+编译期和运行期，编译期就是编译器帮你把源代码翻译成机器能识别的代码，比如编译器把java代码编译成jvm识别的字节码文件，而运行期指的是将可执行文件交给操作系统去执行，JAVA反射机制是在运行状态中，对于任意一个类，都能够知道这个类的所有属性和方法；对于任意一个对象，都能够调用它的任意方法和属性；这种动态获取信息以及动态调用对象方法的功能称为java语言的反射机制
+#### java反射(Reflection)的底层实现原理
+Object 类，是所有Java 类的继承根源，其内声明了数个应该在所有Java 类中被改写的方法：其中getClass()返回一个Class 对象
+#### 创建反射实例
+直接通过类名点.class获取
+通过Object类的getClass方法来获取 通过Object类的getClass方法来获取
+通过全类名获取用的比较多推荐使用 例如：Class.forName(“com.mysql.jdbc.Driver”);
+#### 反射中，Class.forName和classloader的区别
+java中class.forName()和classLoader都可用来对类进行加载。
+class.forName()前者除了将类的.class文件加载到jvm中之外，还会对类进行解释，执行类中的static块。
+而classLoader只干一件事情，就是将.class文件加载到jvm中，不会执行static中的内容,只有在newInstance才会去执行static块。
+
+### 序列化与反序列化
+#### 序列化
+简单说就是将内存中的对象保存下来，并且可以把保存的对象状态再读出来。
+实现java序列化的手段是让该类实现接口 Serializable，这个接口是一个标识性接口，没有任何方法，仅仅用于表示该类可以序列化。
+#### 什么情况下需要序列化
+* 当你想把的内存中的对象保存到一个文件中或者数据库中时候；
+* 当你想用序列化在网络上传送对象的时候；
+* 当你想通过RMI传输对象的时候；
+
+#### 序列化注意事项
+a) 当一个父类实现序列化，子类自动实现序列化，不需要显式实现Serializable接口；
+把一个对象完全转成字节序列，方便传输。
+就像你寄一箱饼干，因为体积太大，就全压成粉末紧紧地一包寄出去，这就是序列化的作用。
+只不过JAVA的序列化是可以完全还原的。
+
+#### Java序列化如果有些字段不想进行序列化，如何处理？
+对于不想进行序列化的变量，使用transient关键字修饰。
+transient关键字的作用是：阻止实例中那些用此关键字修饰的的变量序列化；当对象被反序列化时，被transient修饰的变量值不会被持久化和恢复。transient只能修饰变量，不能修饰类和方法。
+
+### java拷贝
+#### 浅拷贝与深拷贝
+1. 浅拷贝: 只复制一个对象，对象内部存在的指向其他对象数组或者引用则不复制
+2. 深拷贝: 深拷贝：对象，对象内部的引用均复制
+#### 拷贝的几种方法
+1. System.arraycopy（浅拷贝）
+public static native void arraycopy(Object src, int srcPos,Object dest, int destPos,int length);   
+通过源代码我们可以看到，关键字native说明它不是用java语言写的，而是调用其他语言的代码。 
+2. Arrays.copyOf（浅拷贝）
+实际上它调用的就是System.arraycopy.
+3. Object.clone
+clone()比较特殊，对于对象而言，它是深拷贝，但是对于数组而言，它是浅拷贝。
+
 ### 重载和重写的区别
 ### 重载和重写的区别
 ### 重载和重写的区别
