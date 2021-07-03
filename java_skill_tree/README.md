@@ -3,7 +3,7 @@
 -----------
 
 * [Java基础](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#Java基础)
-	* [Java基础](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#Java基础)
+	* [Java基础知识](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#Java基础知识)
 	* [容器](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#容器)
 	* [多线程](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#多线程)
 	* [反射](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#反射)
@@ -47,7 +47,7 @@
 
 # Java基础
 
-## Java基础
+## Java基础知识
 
 ### Java语言的特点
 * 1.面向对象（封装，继承，多态）；
