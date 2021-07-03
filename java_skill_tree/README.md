@@ -3,7 +3,7 @@
 -----------
 
 * [Java基础](https://github.com/0voice/develop_skill_tree/blob/main/README.md#Java基础)
-	* [Java基础知识](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#Java基础知识)
+	* [Java基础知识](https://github.com/0voice/develop_skill_tree/tree/main/java_skill_tree#java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86)
 	* [容器](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#容器)
 	* [多线程](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#多线程)
 	* [反射](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#反射)
