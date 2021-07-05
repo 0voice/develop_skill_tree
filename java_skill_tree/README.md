@@ -4,6 +4,17 @@
 
 * [Java基础](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java基础)
 	* [Java基础知识](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java基础知识)
+		* [Java语言的特点](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java语言的特点)
+		* [面向对象与面向过程对比](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#面向对象与面向过程对比)
+		* [Java平台的三个版本J2EE、J2SE、J2ME](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java平台的三个版本J2EE、J2SE、J2ME)
+		* [JDK、JRE、JVM之间的区别于关系](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#JDK、JRE、JVM之间的区别于关系)
+		* [Java环境变量](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java环境变量)
+		* [javac命令和java命令](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#javac命令和java命令)
+		* [什么是字节码，采用字节码的好处是什么](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#什么是字节码，采用字节码的好处是什么)
+		* [import java和javax有什么区别](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#import java和javax有什么区别)
+		* [Java和C++的区别](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java和C++的区别)
+		* [Java数据类型](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java数据类型)
+		* [多线程与并发](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#多线程)
 	* [多线程与并发](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#多线程)
 	* [反射](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#反射)
 	* [对象拷贝](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#对象拷贝)
@@ -208,7 +219,7 @@
 * 名字与类名相同；
 * 没有返回值，但不能用void声明构造函数；
 * 生成类的对象时自动执行，无需调用。
-#### 构造器 Constructor 是否可被 override
+#### 
 * 在讲继承的时候我们就知道父类的私有属性和构造方法并不能被继承，所以 Constructor 也就不能被 override（重写）,但是可以 overload（重载）,所以你可以看到一个类中有多个构造函数的情况。
 
 ### 成员变量与局部变量的区别有那些
@@ -235,7 +246,7 @@
 ### java引用
 #### java中四种引用
 * 强引用，软引用，弱引用，虚引用。不同的引用类型主要体现在GC上:
-#### 强引用：
+#### 强引用（StrongReference）
 * 如果一个对象具有强引用，它就不会被垃圾回收器回收。即使当前内存空间不足，JVM也不会回收它，而是抛出 OutOfMemoryError 错误，使程序异常终止。如果想中断强引用和某个对象之间的关联，可以显式地将引用赋值为null，这样一来的话，JVM在合适的时间就会回收该对象。
 * 如obj.equels(new Object());
 * 而这样 obj对象对后面new Object的一个强引用，只有当obj这个引用被释放之后，对象才会被释放
@@ -252,7 +263,7 @@
 * 利用软引用和弱引用解决OOM问题：用一个HashMap来保存图片的路径和相应图片对象关联的软引用之间的映射关系，在内存不足时，JVM会自动回收这些缓存图片对象所占用的空间，从而有效地避免了OOM的问题.
 * 通过软引用实现Java对象的高速缓存:比如我们创建了一Person的类，如果每次需要查询一个人的信息,哪怕是几秒中之前刚刚查询过的，都要重新构建一个实例，这将引起大量Person对象的消耗，并且由于这些对象的生命周期相对较短，会引起多次GC影响性能。此时，通过软引用和 HashMap 的结合可以构建高速缓存，提供性能。
 
-### String 和 StringBuffer、StringBuilder
+### String和StringBuffer、StringBuilder
 #### 可变性
 * 简单的来说：String 类中使用 final 关键字字符数组保存字符串，private　final　char　value[]，所以 String 对象是不可变的。而StringBuilder 与 StringBuffer 都继承自 AbstractStringBuilder * 类，在 AbstractStringBuilder 中也是使用字符数组保存字符串char[]value 但是没有用 final 关键字修饰，所以这两种对象都是可变的
 #### 线程安全性
@@ -265,7 +276,7 @@
 * 单线程操作字符串缓冲区下操作大量数据 = StringBuilder
 * 多线程操作字符串缓冲区下操作大量数据 = StringBuffer
 
-### == 与 equals
+### == 与 equals()
 #### == 
 * 它的作用是判断两个对象的地址是不是相等。即，判断两个对象是不是同一个对象。(基本数据类型“= =”比较的是值，引用数据类型 = = 比较的是内存地址).
 #### equals()
@@ -276,14 +287,14 @@
 * String 中的 equals 方法是被重写过的，因为 object 的 equals 方法是比较的对象的内存地址，而 String 的 equals 方法比较的是对象的值。
 * 当创建 String 类型的对象时，虚拟机会在常量池中查找有没有已经存在的值和要创建的值相同的对象，如果有就把它赋给当前引用。如果没有就在常量池中重新创建一个 String 对象。
 
-### hashCode 与 equals
-#### hashCode()介绍
+### hashCode() 与 equals()
+#### hashCode()
 * hashCode() 的作用是获取哈希码，也称为散列码；它实际上是返回一个int整数。这个哈希码的作用是确定该对象在哈希表中的索引位置。hashCode() 定义在JDK的Object.java中，这就意味着Java中的任何类都包含有hashCode() 函数。
 * 散列表存储的是键值对(key-value)，它的特点是：能根据“键”快速的检索出对应的“值”。这其中就利用到了散列码！（可以快速找到所需要的对象）。
-#### 为什么要有 hashCode
+#### 为什么要有 hashCode()
 * 我们以“HashSet 如何检查重复”为例子来说明为什么要有 hashCode：
 * 当你把对象加入 HashSet 时，HashSet 会先计算对象的 hashcode 值来判断对象加入的位置，同时也会与其他已经加入的对象的 hashcode 值作比较，如果没有相符的hashcode，HashSet会假设对象没有重复出现。但是如果发现有相同 hashcode 值的对象，这时会调用 equals（）方法来检查 hashcode 相等的对象是否真的相同。如果两者相同，HashSet 就不会让其加入操作成功。如果不同的话，就会重新散列到其他位置。（摘自我的Java启蒙书《Head fist java》第二版）。这样我们就大大减少了 equals 的次数，相应就大大提高了执行速度。
-#### hashCode（）与equals（）的相关规定
+#### hashCode()与equals()的相关规定
 * 如果两个对象相等，则hashcode一定也是相同的。
 * 两个对象相等,对两个对象分别调用equals方法都返回true。
 * 两个对象有相同的hashcode值，它们也不一定是相等的。
