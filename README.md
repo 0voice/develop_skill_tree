@@ -25,28 +25,28 @@
 ##### 2.1 计算机组成
 
 * [计算机组成剖析](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90.md#计算机组成剖析)
-* [冯·诺依曼计算机结构](https://github.com/0voice/develop_skill_tree/blob/main/README.md#冯·诺依曼计算机结构)
-* [计算机执行指令的工作过程](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机执行指令的工作过程)
-* [指令系统分析](https://github.com/0voice/develop_skill_tree/blob/main/README.md#指令系统分析)
-* [高级语言、汇编语言和机器语言之间的关系](https://github.com/0voice/develop_skill_tree/blob/main/README.md#高级语言、汇编语言和机器语言之间的关系)
-* [计算机算术和逻辑运算方法及其实现](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机算术和逻辑运算方法及其实现)
-* [微处理器和CPU](https://github.com/0voice/develop_skill_tree/blob/main/README.md#微处理器和CPU)
-* [存储系统](https://github.com/0voice/develop_skill_tree/blob/main/README.md#存储系统)
-* [输入输出系统的基本原理和关键技术](https://github.com/0voice/develop_skill_tree/blob/main/README.md#输入输出系统的基本原理和关键技术)
+* [冯·诺依曼计算机结构](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90.md#冯·诺依曼计算机结构)
+* [计算机执行指令的工作过程](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90.md#计算机执行指令的工作过程)
+* [指令系统分析](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90.md#指令系统分析)
+* [高级语言、汇编语言和机器语言之间的关系](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90.md#高级语言、汇编语言和机器语言之间的关系)
+* [计算机算术和逻辑运算方法及其实现](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90.md#计算机算术和逻辑运算方法及其实现)
+* [微处理器和CPU](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90.md#微处理器和CPU)
+* [存储系统](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90.md#存储系统)
+* [输入输出系统的基本原理和关键技术](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90.md#输入输出系统的基本原理和关键技术)
 	
 ##### 2.2 计算机网络
 
-* [网络层次划分](https://github.com/0voice/develop_skill_tree/blob/main/README.md#网络层次划分)
-* [OSI七层网络模型](https://github.com/0voice/develop_skill_tree/blob/main/README.md#OSI七层网络模型)
-* [子网掩码及网络划分](https://github.com/0voice/develop_skill_tree/blob/main/README.md#子网掩码及网络划分)
-* [ARP/RARP协议](https://github.com/0voice/develop_skill_tree/blob/main/README.md#ARP/RARP协议)
-* [路由选择协议](https://github.com/0voice/develop_skill_tree/blob/main/README.md#路由选择协议)
-* [TCP/IP协议](https://github.com/0voice/develop_skill_tree/blob/main/README.md#TCP/IP协议)
-* [UDP协议](https://github.com/0voice/develop_skill_tree/blob/main/README.md#UDP协议)
-* [DNS协议](https://github.com/0voice/develop_skill_tree/blob/main/README.md#DNS协议)
-* [NAT协议](https://github.com/0voice/develop_skill_tree/blob/main/README.md#NAT协议)
-* [DHCP协议](https://github.com/0voice/develop_skill_tree/blob/main/README.md#DHCP协议)
-* [HTTP协议](https://github.com/0voice/develop_skill_tree/blob/main/README.md#HTTP协议)
+* [网络层次划分](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.md#网络层次划分)
+* [OSI七层网络模型](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.md#OSI七层网络模型)
+* [子网掩码及网络划分](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.md#子网掩码及网络划分)
+* [ARP/RARP协议](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.md#ARP/RARP协议)
+* [路由选择协议](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.md#路由选择协议)
+* [TCP/IP协议](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.md#TCP/IP协议)
+* [UDP协议](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.md#UDP协议)
+* [DNS协议](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.md#DNS协议)
+* [NAT协议](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.md#NAT协议)
+* [DHCP协议](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.md#DHCP协议)
+* [HTTP协议](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.md#HTTP协议)
 
 ##### 2.3 数据结构
 
