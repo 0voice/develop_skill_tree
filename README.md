@@ -1,28 +1,28 @@
 <h1>2021年最新整理，名企校招各大岗位的技能树，含技术细节，Java，C/C++，前端，运维，测试，运营岗位。持续更新中...</h1>
 
 -----------
-
+### 1 各软件岗位技能树
 * [各软件岗位技能要求](https://github.com/0voice/develop_skill_tree/blob/main/README.md#)
-	* [Java技能树](https://github.com/0voice/develop_skill_tree/tree/main/java_skill_tree)（正在抓紧更新中）
-	* [大数据技能树](https://github.com/0voice/develop_skill_tree/tree/main/bigdata_skill_tree)
-	* [Python技能树](https://github.com/0voice/develop_skill_tree/tree/main/python_skill_tree)
-	* [iOS技能树](https://github.com/0voice/develop_skill_tree/tree/main/ios_skill_tree)
-	* [Android技能树](https://github.com/0voice/develop_skill_tree/tree/main/android_skill_tree)
-	* [GoLong技能树](https://github.com/0voice/develop_skill_tree/tree/main/golang_skill_tree)
-	* [C++技能树](https://github.com/0voice/develop_skill_tree/tree/main/c++_skill_tree)
-	* [前端技能树](https://github.com/0voice/develop_skill_tree/tree/main/javascript_skill_tree)
-	* [PHP技能树](https://github.com/0voice/develop_skill_tree/tree/main/php_skill_tree)
-	* [Python全栈自动化测试技能树](https://github.com/0voice/develop_skill_tree/tree/main/python_automatic_test_skill_tree)
-	* [运维岗技能树](https://github.com/0voice/develop_skill_tree/tree/main/android_skill_tree)
-	* [C#技能树](https://github.com/0voice/develop_skill_tree/tree/main/c#_skill_tree)
-	* [鸿蒙技能树](https://github.com/0voice/develop_skill_tree/tree/main/android_skill_tree)
+* [Java技能树](https://github.com/0voice/develop_skill_tree/tree/main/java_skill_tree)（正在抓紧更新中）
+* [大数据技能树](https://github.com/0voice/develop_skill_tree/tree/main/bigdata_skill_tree)
+* [Python技能树](https://github.com/0voice/develop_skill_tree/tree/main/python_skill_tree)
+* [iOS技能树](https://github.com/0voice/develop_skill_tree/tree/main/ios_skill_tree)
+* [Android技能树](https://github.com/0voice/develop_skill_tree/tree/main/android_skill_tree)
+* [GoLong技能树](https://github.com/0voice/develop_skill_tree/tree/main/golang_skill_tree)
+* [C++技能树](https://github.com/0voice/develop_skill_tree/tree/main/c++_skill_tree)
+* [前端技能树](https://github.com/0voice/develop_skill_tree/tree/main/javascript_skill_tree)
+* [PHP技能树](https://github.com/0voice/develop_skill_tree/tree/main/php_skill_tree)
+* [Python全栈自动化测试技能树](https://github.com/0voice/develop_skill_tree/tree/main/python_automatic_test_skill_tree)
+* [运维岗技能树](https://github.com/0voice/develop_skill_tree/tree/main/android_skill_tree)
+* [C#技能树](https://github.com/0voice/develop_skill_tree/tree/main/c#_skill_tree)
+* [鸿蒙技能树](https://github.com/0voice/develop_skill_tree/tree/main/android_skill_tree)
 
 <br/>
 <br/>
 
-### 1.1 通用计算机基础
+### 2 通用计算机基础
 
-##### 计算机组成
+##### 2.1 计算机组成
 
 * [计算机组成](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机组成)
 * [计算机组成剖析](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机组成剖析)
