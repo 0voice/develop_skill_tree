@@ -23,7 +23,7 @@
 
 ##### 2.1 计算机组成
 
-* [计算机组成](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机组成)
+* [计算机组成](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90.md#计算机组成)
 * [计算机组成剖析](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机组成剖析)
 * [冯·诺依曼计算机结构](https://github.com/0voice/develop_skill_tree/blob/main/README.md#冯·诺依曼计算机结构)
 * [计算机执行指令的工作过程](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机执行指令的工作过程)
