@@ -3,7 +3,7 @@
 -----------
 
 * [各软件岗位技能要求](https://github.com/0voice/develop_skill_tree/blob/main/README.md#)
-	* [Java技能树](https://github.com/0voice/develop_skill_tree/tree/main/java_skill_tree)（正在抓紧更新中）
+	* [1.1 Java技能树](https://github.com/0voice/develop_skill_tree/tree/main/java_skill_tree)（正在抓紧更新中）
 	* [大数据技能树](https://github.com/0voice/develop_skill_tree/tree/main/bigdata_skill_tree)
 	* [Python技能树](https://github.com/0voice/develop_skill_tree/tree/main/python_skill_tree)
 	* [iOS技能树](https://github.com/0voice/develop_skill_tree/tree/main/ios_skill_tree)
