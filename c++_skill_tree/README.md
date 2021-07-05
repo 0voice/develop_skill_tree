@@ -1,62 +1,54 @@
-<h1>2021年最新整理，名企校招(含技术细节)C++岗位。持续更新中...</h1>
+<h1>2021年最新整理，名企校招(含技术细节)Linux C/C++后台开发岗位。持续更新中...</h1>
 
 -----------
-* [C++后台开发](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [开发基石栏](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-		* [数据结构与算法](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-		* [插入排序](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-		* [快速排序](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-		* [希尔排序](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-		* [桶排序](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-		* [基数排序](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-		* [归并排序](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-		* [字符串匹配KMP算法](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [红黑树](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [B树与B+树](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [布隆过滤器](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [bitmap](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [图论算法](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [设计模式](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [工程管理](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [Linux命令](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-		* [Linux基础命令](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-		* [Linux系统运行时参数命令](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-* [网络编程](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-		* [select,poll,epoll](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [reactor原理与实现](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-		* [reactor多核实现](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [http/https服务器实现](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-		* [reactor多核实现](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [websocket协议](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-		* [reactor多核实现](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-* [网络原理](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [posix API](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [网络协议栈](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)	
-	* [udp](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)	
-	* [quic协议](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)	
-	* [kcp](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)	
-	* [tcp/ip设计](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)	
-	* [tcp/ip定时器与滑动窗口](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)	
-	* [Epoll实现](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)	
-* [基础组件](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [池式组件](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [高性能组件](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [try/catch实现](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [Openssl对称加密与非对称加密](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [定时器方案](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-		* [开源组件](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-		* [红黑树](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-		* [时间轮](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-		* [最小堆](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-		* [分布式定时器](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-* [DPDK](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [DPDK](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [并发DNS处理](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [VPP](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [DPDK虚拟交换机框架OvS](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-* [性能分析](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [性能工具](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [调试库](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [内核跟踪](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	* [火焰图分析与生成](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#)
-	
+
+## 1 精进基石专栏
+
+### 1.1 数据结构与算法
+
+#### 1.1.1 面试必聊的排序与KMP
+
+* 插入排序
+* 插入排序
+* 快速排序
+* 希尔排序
+* 桶排序
+* 基数排序
+* 归并排序
+* 字符串匹配KMP算法
+
+#### 1.1.2 随处可见的红黑树
+
+* 红黑树的应用场景进程调度cfs
+* 内存管理红黑树的数学证明与推导
+* 手撕红黑树的左旋与右旋
+* 红黑树添加的实现与添加三种情况的证明
+* 红黑树删除的实现与删除四种情况的证明
+* 红黑树的线程安全的做法
+* 分析红黑树工程实用的特点
+
+#### 1.1.3 磁盘存储链式的B树与B+树
+
+* 磁盘结构分析与数据存储原理
+* 多叉树的运用以及B树的定义
+* 证明B树插入的两种分裂
+* B树删除的前后借位与节点合并
+* 手撕B树的插入，删除，遍历，查找
+* B+树的定义与实现
+* B+树叶子节点的前后指针
+* B+树的应用场景与实用特点
+* B+树的线程安全做法
+
+#### 1.1.4 海量数据去重的Hash与布隆过滤器，bitmap
+
+* hash的原理与hash函数的实现
+* hash的应用场景
+* 分布式hash的实现原理
+* 海量数据去重布隆过滤器
+* 布隆过滤的数学推导与证明
+
+#### 1.1.5 图论算法，dijkstra，dfs，bfs，动态规划
+
+* 图的构建与需求应用场景
+* dijkstra的实现
+* 经典动态规划问题
