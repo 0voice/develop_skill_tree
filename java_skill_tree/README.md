@@ -38,12 +38,11 @@
 	* [java流](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#java流)
 		* [字节流](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#字节流)
 		* [获取键盘输入](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#获取键盘输入)
-	* [Java Web模块](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java Web模块)
+	* [Java Web模块](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#JavaWeb模块)
 		* [InetAddress](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#InetAddress)
 		* [InetSocketAddress](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#InetSocketAddress)
 		* [Socket和ServerSocket](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Socket和ServerSocket)
 	* [多线程与并发](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#多线程)
-	* [Java Web模块](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#JavaWeb模块)
 	* [网络模块](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#网络模块)
 * [Java容器及底层实现](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java容器及底层实现)
 * [设计模式](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#设计模式)
@@ -453,7 +452,7 @@ BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
 String s = input.readLine(); 
 ```
 
-## Java Web模块
+## JavaWeb模块
 * 
 ### InetAddress
 * 此类表示互联网协议 (IP) 地址。
