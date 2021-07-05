@@ -7,7 +7,7 @@
 		* [Java语言的特点](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java语言的特点)
 		* [面向对象与面向过程对比](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#面向对象与面向过程对比)
 		* [Java平台的三个版本J2EE、J2SE、J2ME](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java平台的三个版本J2EE、J2SE、J2ME)
-		* [JDK、JRE、JVM之间的区别于关系](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java%E5%B9%B3%E5%8F%B0%E7%9A%84%E4%B8%89%E4%B8%AA%E7%89%88%E6%9C%ACJ2EE%E3%80%81J2SE%E3%80%81J2ME)
+		* [JDK、JRE、JVM之间的区别于关系](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#JDK%E3%80%81JRE%E3%80%81JVM之间的区别于关系)
 		* [Java环境变量](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java环境变量)
 		* [javac命令和java命令](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#javac命令和java命令)
 		* [什么是字节码，采用字节码的好处是什么](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#什么是字节码，采用字节码的好处是什么)
