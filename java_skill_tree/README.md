@@ -2,8 +2,8 @@
 
 -----------
 
-* [1 Java基础](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#1 Java基础)
-	* [1.1 Java基础知识](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#1.1 Java基础知识)
+* [1、Java基础](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#1、Java基础)
+	* [1.1、Java基础知识](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#1.1、Java基础知识)
 	* [多线程与并发](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#多线程)
 	* [反射](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#反射)
 	* [对象拷贝](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#对象拷贝)
@@ -74,9 +74,9 @@
 	* [亿级流量微服务电商中台](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#亿级流量微服务电商中台)
 
 
-# 1 Java基础
+# 1、Java基础
 
-## 1.1 Java基础知识
+## 1.1、Java基础知识
 
 ### Java语言的特点
 * 1.面向对象（封装，继承，多态）；
