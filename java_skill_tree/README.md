@@ -23,11 +23,27 @@
 		* [成员变量与局部变量的区别有那些](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#成员变量与局部变量的区别有那些)
 		* [java对象](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#java对象)
 		* [java引用](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#java引用)
+	* [Java异常](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java异常)
+		* [Java异常处理](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java异常处理)
+		* [最常见到的runtime exception与Error](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#最常见到的runtime exception与Error)
+	* [Java反射](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java反射)
+		* [java反射概念](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java反射)
+		* [java反射(Reflection)的底层实现原理](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#java反射(Reflection)的底层实现原理)
+		* [创建反射实例](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#创建反射实例)
+		* [反射中,Class.forName和classloader的区别](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#反射中,Class.forName和classloader的区别)
+		* [序列化与反序列化](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#序列化与反序列化)
+	* [java拷贝](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#java拷贝)
+		* [浅拷贝与深拷贝](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#浅拷贝与深拷贝)
+		* [拷贝的几种方法](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#拷贝的几种方法)
+	* [java流](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#java流)
+		* [字节流](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#字节流)
+		* [获取键盘输入](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#获取键盘输入)
+	* [Java Web模块](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java Web模块)
+		* [InetAddress](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#InetAddress)
+		* [InetSocketAddress](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#InetSocketAddress)
+		* [Socket和ServerSocket](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Socket和ServerSocket)
 	* [多线程与并发](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#多线程)
-	* [反射](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#反射)
-	* [对象拷贝](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#对象拷贝)
 	* [Java Web模块](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#JavaWeb模块)
-	* [异常模块](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#异常模块)
 	* [网络模块](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#网络模块)
 * [Java容器及底层实现](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java容器及底层实现)
 * [设计模式](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#设计模式)
@@ -436,15 +452,6 @@ input.close();
 BufferedReader input = new BufferedReader(new InputStreamReader(System.in)); 
 String s = input.readLine(); 
 ```
-
-## java容器
-Java容器包位置是java.util.*
-Java容器主要可以划分为5个部分：List列表、Set集合、Map映射、queue队列、工具类(Iterator迭代器、Enumeration枚举类、Arrays和Collections)。
-
-
-## 多线程
-* 
-
 
 ## Java Web模块
 * 
