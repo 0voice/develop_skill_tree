@@ -2,7 +2,7 @@
 
 -----------
 
-### 1. 各软件岗位技能树
+### 1 各软件岗位技能树
 * [Java技能树](https://github.com/0voice/develop_skill_tree/tree/main/java_skill_tree)（正在抓紧更新中）
 * [大数据技能树](https://github.com/0voice/develop_skill_tree/tree/main/bigdata_skill_tree)
 * [Python技能树](https://github.com/0voice/develop_skill_tree/tree/main/python_skill_tree)
