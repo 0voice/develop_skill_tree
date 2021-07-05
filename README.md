@@ -13,7 +13,7 @@
 * [前端技树](https://github.com/0voice/develop_skill_tree/tree/main/javascript_skill_tree)
 * [PHP技能树](https://github.com/0voice/develop_skill_tree/tree/main/php_skill_tree)
 * [Python全栈自动化测试技能树](https://github.com/0voice/develop_skill_tree/tree/main/python_automatic_test_skill_tree)
-* [运维岗技能树](https://github.com/0voice/develop_skill_tree/tree/main/android_skill_tree)
+* [运维岗技能树](https://github.com/0voice/develop_skill_tree/tree/main/operation_skill_tree)
 * [C#技能树](https://github.com/0voice/develop_skill_tree/tree/main/c#_skill_tree)
 * [鸿蒙技能树](https://github.com/0voice/develop_skill_tree/blob/main/harmonyos_still_tree)
 
