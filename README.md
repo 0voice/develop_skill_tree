@@ -89,7 +89,7 @@
 * [最小生成树算法](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95.md#最小生成树算法)
 * [最短路径算法](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95.md#最短路径算法)
 
-##### 2.4 设计模式
+##### 2.5 设计模式
 * [创建型模式](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md#创建型模式)
 	* [单例模式](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md#创建型模式)
 	* [原型模式](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md#创建型模式)
@@ -118,6 +118,21 @@
 	* [解释器模式](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md#行为型模式)
 * [实际应用案例](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md#实际应用案例)
 	* [23种设计模式实际应用案例](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md#23种设计模式实际应用案例)
+
+##### 2.6 网络安全
+* [网络安全常识](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8.md#网络安全常识)
+* [web安全前后端基础](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8.md#web安全前后端基础)
+* [信息的扫描与嗅探](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8.md#信息的扫描与嗅探)
+* [病毒知识入门](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8.md#病毒知识入门)
+* [密码攻击的原理和方法](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8.md#密码攻击的原理和方法)
+* [网络代理与追踪技术](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8.md#网络代理与追踪技术)
+* [后门技术](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8.md#后门技术)
+* [网站攻防](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8.md#网站攻防)
+* [端口扫描工具](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8.md#端口扫描工具)
+
+##### 2.7 版本管理工具
+* [Git](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7.md#Git)
+* [SVN](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7.md#SVN)
 
 <br/>
 <br/>
