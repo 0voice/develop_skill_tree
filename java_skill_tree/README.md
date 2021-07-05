@@ -119,7 +119,7 @@
 * JavaME：即Java微型版，主要针对移动设备和嵌入式设备。例如，手机、PDA、电视机顶盒等等。
 * 注：从JDK 5.0开始 J2EE 改名为 java EE，J2SE 改名为 java SE，J2ME 改名成 java ME。
 
-### JDK、JRE、JVM之间的区别于关系
+### JDK%E3%80%81JRE%E3%80%81JVM之间的区别于关系
 * <h6>1.三者之间的区别</h6>
 * JDK：（Java Development Kit）即java的开发与运行环境，他除了包含完整的JRE之外，还包含了供开发者使用的工具包。
 * JRE：（Java Runtime Environment）即Java运行环境，非开发者只需要安装 JRE来运行程序， 它包含java运行的所需的类库+JVM(java虚拟机)。
