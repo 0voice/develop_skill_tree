@@ -2,15 +2,15 @@
 
 -----------
 
-* [1…Java基础](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#1…Java基础)
-	* [1.1Java基础知识](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#1.1Java基础知识)
+* 1 [Java基础](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java基础)
+	* 1.1[Java基础知识](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java基础知识)
 	* [多线程与并发](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#多线程)
 	* [反射](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#反射)
 	* [对象拷贝](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#对象拷贝)
 	* [Java Web模块](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#JavaWeb模块)
 	* [异常模块](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#异常模块)
 	* [网络模块](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#网络模块)
-* [2.Java容器及底层实现](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#2.Java容器及底层实现)
+* [Java容器及底层实现](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java容器及底层实现)
 * [设计模式](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#设计模式)
 	* [23种设计模式](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#23种设计模式)
 * [框架与开源库](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#框架)
