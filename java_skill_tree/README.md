@@ -2,16 +2,16 @@
 
 -----------
 
-* [计算机组成](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机组成)
-	* [计算机组成剖析](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机组成剖析)
-	* [冯·诺依曼计算机结构](https://github.com/0voice/develop_skill_tree/blob/main/README.md#冯·诺依曼计算机结构)
-	* [计算机执行指令的工作过程](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机执行指令的工作过程)
-	* [指令系统分析](https://github.com/0voice/develop_skill_tree/blob/main/README.md#指令系统分析)
-	* [高级语言、汇编语言和机器语言之间的关系](https://github.com/0voice/develop_skill_tree/blob/main/README.md#高级语言、汇编语言和机器语言之间的关系)
-	* [计算机算术和逻辑运算方法及其实现](https://github.com/0voice/develop_skill_tree/blob/main/README.md#计算机算术和逻辑运算方法及其实现)
-	* [微处理器和CPU](https://github.com/0voice/develop_skill_tree/blob/main/README.md#微处理器和CPU)
-	* [存储系统](https://github.com/0voice/develop_skill_tree/blob/main/README.md#存储系统)
-	* [输入输出系统的基本原理和关键技术](https://github.com/0voice/develop_skill_tree/blob/main/README.md#输入输出系统的基本原理和关键技术)
+* [计算机组成](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#计算机组成)
+	* [计算机组成剖析](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#计算机组成剖析)
+	* [冯·诺依曼计算机结构](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#冯·诺依曼计算机结构)
+	* [计算机执行指令的工作过程](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#计算机执行指令的工作过程)
+	* [指令系统分析](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#指令系统分析)
+	* [高级语言、汇编语言和机器语言之间的关系](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#高级语言、汇编语言和机器语言之间的关系)
+	* [计算机算术和逻辑运算方法及其实现](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#计算机算术和逻辑运算方法及其实现)
+	* [微处理器和CPU](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#微处理器和CPU)
+	* [存储系统](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#存储系统)
+	* [输入输出系统的基本原理和关键技术](https://github.com/0voice/develop_skill_tree/edit/main/java_skill_tree/README.md#输入输出系统的基本原理和关键技术)
 
 
 # 计算机组成
