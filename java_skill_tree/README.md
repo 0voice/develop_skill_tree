@@ -2,7 +2,7 @@
 
 -----------
 
-* [1.Java基础](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#1.Java基础)
+* [1.Java基础](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#(1.Java基础))
 	* [1.1Java基础知识](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#1.1Java基础知识)
 	* [多线程与并发](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#多线程)
 	* [反射](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#反射)
