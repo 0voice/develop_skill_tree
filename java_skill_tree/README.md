@@ -25,7 +25,7 @@
 		* [java引用](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#java引用)
 	* [Java异常](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java异常)
 		* [Java异常处理](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java异常处理)
-		* [常见Runtime Exception与Error](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#常见RuntimeException与Error)
+		* [Runtime Exception与Error](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#RuntimeException与Error)
 	* [Java反射](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java反射)
 		* [java反射概念](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java反射)
 		* [java反射(Reflection)的底层实现原理](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#java反射(Reflection)的底层实现原理)
@@ -359,7 +359,7 @@
 * 程序所在的线程死亡。
 * 关闭CPU。
 
-### 常见RuntimeException与Error
+### RuntimeException与Error
 ##### runtime exception
 * NullPointerException （空指针异常）
 * ArrayIndexOutOfBoundsException（数组下标越界）
