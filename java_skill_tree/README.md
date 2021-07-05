@@ -2,15 +2,15 @@
 
 -----------
 
-* [1+Java基础](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#1+Java基础)
-	* [1.1、Java基础知识](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#1.1、Java基础知识)
+* [1.Java基础](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#1.Java基础)
+	* [1.1Java基础知识](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#1.1Java基础知识)
 	* [多线程与并发](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#多线程)
 	* [反射](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#反射)
 	* [对象拷贝](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#对象拷贝)
 	* [Java Web模块](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#JavaWeb模块)
 	* [异常模块](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#异常模块)
 	* [网络模块](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#网络模块)
-* [2 Java容器及底层实现](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#2 Java容器及底层实现)
+* [2.Java容器及底层实现](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#2.Java容器及底层实现)
 * [设计模式](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#设计模式)
 	* [23种设计模式](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#23种设计模式)
 * [框架与开源库](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#框架)
@@ -81,11 +81,11 @@
 	* [易用性测试](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#易用性测试)
 	* [全链路压测](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#全链路压测)
 
-# 1 Java基础
+# 1.Java基础
 
-## 1.1、Java基础知识
+## 1.1Java基础知识
 
-### Java语言的特点
+### 2.Java语言的特点
 * 1.面向对象（封装，继承，多态）；
 * 2.平台无关性（ Java 虚拟机实现平台无关性，一次编译，到处运行）；
 * 3.简单易学（与C语言的面向过程相比，Java的面向对象更接近人的语言习惯）；
