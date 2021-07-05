@@ -11,7 +11,7 @@
 		* [Java环境变量](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java环境变量)
 		* [javac命令和java命令](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#javac命令和java命令)
 		* [什么是字节码，采用字节码的好处是什么](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#什么是字节码，采用字节码的好处是什么)
-		* [import java和javax有什么区别](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#import java和javax有什么区别)
+		* [import java和javax有什么区别](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#importjava和javax有什么区别)
 		* [Java和C++的区别](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java和C++的区别)
 		* [Java数据类型](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java数据类型)
 		* [Java访问修饰符](https://github.com/0voice/develop_skill_tree/blob/main/java_skill_tree/README.md#Java访问修饰符)
@@ -180,7 +180,7 @@
 * 	也就是说编译后的.class文件存储就是字节码*。
 * 	采用字节码的最大好处： 可以实现一次编译到处运行，也就是java的与平台无关性，它依靠不同平台的Java虚拟机将编译后的字节码解释成具体平台上的机器指令执行。
 
-### import java和javax有什么区别
+### importjava和javax有什么区别
 * 刚开始的时候 JavaAPI 所必需的包是 java 开头的包，javax 当时只是扩展 API 包来说使用。然而随着时间的推移，javax 逐渐的扩展成为 Java API 的组成部分。但是，将扩展从 javax 包移动到 java 包将是* 太麻烦了，最终会破坏一堆现有的代码。因此，最终决定 javax 包将成为标准API的一部分。
 * 所以，实际上java和javax没有区别。这都是一个名字。
 
