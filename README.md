@@ -19,11 +19,11 @@
 
 <br/>
 <br/>
+<br/>
 
 ### 2 通用计算机基础
 
 ##### 2.1 计算机组成
-
 * [计算机组成剖析](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90.md#计算机组成剖析)
 * [冯·诺依曼计算机结构](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90.md#冯·诺依曼计算机结构)
 * [计算机执行指令的工作过程](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90.md#计算机执行指令的工作过程)
@@ -35,7 +35,6 @@
 * [输入输出系统的基本原理和关键技术](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90.md#输入输出系统的基本原理和关键技术)
 	
 ##### 2.2 计算机网络
-
 * [网络层次划分](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.md#网络层次划分)
 * [OSI七层网络模型](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.md#OSI七层网络模型)
 * [子网掩码及网络划分](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.md#子网掩码及网络划分)
@@ -49,21 +48,20 @@
 * [HTTP协议](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.md#HTTP协议)
 
 ##### 2.3 数据结构
-
-* [队列](https://github.com/0voice/develop_skill_tree/blob/main/README.md#队列)
-* [集合](https://github.com/0voice/develop_skill_tree/blob/main/README.md#集合)
-* [链表、数组](https://github.com/0voice/develop_skill_tree/blob/main/README.md#链表数组)
-* [字典、关联数组](https://github.com/0voice/develop_skill_tree/blob/main/README.md#字典关联数组)
-* [栈](https://github.com/0voice/develop_skill_tree/blob/main/README.md#栈)
-* [树](https://github.com/0voice/develop_skill_tree/blob/main/README.md#树)
-	* [二叉树](https://github.com/0voice/develop_skill_tree/blob/main/README.md#二叉树)
-	* [完全二叉树](https://github.com/0voice/develop_skill_tree/blob/main/README.md#完全二叉树)
-	* [平衡二叉树](https://github.com/0voice/develop_skill_tree/blob/main/README.md#平衡二叉树)
-	* [二叉查找树（BST）](https://github.com/0voice/develop_skill_tree/blob/main/README.md#二叉查找树bst)
-	* [红黑树](https://github.com/0voice/develop_skill_tree/blob/main/README.md#红黑树)
-	* [B，B+，B*树](https://github.com/0voice/develop_skill_tree/blob/main/README.md#b-bb树)
-	* [LSM 树](https://github.com/0voice/develop_skill_tree/blob/main/README.md#lsm-树)
-* [BitSet](https://github.com/0voice/develop_skill_tree/blob/main/README.md#bitset)
+* [队列](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md#队列)
+* [集合](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md#集合)
+* [链表、数组](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md#链表数组)
+* [字典、关联数组](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md#字典关联数组)
+* [栈](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md#栈)
+* [树](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md#树)
+  * [二叉树](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md#二叉树)
+  * [完全二叉树](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md#完全二叉树)
+  * [平衡二叉树](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md#平衡二叉树)
+  * [二叉查找树（BST）](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md#二叉查找树bst)
+  * [红黑树](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md#红黑树)
+  * [B，B+，B*树](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md#b-bb树)
+  * [LSM 树](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md#lsm-树)
+* [BitSet](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md#bitset)
 
 ##### 2.4 常用算法
 * [排序、查找算法](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95.md#排序查找算法)
