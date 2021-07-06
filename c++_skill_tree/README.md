@@ -514,4 +514,250 @@
   * 数据路由
   * Cache同步
 
+## 5 开源框架
+
+### 5.1 Skynet
+
+#### 5.1.1 Skynet设计原理
+
+* 多核并发编程-多线程，多进程，csp模型，actor模型
+* actor模型实现-lua服务和c服务
+* 消息队列实现
+* actor消息调度
+
+#### 5.1.2 skynet网络层封装以及lua/c接口编程
+
+* skynet reactor网络模型封装
+* socket/socketchannel封装
+* 手撕高性能c服务
+* lua编程以及lua/c接口编程
+
+#### 5.1.3 skynet重要组件以及手撕游戏项目
+
+* 基础接口skynet.send, skynet.call , skynet.response
+* 广播组件multicastd
+* 数据共享组件sharedatad datasheet
+* 手撕万人同时在线游戏
+
+### 5.2 ZeroMQ
+
+#### 5.2.1 消息队列与ZeroMQ的应用
+
+* REQ/REP模型原理分析
+* PUB/SUB模型原理分析
+* PUSH/PULL模型原理分析
+* Router/Dealer模型原理分析
+
+#### 5.2.2 ZeroMQ源码分析:消息模型的实现
+
+* 消息模型
+* 消息传递模式
+* 一消息分帧
+* 一中间层代理
+* 消息丢失处理
+* 
+#### 5.2.3 ZeroMQ源码分析:网络机制与性能分析
+
+* 零拷贝技术
+* 消息高水位标记
+* 无锁队列
+* 可靠性设计
+
+### 5.3 DPDK
+
+#### 5.3.1 DPDK环境与testpmd/l3fwd/skeleton
+
+* DPDK环境参数讲解
+* 多队列网卡的工作原理
+* CPU亲和性
+* Burst数据包的优缺点
+* DPDK轮询模式异步中断，轮询模式，混合中断轮询模式
+* virtio与vhost
+
+#### 5.3.2 DPDK的用户态协议栈实现
+
+* 内核网络接口KNI的实现原理
+* 接收线程/发送线程/KNI线程
+* 内存数据结构rte_mbuf，rte_mempool
+* 端口数据结构rte_kni， rte_kni_conf, rte_kni_ops,rte_eth_conf
+* 协议数据结构rte_ether_hdrrte_ipv4_hdr，rte_udp_hdr
+* 数据处理接口
+* rte_eth_rx_burst,rte_kni_tx_burst,rte_pktmbuf_mtod
+
+#### 5.3.3 千万级流量并发的DNS处理
+
+* udp协议包处理
+dns协议实现配置文件解析数据结构rte_ringtrex数据包性能测试
+
+#### 5.3.4 高性能数据处理框架 VPP
+
+* vpp使用vmxnet3
+* DPDK ACL实现数据过滤
+* vpp web应用
+* vpp基础库VPPInfra
+* 高速查找路由表，CAM表
+
+#### 5.3.5 DPDK的虚拟交换机框架 OvS
+
+* 0vS三大组件ovs-vswitchd，ovsdb-server，openvswitch.ko
+* 0vS报文处理机制
+* 0vS 4种数据路径
+* VXLAN数据协议
+
+
+## 6 Linux内核源码专栏
+
+### 6.1 进程原理
+
+#### 6.1.1 进程原理与运行分析
+
+* task_struct结构数据
+* 进程的生命周期
+* 进程优先级
+* 进程状态迁移
+* 写时复制
+
+#### 6.1.2 全方位剖析调度机制
+
+* 调度器stop/rt/deadline/cfs/idle
+* 调度策略SCHED_RR/SCHED_FIFO
+* smp多核调度
+
+#### 6.1.3 锁与进程间通信
+
+* 自旋锁的实现
+* 互斥锁的实现
+* 大内核锁BKL-Big Kernel Lock
+* 消息队列
+* 共享内存
+
+### 6.2 内存管理
+
+#### 6.2.1 内存原理与内存杂乱繁多的细节
+
+* uma与numa的内存结构
+* tlb的工作原理
+* mm_struct结构体
+* 页表与缺页异常
+* 高速缓存
+
+#### 6.2.2 物理内存与虚拟内存管理
+
+* 分配器原理
+* slab/slub/slob分配器
+* 不连续页原理
+* 内存映射
+* 伙伴算法
+
+#### 6.2.3 虚拟内存及API调用
+
+* 进程内存映射
+* 进程堆栈管理
+* 用户空间与内核空间
+* 系统调用kmalloc/vmalloc
+
+### 6.3 文件系统
+
+#### 6.3.1 虚拟文件系统
+
+* 通用文件模型
+* VFS结构
+* 文件操作系统调用
+* file/inode原理
+
+#### 6.3.2 无持久存储的文件系统
+
+* 文件系统数据结构
+* 管理/proc数据项
+* 系统控制机制
+* sysfs数据结构
+* 挂载文件系统
+* 文件目录操作
+* sysfs增加数据
+
+#### 6.3.3 磁盘文件系统
+
+* Ext2文件系统
+* Ext3文件系统
+* Ext4文件系统
+
+#### 6.3.4 用户态文件系统fuse
+
+* fuse使用场景fuse原理
+* fuse实现
+* 用户态文件接口实现
+
+### 6.4 设备驱动
+
+#### 6.4.1 实现进程间通信组件
+
+* file_operation原理
+* 系统调用的流程
+* ioctl流程
+* 请求中断
+
+#### 6.4.2 块设备运行原理
+
+* 资源管理
+* I/0调度
+* BI0结构原理
+* PCI总线原理
+
+#### 6.4.3 虚拟网络适配器的实现
+
+* 网络结构体 net_device/net_device_ops
+* sk_buff原理
+* 网卡数据中断
+* 网卡mmap
+
+## 7 性能分析专栏
+
+#### 7.1 性能工具
+
+* 高性能代码构建系统 tundra
+* Http压测工具 WRK
+* 网站压测工具 webbench
+
+#### 7.2 调试库
+
+* 内存调试性能分析工具 Valgrind
+* 谷歌C++测试框架 GoogleTest
+* 内存分配跟踪库 MemTrack
+
+#### 7.3 内核跟踪与火焰图分析
+
+* 内核探测SystemTap
+* 火焰图分析与生成
+
+
+## 8 分布式架构专栏
+
+### 8.1 架构实战
+
+#### 8.1.1 腾讯微服务RPC框架Tars
+
+* Tars微服务应用场景
+* RPC协议的序列化与反序列化
+* 路由管理Registry
+* 服务发布管理 Patch
+* 分布式MySQL与分布式Cache
+* 服务发现与服务治理解决方案
+
+#### 8.1.2 容器化Docker与容器编排
+
+* Docker镜像管理
+* 镜像元数据管理与存储驱动
+* 网络管理与GRE实现跨网络通信
+* Docker容器安全解决方案SElinux
+* Dockerfile的容器构建
+* 编排三剑客Fig/Compose/Swarm
+* 编排小神器Fleet
+* Flynn体系架构与实现原理
+
+#### 8.1.3 容器化管理 k8s与核心组件
+
+* k8s使用场景
+* k8s核心组件APIServer，scheduler，controller manager,kubelet，kube-proxy
+* 网络核心原理单pod单ip,pod和网络容器
+* 用户认证与namespace设计
 
