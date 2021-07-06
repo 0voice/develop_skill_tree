@@ -8,11 +8,11 @@
 
 #### 1.1.1 HarmonyOS基础
 
-HarmonyOS介绍与系统架构
-开发环境搭建:DevEco Studio与DevEco Device Tool
-应用配置与资源文件
-XML布局与加载
-创建第二个页面与跳转
+* HarmonyOS介绍与系统架构
+* 开发环境搭建:DevEco Studio与DevEco Device Tool
+* 应用配置与资源文件
+* XML布局与加载
+* 创建第二个页面与跳转
 
 ### 1.2 HarmonyOS APP开发
 
@@ -20,17 +20,17 @@ XML布局与加载
 
 ##### 1.2.1.1 Page Ability(Activity)
 
-Page 与 AbilitySlice(Activity与Fragment)
-Page与AbilitySlice生命周期
-AbilitySlice路由与导航（切换Fragment )使用Intent完成页面跳转
-使用IAbilitycontinuation实现Page跨设备迁移
+* Page与AbilitySlice(Activity与Fragment)
+* Page与AbilitySlice生命周期
+* AbilitySlice路由与导航(切换Fragment)使用Intent完成页面跳转
+* 使用IAbilitycontinuation实现Page跨设备迁移
 
 ##### 1.2.1.2 Service Ability(Service)
 
-服务的创建与生命周期
-前台服务与后台服务
-启动本地服务与启动远程设备服务
-Service通信
+* 服务的创建与生命周期
+* 前台服务与后台服务
+* 启动本地服务与启动远程设备服务
+* Service通信
 
 ##### 1.2.1.3 Data Ability(content Provider)
 
@@ -79,7 +79,6 @@ Service通信
   * 并发任务分发器ParallelTaskDispatcher
   * 串行任务分发器SerialTaskDispatcher
   * 专有任务分发器SpecTaskDispatcher、UITaskDispatcher与MainTaskDispatcher
-
 * 线程通信EventHandler机制
   * EventHandler机制
 
