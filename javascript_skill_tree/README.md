@@ -38,59 +38,102 @@ TS实战:汽车对象派生类设计实例
 
 ### 2.1 Vue全家桶
 
-常用指令新特性生命周期组件路由&动画vuex Axios脚手架配置:webpack入口起点/输出/加载器/模块解析/热替换实例详解:全选功能购物车分页功能穿梭框组件定义
-多项选择框等
+* 常用指令
+* 新特性
+* 生命周期
+* 组件路由&动画
+* vuex 
+* Axios
+* 脚手架配置:webpack入口起点/输出/加载器/模块解析/热替换
+* 实例详解:全选功能 购物车 分页功能 穿梭框组件定义
+* 多项选择框等
 
 ### 2.2 电商APP项目
 
-vue-cli4脚手架的搭建vue.config.js配置首页及组件的定义路由的定义及参数的传递图片懒加载前后数据交互
-vuex各模块数据共享
-实现:京东淘宝天猫美团一号店
+* vue-cli4脚手架的搭建
+* vue.config.js配置
+* 首页及组件的定义
+* 路由的定义及参数的传递
+* 图片懒加载
+* 前后数据交互
+* vuex各模块数据共享
+* 实现:京东 淘宝 天猫 美团 一号店
 
 ### 2.3 Vue+ElementU企业级项目实战
 
-涉及:项目结构分配模块定义组件封装调用 AXIOS封装路由拦截cookie理解token权限路由权限管理动态路由打包部署vuex状态管理
-ui框架: ElementUl
-登录页:表单校验数据交互首页:数字滚动展示图表展示贷款申请页:数据收集及提交
-申请管理页:数据查询数据展示编辑删除分页贷款审批:初审终审页展示搜索
-标的管理:列表展示数据下载权限管理:注册用户信息权限分配
-公共封装:全局组件定义 filters全局封装axios二次封装公共函数定义公共数据封装elementui组件二次封装导航权限:根据不同用户登录信息展示不同权限
-实现:后台管理系统信息管理平台审核系统权限管理系统Vue项目打包(hash/ history)各终端访问apk打包配置
-子域名访问多环境打包(开发上线)大文件拆分 Gzip压缩深剖脚手架配置理解Cookie+token (JWT)
+* 涉及:项目结构分配 模块定义 组件封装调用 AXIOS封装 路由拦截 cookie理解 token权限 路由权限管理 动态路由 打包部署 vuex状态管理
+* ui框架: ElementUl
+* 登录页:表单校验数据交互
+* 首页:数字滚动展示图表展示
+* 贷款申请页:数据收集及提交
+* 申请管理页:数据查询数据展示编辑删除分页
+* 贷款审批:初审终审页展示搜索
+* 标的管理:列表展示数据下载
+* 权限管理:注册用户信息权限分配
+* 公共封装:全局组件定义 filters全局封装axios二次封装
+* 公共函数定义 公共数据封装 elementui组件二次封装
+* 导航权限:根据不同用户登录信息展示不同权限
+* 实现:后台管理系统 信息管理平台 审核系统 权限管理系统
+* Vue项目打包(hash/ history) 各终端访问 apk打包 配置
+* 子域名访问 多环境打包 (开发上线) 大文件拆分 Gzip压缩
+* 深剖脚手架配置 理解Cookie+token (JWT)
 
 ### 2.4 Vue3+TS
 
-Vue3新特性vue3与vue2异同各特性理解及运用
-TS的引入请求封装组件封装vuex模块定义异步处理数据渲染泛型类型推导
-Vue3+TS实战
+* Vue3新特性
+* vue3与vue2异同各特性理解及运用
+* TS的引入 请求封装 组件封装
+* vuex模块定义 异步处理 数据渲染
+* 泛型 类型推导
+* Vue3+TS实战
 
 ### 2.5 React全家桶
 
-虚拟DOM React三大属性(state props refs) React组件脚手架路由 redux React-hooks axios脚手架配置
+* 虚拟DOM
+* React三大属性(state props refs)
+* React组件
+* 脚手架 路由 redux React-hooks axios 脚手架配置
 
 ### 2.6 React阿里hello单车后台管理项目
 
-React全家桶React+antd+redux+React-hooks+React-routerU框架:Ant Design
-主页面架构分析Antd ui各个组件使用基础表格高级表格的使用单车业务之城市管理模块单车业务之订单管理模块项目工程化公共机制封装车辆地图模块开发
-权限设置模块开发路由守卫的实现
+* React全家桶React+antd+redux+React-hooks+React-router
+* UI框架:Ant Design
+* 主页面架构分析
+* Antd ui各个组件使用
+* 基础表格高级表格的使用
+* 单车业务之城市管理模块
+* 单车业务之订单管理模块
+* 项目工程化 公共机制封装
+* 车辆地图模块开发
+* 权限设置模块开发
+* 路由守卫的实现
 
 ### 2.7 nodeJS
 
-node的模块化与npm包管理工具、使用connect搭建web服务操作数据库、使用mysql关系型数据库或mongodb非关系数据库express数据接口定义、服务端文件读写操作
-常用技术项目创建nodeman,模板引擎handlebarsorm中间件用于操作数据库mongodb/ mysql从底层原理分析路由机制
-项目创建编写控制器服务模板渲染常用中间件开发及应用
-核心功能多环境开发部署HttpClient Cookie&Session
+* node的模块化与npm包管理工具、使用connect搭建web服务
+* 操作数据库、使用mysql关系型数据库或mongodb非关系数据库
+* express数据接口定义、服务端文件读写操作
+* 常用技术项目创建nodeman,模板引擎handlebars
+* orm中间件 用于操作数据库mongodb/mysql
+* 从底层原理分析路由机制
+* 项目创建 编写控制器 服务 模板渲染
+* 常用中间件开发及应用
+* 核心功能 多环境开发部署 HttpClient Cookie&Session
 
 ### 2.8 nodeJS全枝
 
-技术栈: node+express+sequelize+nodeman+mysql登录接口获取用户信息接口定义
-拦截器权限过滤分页查询接口定义数据的增删改查 nodemon
+* 技术栈: node+express+sequelize+nodeman+mysql
+* 登录接口 获取用户信息接口定义
+* 拦截器 权限过滤 分页查询接口定义
+* 数据的增删改查 nodemon
 
 ### 2.9 uniapp混合APP开发
 
-uniapp音乐APP项目实战环境搭建项目启动
-发现模块视频模块我的模块云村账号模块
-首页推荐模糊查询推荐歌单音乐播放最近播放我的收藏app项目打包各终端访问 apk打包
+* uniapp音乐APP项目实战
+* 环境搭建项目启动
+* 发现模块 视频模块 我的模块 云村 账号模块
+* 首页推荐 模糊查询 推荐歌单 音乐播放 最近播放 我的收藏
+* app项目打包 各终端访问 apk打包
 
 ## 3 工程化&前端安全
 
