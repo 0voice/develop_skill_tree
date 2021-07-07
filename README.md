@@ -4,7 +4,7 @@
 
 ### 一、软件岗位技能树
 * [C++技能树](https://github.com/0voice/develop_skill_tree/blob/main/README.md#C++技能树)
-* [GoLong技能树](https://github.com/0voice/develop_skill_tree/blob/main/README.md#GoLong技能树)
+* [GoLong技能树](https://github.com/0voice/develop_skill_tree/blob/main/README.md#GoLang后台云原生)
 * [Java技能树](https://github.com/0voice/develop_skill_tree/tree/main/java_skill_tree)（正在抓紧更新中）
 * [大数据技能树](https://github.com/0voice/develop_skill_tree/tree/main/bigdata_skill_tree)
 * [Python技能树](https://github.com/0voice/develop_skill_tree/tree/main/python_skill_tree)
