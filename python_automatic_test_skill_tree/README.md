@@ -366,82 +366,82 @@
 
 ##### 4.3.4 volatile
 
-原子性
-可见性
-禁止重排序
-实现机制
+* 原子性
+* 可见性
+* 禁止重排序
+* 实现机制
 
 #### 4.4 线程池
 
 ##### 4.4.1 Executors
 
-newCachedThreadPool
-newFixedThreadPool
-newScheduledThreadPool
-newSingleThreadExecutor
+* newCachedThreadPool
+* newFixedThreadPool
+* newScheduledThreadPool
+* newSingleThreadExecutor
 
 ##### 4.4.2 ThreadPoolExecutor
 
-构造参数含义
-任务提交
-任务执行
-线程池调优
-线程池监控
-底层原理实现
+* 构造参数含义
+* 任务提交
+* 任务执行
+* 线程池调优
+* 线程池监控
+* 底层原理实现
 
 ##### 4.4.3 ScheduledThreadPoolExecutor
 
-构造参数含义
-底层原理实现
-日常开发注意问题
+* 构造参数含义
+* 底层原理实现
+* 日常开发注意问题
 
 ##### 4.4.4 Future
 
-异步计算
-FutureTask
-内部基于AQS实现
+* 异步计算
+* FutureTask
+* 内部基于AQS实现
 
 ##### 4.4.5 线程间通信
 
-内存共享
-线程之间共享程序的公共状态,通过读和写内存中的公共状态进行隐式通信
-线程之间必须通过发送消息来现实进行通信
+* 内存共享
+* 线程之间共享程序的公共状态,通过读和写内存中的公共状态进行隐式通信
+* 线程之间必须通过发送消息来现实进行通信
 
 #### 4.5 并发集合
 
-ConcurrentHashMap原理、源码、实战详解
-ConcurrentLinkedQueue原理、源码、实战详解
-ConcurrentSkipListMap原理、源码、实战详解
-ConcurrentSkipListSet原理、源码、实战详解
-ArrayList、LinkedList与CopyOnWriteArrayList详解
-HashMap与ConcurrentHashMap源码剖析
-Set与CopyOnWriteArraySet详解
+* ConcurrentHashMap原理、源码、实战详解
+* ConcurrentLinkedQueue原理、源码、实战详解
+* ConcurrentSkipListMap原理、源码、实战详解
+* ConcurrentSkipListSet原理、源码、实战详解
+* ArrayList、LinkedList与CopyOnWriteArrayList详解
+* HashMap与ConcurrentHashMap源码剖析
+* Set与CopyOnWriteArraySet详解
 
 #### 4.6 原子操作
 
 ##### 4.6.1 基本类型
 
-AtomicInteger:原子更新整形类型
-AtomicLong:原子更新长整型类型
-AtomicBoolean:原子更新boolean类型
+* AtomicInteger:原子更新整形类型
+* AtomicLong:原子更新长整型类型
+* AtomicBoolean:原子更新boolean类型
 
 ##### 4.6.2 数组
 
-AtomicIntegerArray:原子更新整形数组里的元素
-AtomicLongArray:原子更新长整型数组里的元素
-AtomicReferenceArray:原子更新引用类似数组里的元素
+* AtomicIntegerArray:原子更新整形数组里的元素
+* AtomicLongArray:原子更新长整型数组里的元素
+* AtomicReferenceArray:原子更新引用类似数组里的元素
 
 ##### 4.6.3 引用类型
 
-AomicRefernce:原子更新引用类型
-AtomicReferenceFieldUpdater:原子更新引用类型里的字段
-AtomicMarkableReference:原子更新带有标记为的引用类型
+* AomicRefernce:原子更新引用类型
+* AtomicReferenceFieldUpdater:原子更新引用类型里的字段
+* AtomicMarkableReference:原子更新带有标记为的引用类型
 
 ##### 4.6.4 字段类型
 
-AtomicIntegerFieldUpdater:原子更新整形的字段的更新器
-AtomicLongFieldUpdater:原子更新长整型字段的更新器
-AtomicStampedReference:原子更新电邮版本号的引用类型
+* AtomicIntegerFieldUpdater:原子更新整形的字段的更新器
+* AtomicLongFieldUpdater:原子更新长整型字段的更新器
+* AtomicStampedReference:原子更新电邮版本号的引用类型
 
 ### 5 框架源码专题
 
@@ -452,302 +452,270 @@ AtomicStampedReference:原子更新电邮版本号的引用类型
 * 整体认知spring 体系结构
 * 理解Spring IOC 容器设计原理
 * 掌握Bean生命周期
-* 初始化InitializingBean/@PostConstruct
-* Bean的后置处理器BeanPostProcessor源码分析
-* 销毁DisposableBean/@PreDestroy
+ * 初始化InitializingBean/@PostConstruct
+ * Bean的后置处理器BeanPostProcessor源码分析
+ * 销毁DisposableBean/@PreDestroy
 * Spring Context 装载过程源码分析
-* BeanFactoryPostProcessor源码分析
-* BeanDefinitionRegistryPostProcessor源码分析
+ * BeanFactoryPostProcessor源码分析
+ * BeanDefinitionRegistryPostProcessor源码分析
 * Spring IOC 循环依赖问题源码深度剖析
 * Factorybean与Beanfactory区别
 
-##### 3.1.2 Spring Aop源码剖析
+##### 5.1.2 Spring Aop源码剖析
 
-掌握Spring AOP 编程概念
-AOP注解编程
-@EnableAspectJAutoProxy
-@Before/@After/@AfterReturning/@AfterThrowing/@Around
-@Pointcut
-基于Spring AOP 实现应用插件机制
-Spring  AOP源码分析
-ProxyFactory源码解析
-AOP代理源码解析
-拦截器链与织入源码解析
-Spring事务控制与底层源码分析
-@EnableTransactionManagement源码剖析
-@Transactional源码剖析
+* 掌握Spring AOP 编程概念
+* AOP注解编程
+ * @EnableAspectJAutoProxy
+ * @Before/@After/@AfterReturning/@AfterThrowing/@Around
+ * @Pointcut
+* 基于Spring AOP 实现应用插件机制
+* Spring AOP源码分析
+ * ProxyFactory源码解析
+ * AOP代理源码解析
+ * 拦截器链与织入源码解析
+* Spring事务控制与底层源码分析
+ * @EnableTransactionManagement源码剖析
+ * @Transactional源码剖析
 
-##### 3.1.3 Spring MVC源码剖析
+##### 5.1.3 Spring MVC源码剖析
 
-理解MVC设计思想
-从DispatchServlet 出发讲述MVC体系结构组成
-基于示例展开DispatchServlet 核心类结构
-MVC初始化及执行流程源码深度解析
-RequestMaping源码实现解析
-熟悉MVC组件体系
-映射器原理实现
-执行适配器原理实现
-视图解析器原理实现
-异常捕捉器原理实现
+* 理解MVC设计思想
+* 从DispatchServlet 出发讲述MVC体系结构组成
+* 基于示例展开DispatchServlet 核心类结构
+* MVC初始化及执行流程源码深度解析
+* RequestMaping源码实现解析
+* 熟悉MVC组件体系
+ * 映射器原理实现
+ * 执行适配器原理实现
+ * 视图解析器原理实现
+ * 异常捕捉器原理实现
 
-##### 3.1.4 Spring注解式开发
+##### 5.1.4 Spring注解式开发
 
-@Bean/@ComponentScan/@Configuration/@Conditional
-@Component/@Service@/Controller/@Repository
-@Lazy/@Scope/@Import/@Value/@Profile
-@Autowired/@Resources/@Inject
+* @Bean/@ComponentScan/@Configuration/@Conditional
+* @Component/@Service@/Controller/@Repository
+* @Lazy/@Scope/@Import/@Value/@Profile
+* @Autowired/@Resources/@Inject
 
-##### 3.1.5 Spring 5新特性
+##### 5.1.5 Spring 5新特性
 
-新特性详解
-响应式编程模型
-函数式风格的ApplicationContext
-Kotlin表达式的支持
-SpringWebFlux模块讲解
+* 新特性详解
+* 响应式编程模型
+* 函数式风格的ApplicationContext
+* Kotlin表达式的支持
+* SpringWebFlux模块讲解
 
-##### 3.1.6 Spring Security原理与源码剖析
+##### 5.1.6 Spring Security原理与源码剖析
 
-快速入门与高级应用
-核心安全过滤器源码剖析
-会话管理源码剖析
-命名空间配置源码剖析
-授权体系结构源码剖析
-Outh1.0与Outh2.0协议详解
+* 快速入门与高级应用
+* 核心安全过滤器源码剖析
+* 会话管理源码剖析
+* 命名空间配置源码剖析
+* 授权体系结构源码剖析
+* Outh1.0与Outh2.0协议详解
 
-##### 3.1.7 Spring Webflux详解
+##### 5.1.7 Spring Webflux详解
 
-Webflux快速入门
-响应式编程实战
-JDK响应式流编程实战
-Reactive Stream 响应式流详解
-Webflux服务端开发详解
-Webflux客户端声明式rest client框架开发讲解
+* Webflux快速入门
+* 响应式编程实战
+* JDK响应式流编程实战
+* Reactive Stream 响应式流详解
+* Webflux服务端开发详解
+* Webflux客户端声明式rest client框架开发讲解
 
+#### 5.2 ORM框架MyBatis
 
-#### 3.2 ORM框架MyBatis
+##### 5.2.1 MyBatis快速掌握
 
-##### 3.2.1 MyBatis快速掌握
+* MyBatis、Hibernate及传统JDBC对比
+* Mybatis全局参数详解
+* 详解configuration 、properties、 settings、 typeAliases、 mapper
+* 掌握xml和annotations和Criteria差异
 
-MyBatis、Hibernate及传统JDBC对比
-Mybatis全局参数详解
-详解configuration 、properties、 settings、 typeAliases、 mapper
-掌握xml和annotations和Criteria差异
+##### 5.2.2 Mybatis源码分析
 
-##### 3.2.2 Mybatis源码分析
+* 整体认识mybatis源码结构
+* Mybatis核心应用配置与原理解析
+* Spring与MyBatis集成源码剖析
+* Configuration、Mapper、SqlSession、Executor源码解析
 
-整体认识mybatis源码结构
-Mybatis核心应用配置与原理解析
-Spring与MyBatis集成源码剖析
-Configuration、Mapper、SqlSession、Executor源码解析
+##### 5.2.3 Mybatis徒手实现
 
-##### 3.2.3 Mybatis徒手实现
+* 熟悉MyBatis内部运行机制
+* 熟悉MyBatis初始化过程
+* 源码debug一行行详细讲解
+* MyBatis二级缓存应用
+* 手写实现一套mybatis框架
 
-熟悉MyBatis内部运行机制
-熟悉MyBatis初始化过程
-源码debug一行行详细讲解
-MyBatis二级缓存应用
-手写实现一套mybatis框架
+### 6 分布式框架专题
 
-### 4 源码中的优秀设计模式
+#### 6.1 分布式消息中间件
 
-#### 4.1 设计原则
+##### 6.1.1 Rabbitmq
 
-开闭、单一职责及里氏替换原则
-依赖倒置、接口隔离、合成复用原则
-迪米特法则
+* RabbitMq概述与集群高可用环境搭建
+* RabbitMq工作模式深度详解
+* RabbitMq路由机制与镜像机制
+* RabbitMq消息防丢失与削峰限流
+* 死信队列与延时队列详解
+* 消息防重复消费与消息积压快速处理
+* RabbitMq与Spring、Springboot整合
 
-#### 4.2 创建型模式
+##### 6.1.2 RocketMq
 
-工厂方法、抽象工厂及单例模式
-建造者与原型模式
+* 解密RocketMq集群部署与快速入门
+* 深入分析RocketMq模块划分与集群原理讲解
+* 详解普通消息、顺序消息、事务消息、定时消息
+* 深入RocketMq Broker、Consumer、Producer源码剖析
+* 详解RocketMq监控与运维
+* 企业实战RocketMq消息中间件API架构开发
 
-#### 4.3 结构型模式
+##### 6.1.3 Kafka
 
-适配器、装饰器及代理模式
-外观、桥接、组合及享元模式
+* Kafka发展介绍与对比
+* Kafka集群搭建与使用
+* Kafka副本机制与选举原理详解
+* Kafka架构设计原理分析
+* 基于Kafka的大规模日志系统实现原理分析
+* 亿级流量生产系统Kafka性能优化最佳实践
 
-#### 4.4 行为型模式
+#### 6.2 分布式储存中间件
 
-模板方法、策略及观察者模式
-迭代器、责任链、命令及中介者模式
-备忘录、状态、访问者及解释器模式
+##### 6.2.1 Redis
 
-#### 4.5 设计模式对比及应用场景
+* Redis核心数据结构剖析
+* Redis在微博，微信及电商场景典型应用实践
+* Redis持久化机制与安全机制详解
+* Redis主从及哨兵架构详解
+* Redis Cluster集群架构实战及原理剖析
+* 集群数据分片算法及动态水平扩容详解
+* Jedis、Redisson客户端源码剖析
+* Redis高并发分布式锁实战
+* Redis缓存穿透，缓存失效，缓存雪崩实战解析
+* Redis布隆过滤器实现
+* Redis缓存设计与性能优化
 
-线程池的单例模式实现
-电商优惠促销策略模式实现
-AOP底层代理模式实现
-RedisTemplate、JdbcTemplate模板模式实现
-Zookeeper监听器观察者模式实现
-微服务网关鉴权责任链模式实现
-多级缓存架构装饰器模式实现
+##### 6.2.2 MongoDB
 
-### 5 分布式框架专题
+* MongoDB基础概念数据库、集合、索引及文档详解
+* MongoDB高可用集群搭建实战
+* MongoDB性能优化最佳实践
 
-#### 5.1 分布式消息中间件
+##### 6.2.3 FastDFS
 
-##### 5.1.1 Rabbitmq
+* FastDFS应用背景和原理介绍
+* FastDFS文件存储项目实战
+* FastDFS分布式部署实战
 
-RabbitMq概述与集群高可用环境搭建
-RabbitMq工作模式深度详解
-RabbitMq路由机制与镜像机制
-RabbitMq消息防丢失与削峰限流
-死信队列与延时队列详解
-消息防重复消费与消息积压快速处理
-RabbitMq与Spring、Springboot整合
+##### 6.2.4 Elasticsearch
 
-##### 5.1.2 RocketMq
+* ElasticSearch快速入门实战与底层原理剖析
+* DSL高级语法与高可用架构实战
+* ElasticSearch集群架构原理与源码剖析
+* ElasticSearch数据建模与性能调优
+* ELK、FileBeat企业级架构与面试剖析
+* 亿级流量电商系统搜索实战
 
-解密RocketMq集群部署与快速入门
-深入分析RocketMq模块划分与集群原理讲解
-详解普通消息、顺序消息、事务消息、定时消息
-深入RocketMq Broker、Consumer、Producer源码剖析
-详解RocketMq监控与运维
-企业实战RocketMq消息中间件API架构开发
+#### 6.3 分布式框架
 
-##### 5.1.3 Kafka
+##### 6.3.1 Zookeeper
 
-Kafka发展介绍与对比
-Kafka集群搭建与使用
-Kafka副本机制与选举原理详解
-Kafka架构设计原理分析
-基于Kafka的大规模日志系统实现原理分析
-亿级流量生产系统Kafka性能优化最佳实践
+* Zookeeper快速入门
+* Zookeeper多节点集群部署实战
+* Zookeeper典型应用场景实战
+ * 服务注册与订阅
+ * 分布式配置中心
+ * 分布式锁
+* Zookeeper中znode、watcher、ACL、客户端API详解
+* Zookeeper客户端服务端源码剖析
+* Zookeeper集群leader选举源码剖析
+* Zookeeper集群ZAB协议源码剖析
+* Zookeeper迁移、扩容、监控详解
 
-#### 5.2 分布式储存中间件
+##### 6.3.2 Dubbo
 
-##### 5.2.1 Redis
+* Dubbo框架介绍与手写模拟Dubbo
+* Dubbo的基本应用与高级应用
+* Spring与Dubbo整合原理与源码分析
+* Dubbo的可扩展机制SPI源码解析
+* Dubbo容错机制与高扩展性分析
+* Dubbo RPC协议底层原理与实现
+* Dubbo服务导出源码解析
+* Dubbo服务引入源码解析
+* Dubbo服务调用源码解析
+* Dubbo负载均衡源码解析
 
-Redis核心数据结构剖析
-Redis在微博，微信及电商场景典型应用实践
-Redis持久化机制与安全机制详解
-Redis主从及哨兵架构详解
-Redis Cluster集群架构实战及原理剖析
-集群数据分片算法及动态水平扩容详解
-Jedis、Redisson客户端源码剖析
-Redis高并发分布式锁实战
-Redis缓存穿透，缓存失效，缓存雪崩实战解析
-Redis布隆过滤器实现
-Redis缓存设计与性能优化
+##### 6.3.3 ShardingSphere
 
-##### 5.2.2 MongoDB
+* 数据读写分离及分库分表场景详解
+* 常见数据分片算法hash、list、range、tag详解
+* 常见数据库中间件Mycat和ShardingSphere对比
+* 解密Sharding-jdbc核心概念与快速开始
+* 深入Sharding-jdbc特性详解与模块划分
+* 实战订单交易中orders和ordersItem分库分表开发
+* 深入Sharding-jdbc源码之sql解析、sql路由、sql改写、sql执行、结果合并
 
-MongoDB基础概念数据库、集合、索引及文档详解
-MongoDB高可用集群搭建实战
-MongoDB性能优化最佳实践
+##### 6.3.4 Netty
 
-##### 5.2.3 FastDFS
+* 网络与IO模型基础进阶
+ * HTTP请求与响应格式详解
+ * HTTP重定向与转发详解
+ * Cookie机制详解
+ * HTTP缓存控制与代理服务详解
+ * HTTPS 与 SSL/TLS详解
+ * 对称加密与非对称加密、数字签名与证书详解
+ * 七层网络协议详解
+ * ТСР协议与流量控制详解
+ * TCP协议可靠性是如何保障的
+ * Socket与文件描述符详解
+ * Socket与Tcp协议、Http协议的关系
+ * Socket底层实现原理详解 
+* BIO、NIO及AIO线程模型详解
+* Netty线程模型及源码剖析
+* 高性能序列化协议protobuf及源码分析
+* 粘包拆包现象及解决方案、编解码器源码分析
+* Netty心跳机制源码剖析
+* 直接内存与Netty零拷贝详解
+* Netty之Http协议开发应用实战（仿斗鱼弹幕系统实现）
+* Netty之WebSocket协议开发应用实战（贪吃蛇多人联机网游实现）
 
-FastDFS应用背景和原理介绍
-FastDFS文件存储项目实战
-FastDFS分布式部署实战
+#### 6.4 微服务系列专题
 
-##### 5.2.4 Elasticsearch
+##### 6.4.1 微服务架构变迁史
 
-ElasticSearch快速入门实战与底层原理剖析
-DSL高级语法与高可用架构实战
-ElasticSearch集群架构原理与源码剖析
-ElasticSearch数据建模与性能调优
-ELK、FileBeat企业级架构与面试剖析
-亿级流量电商系统搜索实战
+* 淘宝电商微服务架构变迁史
+* 京东电商微服务架构变迁史
 
-#### 5.3 分布式框架
+##### 6.4.2 Spring Boot详解及源码剖析
 
-##### 5.3.1 Zookeeper
+* Spring boot 快速开始及核心配置详解
+* Spring boot 部署方式及热部署详解
+* Web开发模板引擎Thymeleaf及Freemarker详解
+* Spring Boot集成Mybatis，Redis，RabbitMq等三方框架
+* Spring Boot启动过程源码分析
+* Spring Boot自动装配源码分析
 
-Zookeeper快速入门
-Zookeeper多节点集群部署实战
-Zookeeper典型应用场景实战
-服务注册与订阅
-分布式配置中心
-分布式锁
-Zookeeper中znode、watcher、ACL、客户端API详解
-Zookeeper客户端服务端源码剖析
-Zookeeper集群leader选举源码剖析
-Zookeeper集群ZAB协议源码剖析
-Zookeeper迁移、扩容、监控详解
+##### 6.4.3 Spring Cloud Alibaba详解及源码剖析
 
-##### 5.3.2 Dubbo
+###### 6.4.3.1 Nacos 注册中心详解及源码分析
 
-Dubbo框架介绍与手写模拟Dubbo
-Dubbo的基本应用与高级应用
-Spring与Dubbo整合原理与源码分析
-Dubbo的可扩展机制SPI源码解析
-Dubbo容错机制与高扩展性分析
-Dubbo RPC协议底层原理与实现
-Dubbo服务导出源码解析
-Dubbo服务引入源码解析
-Dubbo服务调用源码解析
-Dubbo负载均衡源码解析
+* 服务注册与发现详解及源码剖析
+* 服务心跳与下线详解及源码剖析
+* 服务健康检查详解及源码剖析
+* Nacos集群架构实战及源码剖析
+* Nacos集群节点间服务数据同步详解及源码剖析
+* Nacos集群架构CAP原理详解
+ * AP架构详解
+ * CP架构详解
+  * 集群脑裂问题及解决方案
+* Nacos源码高并发设计精髓
+ * 防止读写并发冲突CopyOnWrite设计思想
+ * 异步任务及内存队列有效提升系统并发
+ * 异步批量同步集群节点数据有效提升系统性能
+* 阿里云超大规模微服务注册中心设计架构详解
 
-##### 5.3.3 ShardingSphere
+###### 6.4.3.2 Nacos 配置中心实战及源码分析
 
-数据读写分离及分库分表场景详解
-常见数据分片算法hash、list、range、tag详解
-常见数据库中间件Mycat和ShardingSphere对比
-解密Sharding-jdbc核心概念与快速开始
-深入Sharding-jdbc特性详解与模块划分
-实战订单交易中orders和ordersItem分库分表开发
-深入Sharding-jdbc源码之sql解析、sql路由、sql改写、sql执行、结果合并
-
-##### 5.3.4 Netty
-
-网络与IO模型基础进阶
-HTTP请求与响应格式详解
-HTTP重定向与转发详解
-Cookie机制详解
-HTTP缓存控制与代理服务详解
-HTTPS 与 SSL/TLS详解
-对称加密与非对称加密、数字签名与证书详解
-七层网络协议详解
-ТСР协议与流量控制详解
-TCP协议可靠性是如何保障的
-Socket与文件描述符详解
-Socket与Tcp协议、Http协议的关系
-Socket底层实现原理详解 
-BIO、NIO及AIO线程模型详解
-Netty线程模型及源码剖析
-高性能序列化协议protobuf及源码分析
-粘包拆包现象及解决方案、编解码器源码分析
-Netty心跳机制源码剖析
-直接内存与Netty零拷贝详解
-Netty之Http协议开发应用实战（仿斗鱼弹幕系统实现）
-Netty之WebSocket协议开发应用实战（贪吃蛇多人联机网游实现）
-
-#### 5.4 微服务系列专题
-
-##### 5.4.1 微服务架构变迁史
-
-淘宝电商微服务架构变迁史
-京东电商微服务架构变迁史
-
-##### 5.4.2 Spring Boot详解及源码剖析
-
-Spring boot 快速开始及核心配置详解
-Spring boot 部署方式及热部署详解
-Web开发模板引擎Thymeleaf及Freemarker详解
-Spring Boot集成Mybatis，Redis，RabbitMq等三方框架
-Spring Boot启动过程源码分析
-Spring Boot自动装配源码分析
-
-##### 5.4.3 Spring Cloud Alibaba详解及源码剖析
-
-Nacos 注册中心详解及源码分析
-服务注册与发现详解及源码剖析
-服务心跳与下线详解及源码剖析
-服务健康检查详解及源码剖析
-Nacos集群架构实战及源码剖析
-Nacos集群节点间服务数据同步详解及源码剖析
-Nacos集群架构CAP原理详解
-AP架构详解
-CP架构详解
-集群脑裂问题及解决方案
-Nacos源码高并发设计精髓
-防止读写并发冲突CopyOnWrite设计思想
-异步任务及内存队列有效提升系统并发
-异步批量同步集群节点数据有效提升系统性能
-阿里云超大规模微服务注册中心设计架构详解
-Nacos 配置中心实战及源码分析
 Nacos配置中心架构剖析
 Nacos配置中心使用详解
 多环境切换及配置共享
@@ -765,11 +733,15 @@ Nacos Config Server源码分析
 服务端是配置推送源码分析
 配置持久化源码分析
 集群架构下其他节点同步配置数据源码分析
-LoadBalancer 客户端负载均衡器实战
+
+###### 6.4.3.3 LoadBalancer 客户端负载均衡器实战
+
 LoadBalancer替换Ribbon配置
 RestTemplate整合LoadBalancer
 WebClient整合LoadBalancer
-Ribbon 客户端负载均衡详解及源码分析
+
+###### 6.4.3.4 Ribbon 客户端负载均衡详解及源码分析
+
 Ribbon服务发现及客户端缓存源码剖析
 Ribbon客户端负载均衡源码剖析
 轮询策略
@@ -780,21 +752,25 @@ Ribbon客户端负载均衡源码剖析
 权重策略
 自定义扩展Ribbon客户端负载均衡算法
 Ribbon框架源码设计缺陷及优化
-Feign 声明式服务调用详解及源码分析
-Fegin的设计架构剖析
-Fegin自定义相关配置使用详解
-日志配置
-契约配置
-拦截器配置，自定义拦截器
-超时时间配置
-客户端组件Apache HttpClient & OkHttp配置
-GZIP 压缩配置
-编码器解码器配置
-如何实现Feign到Dubbo的无缝迁移
-Feign 方法参数拼接Http请求源码剖析
-Feign 整合Ribbon源码剖析
-Spring整合Fegin源码剖析
-Sentinel 限流降级熔断详解及底层源码分析
+
+###### 6.4.3.5 Feign 声明式服务调用详解及源码分析
+
+* Fegin的设计架构剖析
+* Fegin自定义相关配置使用详解
+* 日志配置
+* 契约配置
+* 拦截器配置，自定义拦截器
+* 超时时间配置
+* 客户端组件Apache HttpClient & OkHttp配置
+* GZIP 压缩配置
+* 编码器解码器配置
+* 如何实现Feign到Dubbo的无缝迁移
+* Feign 方法参数拼接Http请求源码剖析
+* Feign 整合Ribbon源码剖析
+* Spring整合Fegin源码剖析
+
+###### 6.4.3.6 Sentinel 限流降级熔断详解及底层源码分析
+
 限流源码剖析
 限流类型详解及源码剖析
 QPS限流源码剖析
@@ -840,7 +816,9 @@ Sentinel控制台改造
 基于Sentinel控制台推送规则实战
 Sentinel推模式整合Spring Cloud
 Spring整合Sentinel源码剖析
-Seata 微服务分布式事务详解及源码分析
+
+###### 6.4.3.7 Seata 微服务分布式事务详解及源码分析
+
 Seata AT,XA,TCC,Saga区别
 Seata AT模式多数据源，微服务下使用详解
 Seata全局事务注册源码剖析
@@ -852,7 +830,9 @@ Seata全局事务回滚源码剖析
 Seata分支事务第二阶段异步提交源码剖析
 Seata分支事务第二阶段生成反向Sql执行回滚源码剖析
 Spring整合Seata源码剖析
-Gateway 统一网关详解及源码剖析
+
+###### 6.4.3.8 Gateway 统一网关详解及源码剖析
+
 Gateway核心概念和工作原理分析
 Gateway使用详解
 RoutePredicateFactories路由断言工厂配置
@@ -875,7 +855,9 @@ GateWay路由匹配核心源码分析
 GateWay请求过滤器链源码分析
 整合Ribbon核心源码分析
 请求转发到下游微服务源码分析
-Skywalking链路追踪组件实战
+
+###### 6.4.3.9 Skywalking链路追踪组件实战
+
 Skywalking整体架构剖析
 Skywalking使用详解
 Skywalking OAP&UI服务搭建
@@ -885,7 +867,9 @@ Skywalking OAP&UI服务搭建
 Skywalking集成日志框架
 Skywalking集群部署
 进阶扩展：Java Agent实战
-Spring Security OAuth2微服务安全实战
+
+###### 6.4.3.10 Spring Security OAuth2微服务安全实战
+
 微服务API安全机制详解
 微服务安全之Oauth2协议详解
 Oauth2介绍&常用场景分析
@@ -896,22 +880,23 @@ Oauth2设计思路详解
 JWT安全认证方案详解
 微服务接入网关实现SSO
 
-##### 5.4.4 Spring Cloud Netflix详解及源码剖析
+##### 6.4.4 Spring Cloud Netflix详解及源码剖析
 
-Eureka服务注册与发现详解及源码分析
-Ribbon 客户端负载均衡详解及源码分析
-Fegin 声明式服务调用详解及源码分析
-Hystrix实现服务限流，降级，熔断详解及源码分析
-Hystrix实现自定义接口降级,监控数据及监控数据聚合
-Zuul统一网关详解，服务路由，过滤器使用及源码分析
-分布式配置中心Config详解
-分布式链路跟踪Sleuth详解
+* Eureka服务注册与发现详解及源码分析
+* Ribbon 客户端负载均衡详解及源码分析
+* Fegin 声明式服务调用详解及源码分析
+* Hystrix实现服务限流，降级，熔断详解及源码分析
+* Hystrix实现自定义接口降级,监控数据及监控数据聚合
+* Zuul统一网关详解，服务路由，过滤器使用及源码分析
+* 分布式配置中心Config详解
+* 分布式链路跟踪Sleuth详解
 
-### 6 项目实战专题
+### 7 项目实战专题
 
-#### 6.1 亿级流量微服务电商中台
+#### 7.1 亿级流量微服务电商中台
 
-电商核心中台架构整体设计
+##### 7.1.1 电商核心中台架构整体设计
+
 淘宝电商后端架构变迁史
 京东电商后端架构变迁史
 阿里小前台大中台架构详解
@@ -923,7 +908,9 @@ DDD基本概念介绍
 DDD分层架构与微服务之间的关系
 DDD与中台架构的关系
 DDD小范围落地实战
-基于Spring Cloud微服务架构拆分
+
+##### 7.1.2 基于Spring Cloud微服务架构拆分
+
 会员服务
 详解电商平台会员模块介绍、配置详解
 详解电商平台会员业务与技术实现
@@ -949,7 +936,9 @@ DDD小范围落地实战
 后台服务
 电商管理后台模块详解
 后台系统权限、资源、账号、角色关系及技术实现
-电商平台技术解决方案
+
+##### 7.1.3 电商平台技术解决方案
+
 分布式解决方案
 分布式锁
 Mysql实现
@@ -1054,85 +1043,118 @@ Classloader深入加载机制
 
 #### 7.1 Git
 
-整体认知GIT体系结构
-Git客户端与服务端快速搭建
-Git的核心命令详解
-Git企业应用最佳实践
+* 整体认知GIT体系结构
+* Git客户端与服务端快速搭建
+* Git的核心命令详解
+* Git企业应用最佳实践
 
 #### 7.2 Maven
 
-Maven生命周期详解
-Maven插件体系详解
-Maven核心命令详解
-Maven的pom配置体系详解
-Nexus私服搭建实战
+* Maven生命周期详解
+* Maven插件体系详解
+* Maven核心命令详解
+* Maven的pom配置体系详解
+* Nexus私服搭建实战
 
 #### 7.3 Jenkins
 
-整体认知Jenkins体系结构
-Jenkins如何做持续集成
-Jenkins搭建及使用详解
-Jenkins插件体系详解
+* 整体认知Jenkins体系结构
+* Jenkins如何做持续集成
+* Jenkins搭建及使用详解
+* Jenkins插件体系详解
 
 #### 7.4 Linux
 
-Linux原理、启动、整体架构讲解
-Linux运维常用命令实战
-Linux用户与权限讲解
-Shell脚本编程实战
+* Linux原理、启动、整体架构讲解
+* Linux运维常用命令实战
+* Linux用户与权限讲解
+* Shell脚本编程实战
 
 #### 7.5 虚拟容器
 
 ##### 7.5.1 Docker
 
-Docker的镜像，仓库，容器详解
-快速开始搭建Docker环境
-DockerFile使用详解
-DockerCompose集成式应用组合
-Docker服务编排实现
+* Docker的镜像，仓库，容器详解
+* 快速开始搭建Docker环境
+* DockerFile使用详解
+* DockerCompose集成式应用组合
+* Docker服务编排实现
 
 ##### 7.5.2 Kubernetes
 
-Kubernetes介绍与快速开始
-Kubernetes对象&Master组件&Node节点详解
-Kubernetes生产集群环境搭建与使用
+* Kubernetes介绍与快速开始
+* Kubernetes对象&Master组件&Node节点详解
+* Kubernetes生产集群环境搭建与使用
 
 ### 8 区块链技术
 
 ### 8.1 区块链技术基础
 
-项目架构与技术点讲解
-区块链原理整体介绍
+* 项目架构与技术点讲解
+* 区块链原理整体介绍
 
 ##### 8.2.1 区块链整体结构设计与实现
 
-共识机制
-工作量证明原理
-挖矿算法
+* 共识机制
+* 工作量证明原理
+* 挖矿算法
 
 ##### 8.2.2 密码学
 
-对称加密
-哈希(hash)加密
-非对称加密
-数字签名
+* 对称加密
+* 哈希(hash)加密
+* 非对称加密
+* 数字签名
 
 ##### 8.2.3 比特币钱包的设计与实现
 
-钱包结构
-钱包转账
-钱包余额
+* 钱包结构
+* 钱包转账
+* 钱包余额
 
 ##### 8.2.3 比特币交易的设计与实现
 
-比特币交易UTXO
-比特币余额
+* 比特币交易UTXO
+* 比特币余额
 
 ##### 8.2.4 P2P去中心化网络设计与实现
 
-区块链P2P网络
-网络节点发现
-网络节点通讯
-区块广播
-交易广播
+* 区块链P2P网络
+* 网络节点发现
+* 网络节点通讯
+* 区块广播
+* 交易广播
 
+### 4 源码中的优秀设计模式
+
+#### 4.1 设计原则
+
+开闭、单一职责及里氏替换原则
+依赖倒置、接口隔离、合成复用原则
+迪米特法则
+
+#### 4.2 创建型模式
+
+工厂方法、抽象工厂及单例模式
+建造者与原型模式
+
+#### 4.3 结构型模式
+
+适配器、装饰器及代理模式
+外观、桥接、组合及享元模式
+
+#### 4.4 行为型模式
+
+模板方法、策略及观察者模式
+迭代器、责任链、命令及中介者模式
+备忘录、状态、访问者及解释器模式
+
+#### 4.5 设计模式对比及应用场景
+
+线程池的单例模式实现
+电商优惠促销策略模式实现
+AOP底层代理模式实现
+RedisTemplate、JdbcTemplate模板模式实现
+Zookeeper监听器观察者模式实现
+微服务网关鉴权责任链模式实现
+多级缓存架构装饰器模式实现
