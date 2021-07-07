@@ -276,6 +276,8 @@
 <br/>
 <br/>
 
+<!-- 
+
 <h3 id="22">金主爸爸信息</h3> 
 
 ---
@@ -286,3 +288,4 @@
 扫码联系小姐姐，获得直播链接。<br/>
 ![barcode](https://www.0voice.com/uiwebsite/img/barcode/cz.jpg)
 
+-->
