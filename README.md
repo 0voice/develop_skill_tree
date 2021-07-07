@@ -3,7 +3,7 @@
 -----------
 
 ### 一、软件岗位技能树
-* [C++技能树](https://github.com/0voice/develop_skill_tree/blob/main/common_skills_tree/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90.md#计算机组成剖析)
+* [C++技能树](https://github.com/0voice/develop_skill_tree/blob/main/README.md#C++技能树)
 * [](https://github.com/0voice/develop_skill_tree/tree/main/c++_skill_tree)
 * [GoLong技能树](https://github.com/0voice/develop_skill_tree/tree/main/golang_skill_tree)（正在抓紧更新中）
 * [Java技能树](https://github.com/0voice/develop_skill_tree/tree/main/java_skill_tree)
