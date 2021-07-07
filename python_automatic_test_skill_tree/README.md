@@ -20,308 +20,367 @@
 * 最小生成树、最短路径详解
 * 布隆过滤器与位图详解
 
-### 2 Java
+### 2 Java基础
 
-#### 2.1 常用数据结构与算法
+#### 2.1 Java基础知识
 
+* Java语言的特点
+* 面向对象与面向过程对比
+* Java平台的三个版本J2EE、J2SE、J2ME
+* JDK、JRE、JVM之间的区别于关系
+* Java环境变量
+* javac命令和java命令
+* 字节码，采用字节码的好处
+* import java和javax的区别
+* Java和C++的区别
+* Java数据类型
+* Java访问修饰符
+* 字符型常量和字符串常量的区别
+* 面向对象编程三大特性:封装、继承、多态
+* 接口和抽象类的区别
+* 重载和重写的区别
+* java对象
+* java引用
 
+#### 2.2 Java异常
 
-### 2 性能调优专题
+*  Java异常处理
+*  Runtime Exception与Error
 
-#### 1.1 Jvm性能调优
+#### 2.2 Java反射
 
-##### 1.1.1 JVM类加载机制详解
+*  java反射概念
+*  java反射(Reflection)的底层实现原理
+*  创建反射实例
+*  反射中,Class.forName和classloader的区别
+* 序列化与反序列化
 
-从JDK源码(C++)级别深度剖析类加载全过程
-启动类、扩展类、应用程序类加载器源码深度剖析
-类加载双亲委派机制及如何打破详解
-手写自定义类加载器
-Tomcat类加载机制源码剖析
+#### 2.3 java拷贝
 
-##### 1.1.2 JVM内存模型
+* 浅拷贝与深拷贝
+* 拷贝的几种方法
 
-堆内存分代机制及对象生命周期详解
-线程栈及栈帧内部结构详解
-方法区(元空间)及常量池详解(深入到Hotspot底层C++级别解析)
-程序计数器详解
-本地方法栈详解
+#### 2.4 多线程与并发
 
-##### 1.1.3 类字节码文件深度剖析
+* 进程与线程
+* 并发与并行
+* Thread和Runnable
 
-数据类型
-无符号数
-表
-组成
-0~3字节：魔数：文件类型
-4~7字节：jdk本号
-常量池
-字面量：常量字符串、final常量值
-符号引用
-类和接口的fully Qualified Name
-字段的方法和描述符
-方法的名称和描述符
-u2访问标志：类/接口、public、final、abstract
-继承关系
-u2类索引：类的全限定名
-u2父索引：父类的全限定名
-nu2+1接口索引：实现接口的全新定名
-字段表集合：描述接口、变量
-u2访问标志
-u2 name_index
-u2 descriptor_index
-u2 attributes_count
-u2 attributes
-方法表集合：描述方法
-属性表集合
-code属性
-exception属性
-LineNumberTable属性
-LocalVariableTable属性
-sourceFile属性
-constantvalue属性：通知虚拟机自动为静态变量赋值
-innerClass属性
-Deprecated和Synthetic属性
-stackMapTable属性
-Signature属性：记录泛型信息
-BootstrapMethod属性
+#### 2.5 Java容器及底层实现
 
-##### 1.1.4 垃圾收集机制详解
+* Collection
+* Set
+* SortedSet
+* HashSet
+* TreeSet
+* Iterator
+* ListIterator
+* List
+* Vector
+* Stack
+* ArrayList
+* LinkedList
+* Map
+* SortedMap
+* TreeMap
+* HashMap
+* Hashtable
 
-垃圾收集算法详解
-标记清除算法详解
-复制算法详解
-标记整理算法详解
-分代垃圾收集算法详解
-复制垃圾收集机制详解
-垃圾收集三色标记算法详解
-对象漏标解决方案增量更新与原始快照(SATB)详解
-读写内存屏障实现原理剖析(深入到Hotspot底层C++级别解析)
-记忆集(Remember Set)与卡表(Cardtable)详解
-ZGC底层颜色指针详解
+### 3 性能调优专题
 
-##### 1.1.5 十种垃圾收集器详解
+#### 3.1 Jvm性能调优
 
-Serial垃圾收集器详解
-ParNew垃圾收集器详解
-Parallel垃圾收集器详解
-CMS垃圾收集器详解
-G1垃圾收集器详解(深入到Hotspot底层C++级别解析)
-ZGC垃圾收集器详解
-Epsilon与Shenandoah垃圾收集器详解
+##### 3.1.1 JVM类加载机制详解
 
-##### 1.1.6 JVM调优工具详解
+* 从JDK源码(C++)级别深度剖析类加载全过程
+* 启动类、扩展类、应用程序类加载器源码深度剖析
+* 类加载双亲委派机制及如何打破详解
+* 手写自定义类加载器
+* Tomcat类加载机制源码剖析
 
-JDK自带Jstat、Jinfo、Jmap、Jhat及Jstack调优命令详解
-Jvisualvm、Jconsole调优工具详解
-阿里巴巴JVM调优工具Arthas详解
+##### 3.1.2 JVM内存模型
 
-##### 1.1.7 GC日志详细分析
+* 堆内存分代机制及对象生命周期详解
+* 线程栈及栈帧内部结构详解
+* 方法区(元空间)及常量池详解(深入到Hotspot底层C++级别解析)
+* 程序计数器详解
+* 本地方法栈详解
 
-GCEasy日志分析工具使用
-GCViewer日志分析工具使用
+##### 3.1.3 类字节码文件深度剖析
 
-##### 1.1.8 JVM调优实战
+* 数据类型
+  * 无符号数
+  * 表
+* 组成
+  * 0~3字节：魔数：文件类型
+  * 4~7字节：jdk本号
+  * 常量池
+    * 字面量：常量字符串、final常量值
+    * 符号引用
+      * 类和接口的fully Qualified Name
+      * 字段的方法和描述符
+      * 方法的名称和描述符
+  * u2访问标志：类/接口、public、final、abstract
+  * 继承关系
+    * u2类索引：类的全限定名
+    * u2父索引：父类的全限定名
+    * nu2+1接口索引：实现接口的全新定名
+  * 字段表集合：描述接口、变量
+    * u2访问标志
+    * u2 name_index
+    * u2 descriptor_index
+    * u2 attributes_count
+    * u2 attributes
+  * 方法表集合：描述方法
+  * 属性表集合
+    * code属性
+    * exception属性
+    * LineNumberTable属性
+    * LocalVariableTable属性
+    * sourceFile属性
+    * constantvalue属性：通知虚拟机自动为静态变量赋值
+    * innerClass属性
+    * Deprecated和Synthetic属性
+    * stackMapTable属性
+    * Signature属性：记录泛型信息
+    * BootstrapMethod属性
 
-日均百万交易系统JVM堆栈大小设置策略与调优
-亿级流量电商系统堆内年轻代与老年代垃圾回收参数设置与调优
-高并发系统如何基于G1垃圾回收器优化性能
-每秒10万并发的秒杀系统为什么会频繁发生GC
-电商大促活动时，严重Full GC导致系统直接卡死的优化实战
-线上生产系统OOM监控及定位与解决
+##### 3.1.4 垃圾收集机制详解
 
-#### 1.2 Mysql性能调优
+* 垃圾收集算法详解
+  * 标记清除算法详解
+  * 复制算法详解
+  * 标记整理算法详解
+  * 分代垃圾收集算法详解
+* 复制垃圾收集机制详解
+  * 垃圾收集三色标记算法详解
+  * 对象漏标解决方案增量更新与原始快照(SATB)详解
+  * 读写内存屏障实现原理剖析(深入到Hotspot底层C++级别解析)
+  * 记忆集(Remember Set)与卡表(Cardtable)详解
+  * ZGC底层颜色指针详解
 
-##### 1.2.1 SQL执行原理详解
+##### 3.1.5 十种垃圾收集器详解
 
-连接器详解
-分析器详解
-优化器详解
-执行器详解
-Innodb的Buffer Pool机制详解
-Redo重做日志、Undo回滚日志与Binlog详解
+* Serial垃圾收集器详解
+* ParNew垃圾收集器详解
+* Parallel垃圾收集器详解
+* CMS垃圾收集器详解
+* G1垃圾收集器详解(深入到Hotspot底层C++级别解析)
+* ZGC垃圾收集器详解
+* Epsilon与Shenandoah垃圾收集器详解
 
-##### 1.2.2 索引底层剖析
+##### 3.1.6 JVM调优工具详解
 
-数据结构角度
-B+树索引
-索引查找步骤
-索引选择
-联合索引
-Hash索引
-FULL TEXT索引
-物理存储角度
-聚簇索引
-非聚簇索引
-逻辑角度
-主键索引
-唯一索引
-单列索引
-多列索引
-索引使用角度
-覆盖索引
-索引下推
+* JDK自带Jstat、Jinfo、Jmap、Jhat及Jstack调优命令详解
+* Jvisualvm、Jconsole调优工具详解
+* 阿里巴巴JVM调优工具Arthas详解
 
-##### 1.2.3 执行计划与SQL优化
+##### 3.1.7 GC日志详细分析
 
-explain工具深度使用
-阿里巴巴索引优化最佳实践
+* GCEasy日志分析工具使用
+* GCViewer日志分析工具使用
 
-##### 1.2.4 Mysql锁机制与事务隔离级别详解
+##### 3.1.8 JVM调优实战
 
-Mysql锁
-性能
-乐观锁
-悲观锁
-操作
-读锁
-写锁
-粒度
-表锁
-行锁
-其它
-间隙锁
-临键锁
-死锁以及优化解决
-事务隔离级别
-读未提交
-读已提交
-可重复读
-串行化
-MVCC多版本并发控制机制详解
-Undo版本链
-事务一致性视图ReadView
-实现
-Read Committed级别实现原理
-Repeated Read级别实现原理
+* 日均百万交易系统JVM堆栈大小设置策略与调优
+* 亿级流量电商系统堆内年轻代与老年代垃圾回收参数设置与调优
+* 高并发系统如何基于G1垃圾回收器优化性能
+* 每秒10万并发的秒杀系统为什么会频繁发生GC
+* 电商大促活动时，严重Full GC导致系统直接卡死的优化实战
+* 线上生产系统OOM监控及定位与解决
 
-#### 1.3 Tomcat调优
+#### 3.2 Mysql性能调优
 
-##### 1.3.1 整体认知Tomcat项目架构
+##### 3.2.1 SQL执行原理详解
 
-理解Tomat启动流程
-理解对Http请求解析与处理流程
-核心组件认知
-wrapper
-context
-host
-engine
-container
-Tomcat 8 与Tomcat7 对比
+* 连接器详解
+* 分析器详解
+* 优化器详解
+* 执行器详解
+* Innodb的Buffer Pool机制详解
+* Redo重做日志、Undo回滚日志与Binlog详解
 
-##### 1.3.2 生产环境配置
+##### 3.2.2 索引底层剖析
 
-Tomcat server.xml 配置详解 
-Tomcat集群与会话复制方案实现
-Tomcat虚拟主机配置
+* 数据结构角度
+  * B+树索引
+    * 索引查找步骤
+    * 索引选择
+    * 联合索引
+  * Hash索引
+  * FULL TEXT索引
+* 物理存储角度
+  * 聚簇索引
+  * 非聚簇索引
+* 逻辑角度
+  * 主键索引
+  * 唯一索引
+  * 单列索引
+  * 多列索引
+* 索引使用角度
+  * 覆盖索引
+  * 索引下推
 
-##### 1.3.3 掌握Tomcat线程模型背后原理
+##### 3.2.3 执行计划与SQL优化
 
-Tomcat 支持四种线程模型介绍 
-通过压测演示Nio与 Bio模型的区别
-Tomcat Bio实现源码解读
-Tomcat Nio 实现源码解读
-Tomcat connector 并发参数解读
+* explain工具深度使用
+* 阿里巴巴索引优化最佳实践
 
-#### 1.4 Nginx调优
+##### 3.2.4 Mysql锁机制与事务隔离级别详解
 
-##### 1.4.1 Nginx快速掌握
+* Mysql锁
+  * 性能
+    * 乐观锁
+    * 悲观锁
+  * 操作
+    * 读锁
+    * 写锁
+  * 粒度
+    * 表锁
+    * 行锁
+  * 其它
+    * 间隙锁
+    * 临键锁
+  * 死锁以及优化解决
+* 事务隔离级别
+  * 读未提交
+  * 读已提交
+  * 可重复读
+  * 串行化
+* MVCC多版本并发控制机制详解
+  * Undo版本链
+  * 事务一致性视图ReadView
+  * 实现
+    * Read Committed级别实现原理
+    * Repeated Read级别实现原理
 
-核心模块
-标准Http模块
-可选Http模块
-第三方模块
-nginx 事件驱动模型及特性
+#### 3.3 Tomcat调优
 
-##### 1.4.2 熟练掌握Nginx核心配置
+##### 3.3.1 整体认知Tomcat项目架构
 
-基本配置
-虚拟主机配置
-upstream
-location
-静态目录配置
+* 理解Tomat启动流程
+* 理解对Http请求解析与处理流程
+* 核心组件认知
+  * wrapper
+  * context
+  * host
+  * engine
+  * container
+* Tomcat 8 与Tomcat7 对比
 
-##### 1.4.3 掌握Nginx负载算法配置
+##### 3.3.2 生产环境配置
 
-轮循+权重
-ip hash
-url hash
-least_conn
-least_time
+* Tomcat server.xml 配置详解 
+* Tomcat集群与会话复制方案实现
+* Tomcat虚拟主机配置
 
-### 2 并发编程专题
+##### 3.3.3 掌握Tomcat线程模型背后原理
 
-#### 2.1 操作系统内核原理
+* Tomcat 支持四种线程模型介绍 
+* 通过压测演示Nio与 Bio模型的区别
+* Tomcat Bio实现源码解读
+* Tomcat Nio 实现源码解读
+* Tomcat connector 并发参数解读
 
-进程管理详解
-内存管理详解
-文件系统详解
-IO输入输出系统详解
-进程间通信机制详解
-网络通信原理剖析
+#### 3.4 Nginx调优
 
-#### 2.2 阻塞队列
+##### 3.4.1 Nginx快速掌握
 
-ArrayBlockingQueue 数组有界队列详解
-ConcurrentLinkedQueue 链表无界队列详解
-PriorityBlockingQueue 优先级排序无界队列详解
-DelayQueue 延时无界队列详解
-SynchronousQueue详解
-LinkedBlockingDeque详解
+* 核心模块
+* 标准Http模块
+* 可选Http模块
+* 第三方模块
+* nginx 事件驱动模型及特性
 
-#### 2.3 java内存模型
+##### 3.4.2 熟练掌握Nginx核心配置
 
-##### 2.3.1 线程通信机制
+* 基本配置
+* 虚拟主机配置
+* upstream
+* location
+* 静态目录配置
 
-内存共享
-消息传递
+##### 3.4.3 掌握Nginx负载算法配置
 
-##### 2.3.2 内存模型
+* 轮循+权重
+* ip hash
+* url hash
+* least_conn
+* least_time
 
-重排序
-顺序一致性
-happens-before
-as-if-serial
-双重检查锁
-final内存语义
+### 4 并发编程专题
 
+#### 4.1 操作系统内核原理
 
-##### 2.3.3 synchronized
+* 进程管理详解
+* 内存管理详解
+* 文件系统详解
+* IO输入输出系统详解
+* 进程间通信机制详解
+* 网络通信原理剖析
 
-锁对象
-普通同步方法，锁是当前实例对象
-静态同步方法，锁是当前类的class对象
-同步方法块，锁是括号里面的对象
-实现机制
-Java对象头
-monitor
-锁优化
-轻量级锁
-重量级锁
-锁消除
-锁粗化
-偏向锁
-使用方式
-普通同步方法，锁是当前实例对象
-静态同步方法，锁是当前类的class对象
-同步方法块，锁是括号里面的对象
+#### 4.2 阻塞队列
 
-##### 2.3.4 volatile
+* ArrayBlockingQueue 数组有界队列详解
+* ConcurrentLinkedQueue 链表无界队列详解
+* PriorityBlockingQueue 优先级排序无界队列详解
+* DelayQueue 延时无界队列详解
+* SynchronousQueue详解
+* LinkedBlockingDeque详解
+
+#### 4.3 java内存模型
+
+##### 4.3.1 线程通信机制
+
+* 内存共享
+* 消息传递
+
+##### 4.3.2 内存模型
+
+* 重排序
+* 顺序一致性
+* happens-before
+* as-if-serial
+* 双重检查锁
+* final内存语义
+
+##### 4.3.3 synchronized
+
+* 锁对象
+  * 普通同步方法，锁是当前实例对象
+  * 静态同步方法，锁是当前类的class对象
+  * 同步方法块，锁是括号里面的对象
+* 实现机制
+  * Java对象头
+  * monitor
+* 锁优化
+  * 轻量级锁
+  * 重量级锁
+  * 锁消除
+  * 锁粗化
+  * 偏向锁
+* 使用方式
+  * 普通同步方法，锁是当前实例对象
+  * 静态同步方法，锁是当前类的class对象
+  * 同步方法块，锁是括号里面的对象
+
+##### 4.3.4 volatile
 
 原子性
 可见性
 禁止重排序
 实现机制
 
-#### 2.4 线程池
+#### 4.4 线程池
 
-##### 2.4.1 Executors
+##### 4.4.1 Executors
 
 newCachedThreadPool
 newFixedThreadPool
 newScheduledThreadPool
 newSingleThreadExecutor
 
-##### 2.4.2 ThreadPoolExecutor
+##### 4.4.2 ThreadPoolExecutor
 
 构造参数含义
 任务提交
@@ -330,25 +389,25 @@ newSingleThreadExecutor
 线程池监控
 底层原理实现
 
-##### 2.4.3 ScheduledThreadPoolExecutor
+##### 4.4.3 ScheduledThreadPoolExecutor
 
 构造参数含义
 底层原理实现
 日常开发注意问题
 
-##### 2.4.4 Future
+##### 4.4.4 Future
 
 异步计算
 FutureTask
 内部基于AQS实现
 
-##### 2.4.5 线程间通信
+##### 4.4.5 线程间通信
 
 内存共享
 线程之间共享程序的公共状态,通过读和写内存中的公共状态进行隐式通信
 线程之间必须通过发送消息来现实进行通信
 
-#### 2.5 并发集合
+#### 4.5 并发集合
 
 ConcurrentHashMap原理、源码、实战详解
 ConcurrentLinkedQueue原理、源码、实战详解
@@ -358,49 +417,49 @@ ArrayList、LinkedList与CopyOnWriteArrayList详解
 HashMap与ConcurrentHashMap源码剖析
 Set与CopyOnWriteArraySet详解
 
-#### 2.6 原子操作
+#### 4.6 原子操作
 
-##### 2.6.1 基本类型
+##### 4.6.1 基本类型
 
 AtomicInteger:原子更新整形类型
 AtomicLong:原子更新长整型类型
 AtomicBoolean:原子更新boolean类型
 
-##### 2.6.2 数组
+##### 4.6.2 数组
 
 AtomicIntegerArray:原子更新整形数组里的元素
 AtomicLongArray:原子更新长整型数组里的元素
 AtomicReferenceArray:原子更新引用类似数组里的元素
 
-##### 2.6.3 引用类型
+##### 4.6.3 引用类型
 
 AomicRefernce:原子更新引用类型
 AtomicReferenceFieldUpdater:原子更新引用类型里的字段
 AtomicMarkableReference:原子更新带有标记为的引用类型
 
-##### 2.6.4 字段类型
+##### 4.6.4 字段类型
 
 AtomicIntegerFieldUpdater:原子更新整形的字段的更新器
 AtomicLongFieldUpdater:原子更新长整型字段的更新器
 AtomicStampedReference:原子更新电邮版本号的引用类型
 
-### 3 框架源码专题
+### 5 框架源码专题
 
-#### 3.1 应用框架Spring
+#### 5.1 应用框架Spring
 
-##### 3.1.1 Spring IOC源码剖析
+##### 5.1.1 Spring IOC源码剖析
 
-整体认知spring 体系结构
-理解Spring IOC 容器设计原理
-掌握Bean生命周期
-初始化InitializingBean/@PostConstruct
-Bean的后置处理器BeanPostProcessor源码分析
-销毁DisposableBean/@PreDestroy
-Spring Context 装载过程源码分析
-BeanFactoryPostProcessor源码分析
-BeanDefinitionRegistryPostProcessor源码分析
-Spring IOC 循环依赖问题源码深度剖析
-Factorybean与Beanfactory区别
+* 整体认知spring 体系结构
+* 理解Spring IOC 容器设计原理
+* 掌握Bean生命周期
+* 初始化InitializingBean/@PostConstruct
+* Bean的后置处理器BeanPostProcessor源码分析
+* 销毁DisposableBean/@PreDestroy
+* Spring Context 装载过程源码分析
+* BeanFactoryPostProcessor源码分析
+* BeanDefinitionRegistryPostProcessor源码分析
+* Spring IOC 循环依赖问题源码深度剖析
+* Factorybean与Beanfactory区别
 
 ##### 3.1.2 Spring Aop源码剖析
 
