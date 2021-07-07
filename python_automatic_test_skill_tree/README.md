@@ -2,24 +2,28 @@
 
 -----------
 
+### 1 性能调优专题
 
-图灵Java架构师学习路线
-对标大厂P7级别
-性能调优专题
-Jvm性能调优
-JVM类加载机制详解
+#### 1.1 Jvm性能调优
+
+##### 1.1.1 JVM类加载机制详解
+
 从JDK源码(C++)级别深度剖析类加载全过程
 启动类、扩展类、应用程序类加载器源码深度剖析
 类加载双亲委派机制及如何打破详解
 手写自定义类加载器
 Tomcat类加载机制源码剖析
-JVM内存模型
+
+##### 1.1.2 JVM内存模型
+
 堆内存分代机制及对象生命周期详解
 线程栈及栈帧内部结构详解
 方法区(元空间)及常量池详解(深入到Hotspot底层C++级别解析)
 程序计数器详解
 本地方法栈详解
-类字节码文件深度剖析
+
+##### 1.1.3 类字节码文件深度剖析
+
 数据类型
 无符号数
 表
@@ -56,7 +60,9 @@ Deprecated和Synthetic属性
 stackMapTable属性
 Signature属性：记录泛型信息
 BootstrapMethod属性
-垃圾收集机制详解
+
+##### 1.1.4 垃圾收集机制详解
+
 垃圾收集算法详解
 标记清除算法详解
 复制算法详解
@@ -68,7 +74,9 @@ BootstrapMethod属性
 读写内存屏障实现原理剖析(深入到Hotspot底层C++级别解析)
 记忆集(Remember Set)与卡表(Cardtable)详解
 ZGC底层颜色指针详解
-十种垃圾收集器详解
+
+##### 1.1.5 十种垃圾收集器详解
+
 Serial垃圾收集器详解
 ParNew垃圾收集器详解
 Parallel垃圾收集器详解
@@ -76,29 +84,40 @@ CMS垃圾收集器详解
 G1垃圾收集器详解(深入到Hotspot底层C++级别解析)
 ZGC垃圾收集器详解
 Epsilon与Shenandoah垃圾收集器详解
-JVM调优工具详解
+
+##### 1.1.6 JVM调优工具详解
+
 JDK自带Jstat、Jinfo、Jmap、Jhat及Jstack调优命令详解
 Jvisualvm、Jconsole调优工具详解
 阿里巴巴JVM调优工具Arthas详解
-GC日志详细分析
+
+##### 1.1.7 GC日志详细分析
+
 GCEasy日志分析工具使用
 GCViewer日志分析工具使用
-JVM调优实战
+
+##### 1.1.8 JVM调优实战
+
 日均百万交易系统JVM堆栈大小设置策略与调优
 亿级流量电商系统堆内年轻代与老年代垃圾回收参数设置与调优
 高并发系统如何基于G1垃圾回收器优化性能
 每秒10万并发的秒杀系统为什么会频繁发生GC
 电商大促活动时，严重Full GC导致系统直接卡死的优化实战
 线上生产系统OOM监控及定位与解决
-Mysql性能调优
-SQL执行原理详解
+
+#### 1.2 Mysql性能调优
+
+##### 1.2.1 SQL执行原理详解
+
 连接器详解
 分析器详解
 优化器详解
 执行器详解
 Innodb的Buffer Pool机制详解
 Redo重做日志、Undo回滚日志与Binlog详解
-索引底层剖析
+
+##### 1.2.2 索引底层剖析
+
 数据结构角度
 B+树索引
 索引查找步骤
@@ -117,10 +136,14 @@ FULL TEXT索引
 索引使用角度
 覆盖索引
 索引下推
-执行计划与SQL优化
+
+##### 1.2.3 执行计划与SQL优化
+
 explain工具深度使用
 阿里巴巴索引优化最佳实践
-Mysql锁机制与事务隔离级别详解
+
+##### 1.2.4 Mysql锁机制与事务隔离级别详解
+
 Mysql锁
 性能
 乐观锁
@@ -146,8 +169,11 @@ Undo版本链
 实现
 Read Committed级别实现原理
 Repeated Read级别实现原理
-Tomcat调优
-整体认知Tomcat项目架构
+
+#### 1.3 Tomcat调优
+
+##### 1.3.1 整体认知Tomcat项目架构
+
 理解Tomat启动流程
 理解对Http请求解析与处理流程
 核心组件认知
@@ -157,62 +183,86 @@ host
 engine
 container
 Tomcat 8 与Tomcat7 对比
-生产环境配置
+
+##### 1.3.2 生产环境配置
+
 Tomcat server.xml 配置详解 
 Tomcat集群与会话复制方案实现
 Tomcat虚拟主机配置
-掌握Tomcat 线程模型背后原理
+
+##### 1.3.3 掌握Tomcat线程模型背后原理
+
 Tomcat 支持四种线程模型介绍 
 通过压测演示Nio与 Bio模型的区别
 Tomcat Bio实现源码解读
 Tomcat Nio 实现源码解读
 Tomcat connector 并发参数解读
-Nginx调优
-Nginx快速掌握
+
+#### 1.4 Nginx调优
+
+##### 1.4.1 Nginx快速掌握
+
 核心模块
 标准Http模块
 可选Http模块
 第三方模块
 nginx 事件驱动模型及特性
-熟练掌握Nginx核心配置
+
+##### 1.4.2 熟练掌握Nginx核心配置
+
 基本配置
 虚拟主机配置
 upstream
 location
 静态目录配置
-掌握Nginx负载算法配置
+
+##### 1.4.3 掌握Nginx负载算法配置
+
 轮循+权重
 ip hash
 url hash
 least_conn
 least_time
-并发编程专题
-操作系统内核原理
+
+### 2 并发编程专题
+
+#### 2.1 操作系统内核原理
+
 进程管理详解
 内存管理详解
 文件系统详解
 IO输入输出系统详解
 进程间通信机制详解
 网络通信原理剖析
-阻塞队列
+
+#### 2.2 阻塞队列
+
 ArrayBlockingQueue 数组有界队列详解
 ConcurrentLinkedQueue 链表无界队列详解
 PriorityBlockingQueue 优先级排序无界队列详解
 DelayQueue 延时无界队列详解
 SynchronousQueue详解
 LinkedBlockingDeque详解
-java内存模型
-线程通信机制
+
+#### 2.3 java内存模型
+
+##### 2.3.1 线程通信机制
+
 内存共享
 消息传递
-内存模型
+
+##### 2.3.2 内存模型
+
 重排序
 顺序一致性
 happens-before
 as-if-serial
 双重检查锁
 final内存语义
-synchronized
+
+
+##### 2.3.3 synchronized
+
 锁对象
 普通同步方法，锁是当前实例对象
 静态同步方法，锁是当前类的class对象
@@ -230,37 +280,52 @@ monitor
 普通同步方法，锁是当前实例对象
 静态同步方法，锁是当前类的class对象
 同步方法块，锁是括号里面的对象
-volatile
+
+##### 2.3.4 volatile
+
 原子性
 可见性
 禁止重排序
 实现机制
-线程池
-Executors
+
+#### 2.4 线程池
+
+##### 2.4.1 Executors
+
 newCachedThreadPool
 newFixedThreadPool
 newScheduledThreadPool
 newSingleThreadExecutor
-ThreadPoolExecutor
+
+##### 2.4.2 ThreadPoolExecutor
+
 构造参数含义
 任务提交
 任务执行
 线程池调优
 线程池监控
 底层原理实现
-ScheduledThreadPoolExecutor
+
+##### 2.4.3 ScheduledThreadPoolExecutor
+
 构造参数含义
 底层原理实现
 日常开发注意问题
-Future
+
+##### 2.4.4 Future
+
 异步计算
 FutureTask
 内部基于AQS实现
-线程间通信
+
+##### 2.4.5 线程间通信
+
 内存共享
 线程之间共享程序的公共状态,通过读和写内存中的公共状态进行隐式通信
 线程之间必须通过发送消息来现实进行通信
-并发集合
+
+#### 2.5 并发集合
+
 ConcurrentHashMap原理、源码、实战详解
 ConcurrentLinkedQueue原理、源码、实战详解
 ConcurrentSkipListMap原理、源码、实战详解
@@ -268,26 +333,39 @@ ConcurrentSkipListSet原理、源码、实战详解
 ArrayList、LinkedList与CopyOnWriteArrayList详解
 HashMap与ConcurrentHashMap源码剖析
 Set与CopyOnWriteArraySet详解
-原子操作
-基本类型
+
+#### 2.6 原子操作
+
+##### 2.6.1 基本类型
+
 AtomicInteger:原子更新整形类型
 AtomicLong:原子更新长整型类型
 AtomicBoolean:原子更新boolean类型
-数组
+
+##### 2.6.2 数组
+
 AtomicIntegerArray:原子更新整形数组里的元素
 AtomicLongArray:原子更新长整型数组里的元素
 AtomicReferenceArray:原子更新引用类似数组里的元素
-引用类型
+
+##### 2.6.3 引用类型
+
 AomicRefernce:原子更新引用类型
 AtomicReferenceFieldUpdater:原子更新引用类型里的字段
 AtomicMarkableReference:原子更新带有标记为的引用类型
-字段类型
+
+##### 2.6.4 字段类型
+
 AtomicIntegerFieldUpdater:原子更新整形的字段的更新器
 AtomicLongFieldUpdater:原子更新长整型字段的更新器
 AtomicStampedReference:原子更新电邮版本号的引用类型
-框架源码专题
-应用框架Spring
-Spring IOC源码剖析
+
+### 3 框架源码专题
+
+#### 3.1 应用框架Spring
+
+##### 3.1.1 Spring IOC源码剖析
+
 整体认知spring 体系结构
 理解Spring IOC 容器设计原理
 掌握Bean生命周期
@@ -299,7 +377,9 @@ BeanFactoryPostProcessor源码分析
 BeanDefinitionRegistryPostProcessor源码分析
 Spring IOC 循环依赖问题源码深度剖析
 Factorybean与Beanfactory区别
-Spring Aop源码剖析
+
+##### 3.1.2 Spring Aop源码剖析
+
 掌握Spring AOP 编程概念
 AOP注解编程
 @EnableAspectJAutoProxy
@@ -313,7 +393,9 @@ AOP代理源码解析
 Spring事务控制与底层源码分析
 @EnableTransactionManagement源码剖析
 @Transactional源码剖析
-Spring MVC源码剖析
+
+##### 3.1.3 Spring MVC源码剖析
+
 理解MVC设计思想
 从DispatchServlet 出发讲述MVC体系结构组成
 基于示例展开DispatchServlet 核心类结构
@@ -324,43 +406,59 @@ RequestMaping源码实现解析
 执行适配器原理实现
 视图解析器原理实现
 异常捕捉器原理实现
-Spring注解式开发
+
+##### 3.1.4 Spring注解式开发
+
 @Bean/@ComponentScan/@Configuration/@Conditional
 @Component/@Service@/Controller/@Repository
 @Lazy/@Scope/@Import/@Value/@Profile
 @Autowired/@Resources/@Inject
-Spring 5新特性
+
+##### 3.1.5 Spring 5新特性
+
 新特性详解
 响应式编程模型
 函数式风格的ApplicationContext
 Kotlin表达式的支持
 SpringWebFlux模块讲解
-Spring Security原理与源码剖析
+
+##### 3.1.6 Spring Security原理与源码剖析
+
 快速入门与高级应用
 核心安全过滤器源码剖析
 会话管理源码剖析
 命名空间配置源码剖析
 授权体系结构源码剖析
 Outh1.0与Outh2.0协议详解
-Spring Webflux详解
+
+##### 3.1.7 Spring Webflux详解
+
 Webflux快速入门
 响应式编程实战
 JDK响应式流编程实战
 Reactive Stream 响应式流详解
 Webflux服务端开发详解
 Webflux客户端声明式rest client框架开发讲解
-ORM框架MyBatis
-MyBatis快速掌握
+
+
+#### 3.2 ORM框架MyBatis
+
+##### 3.2.1 MyBatis快速掌握
+
 MyBatis、Hibernate及传统JDBC对比
 Mybatis全局参数详解
 详解configuration 、properties、 settings、 typeAliases、 mapper
 掌握xml和annotations和Criteria差异
-Mybatis 源码分析
+
+##### 3.2.2 Mybatis源码分析
+
 整体认识mybatis源码结构
 Mybatis核心应用配置与原理解析
 Spring与MyBatis集成源码剖析
 Configuration、Mapper、SqlSession、Executor源码解析
-Mybatis徒手实现
+
+##### 3.2.3 Mybatis徒手实现
+
 熟悉MyBatis内部运行机制
 熟悉MyBatis初始化过程
 源码debug一行行详细讲解
