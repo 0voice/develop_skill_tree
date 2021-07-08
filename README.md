@@ -3,9 +3,9 @@
 -----------
 
 ### 一、软件岗位技能树
-* [C++技能树](#anchor_point_1)
-* [GoLong技能树](https://github.com/0voice/develop_skill_tree/blob/main/README.md#GoLang后台云原生)
-* [Java后台技能树](https://github.com/0voice/develop_skill_tree/blob/main/README.md#Java后台技能树)
+* [Linux C/C++后台开发](#anchor_point_1)
+* [GoLang后台云原生](#anchor_point_2)
+* [Java后台](#anchor_point_3)
 * [大数据技能树](https://github.com/0voice/develop_skill_tree/tree/main/bigdata_skill_tree)（正在抓紧更新中）
 * [Python技能树](https://github.com/0voice/develop_skill_tree/tree/main/python_skill_tree)
 * [iOS技能树](https://github.com/0voice/develop_skill_tree/tree/main/ios_skill_tree)
@@ -20,7 +20,7 @@
 <br/>
 <br/>
 
-<h3 id="anchor_point_1">C++技能树</h3>
+<h2 id="anchor_point_1">Linux C/C++后台开发</h2>
 
 ### 1 精进基石专栏
 
@@ -913,8 +913,7 @@
 <br/>
 
 
-
-## GoLang后台云原生
+<h2 id="anchor_point_2">GoLang后台云原生</h2>
 
 <br/>
 
@@ -1135,7 +1134,8 @@
 <br/>
 <br/>
 
-## Java后台技能树
+<h2 id="anchor_point_3">Java后台</h2>
+
 <br/>
 
 ### 1 数据结构与算法
