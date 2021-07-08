@@ -5,7 +5,7 @@
 ### 一、软件岗位技能树
 * [Linux C/C++后台开发](#anchor_point_1)
 * [GoLang后台云原生](#anchor_point_2)
-* [Java后台](#anchor_point_3)
+* [Java后台开发](#anchor_point_3)
 * [Python架构师](#anchor_point_4)
 * [大数据技能树](https://github.com/0voice/develop_skill_tree/tree/main/bigdata_skill_tree)（正在抓紧更新中）
 * [iOS技能树](https://github.com/0voice/develop_skill_tree/tree/main/ios_skill_tree)
@@ -1135,7 +1135,7 @@
 <br/>
 
 
-<h2 id="anchor_point_3">Java后台</h2>
+<h2 id="anchor_point_3">Java后台开发</h2>
 
 <br/>
 
