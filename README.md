@@ -2307,9 +2307,7 @@
 <br/>
 
 <h2 id="anchor_point_4">Python架构师</h2>
-
 <br/>
-
 
 ### 1 Python基础
 
@@ -2976,6 +2974,8 @@ F1ask相关配置参数
 * 验证码图片识别
 
 
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
