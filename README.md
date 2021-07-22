@@ -3153,7 +3153,7 @@ F1ask相关配置参数
 
 ![大纲部分图.png](https://img11.360buyimg.com/ddimg/jfs/t1/37229/14/15620/149708/60e6a78eE5241eec1/d0f0c9d9aa1e4d99.png)
 
-#### 扫码联系橙子，免费领取干货资料【备注：GitHub面经】<br>
+#### 扫码联系橙子，免费领取干货资料【备注：GitHub技能树】<br>
 ![barcode](https://www.0voice.com/uiwebsite/img/barcode/cz.jpg)
 
 
